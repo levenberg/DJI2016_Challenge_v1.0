@@ -751,6 +751,19 @@ _dji_sdk_generate_messages_check_deps_Compass/fast:
 .PHONY : _dji_sdk_generate_messages_check_deps_Compass/fast
 
 #=============================================================================
+# Target rules for targets named _dji_sdk_generate_messages_check_deps_DetectionPoints
+
+# Build rule for target.
+_dji_sdk_generate_messages_check_deps_DetectionPoints: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _dji_sdk_generate_messages_check_deps_DetectionPoints
+.PHONY : _dji_sdk_generate_messages_check_deps_DetectionPoints
+
+# fast build rule for target.
+_dji_sdk_generate_messages_check_deps_DetectionPoints/fast:
+	$(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build
+.PHONY : _dji_sdk_generate_messages_check_deps_DetectionPoints/fast
+
+#=============================================================================
 # Target rules for targets named _dji_sdk_generate_messages_check_deps_DroneArmControl
 
 # Build rule for target.
@@ -1557,6 +1570,19 @@ _dji_sdk_generate_messages_check_deps_RCChannels/fast:
 .PHONY : _dji_sdk_generate_messages_check_deps_RCChannels/fast
 
 #=============================================================================
+# Target rules for targets named _dji_sdk_generate_messages_check_deps_Reldist
+
+# Build rule for target.
+_dji_sdk_generate_messages_check_deps_Reldist: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _dji_sdk_generate_messages_check_deps_Reldist
+.PHONY : _dji_sdk_generate_messages_check_deps_Reldist
+
+# fast build rule for target.
+_dji_sdk_generate_messages_check_deps_Reldist/fast:
+	$(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build
+.PHONY : _dji_sdk_generate_messages_check_deps_Reldist/fast
+
+#=============================================================================
 # Target rules for targets named _dji_sdk_generate_messages_check_deps_SDKPermissionControl
 
 # Build rule for target.
@@ -2036,6 +2062,19 @@ dji_sdk_client: cmake_check_build_system
 dji_sdk_client/fast:
 	$(MAKE) -f dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/build.make dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/build
 .PHONY : dji_sdk_client/fast
+
+#=============================================================================
+# Target rules for targets named dji_sdk_read_cam
+
+# Build rule for target.
+dji_sdk_read_cam: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dji_sdk_read_cam
+.PHONY : dji_sdk_read_cam
+
+# fast build rule for target.
+dji_sdk_read_cam/fast:
+	$(MAKE) -f dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/build.make dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/build
+.PHONY : dji_sdk_read_cam/fast
 
 #=============================================================================
 # Target rules for targets named base_controller
@@ -2564,6 +2603,7 @@ help:
 	@echo "... _dji_sdk_generate_messages_check_deps_AttitudeQuaternion"
 	@echo "... _dji_sdk_generate_messages_check_deps_CameraActionControl"
 	@echo "... _dji_sdk_generate_messages_check_deps_Compass"
+	@echo "... _dji_sdk_generate_messages_check_deps_DetectionPoints"
 	@echo "... _dji_sdk_generate_messages_check_deps_DroneArmControl"
 	@echo "... _dji_sdk_generate_messages_check_deps_DroneTaskAction"
 	@echo "... _dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback"
@@ -2626,6 +2666,7 @@ help:
 	@echo "... _dji_sdk_generate_messages_check_deps_MissionWpUpload"
 	@echo "... _dji_sdk_generate_messages_check_deps_PowerStatus"
 	@echo "... _dji_sdk_generate_messages_check_deps_RCChannels"
+	@echo "... _dji_sdk_generate_messages_check_deps_Reldist"
 	@echo "... _dji_sdk_generate_messages_check_deps_SDKPermissionControl"
 	@echo "... _dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice"
 	@echo "... _dji_sdk_generate_messages_check_deps_SyncFlagControl"
@@ -2663,6 +2704,7 @@ help:
 	@echo "... tf_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
 	@echo "... dji_sdk_client"
+	@echo "... dji_sdk_read_cam"
 	@echo "... base_controller"
 	@echo "... base_controller_test"
 	@echo "... tf_broadcaster"

@@ -293,3 +293,53 @@ Linking C executable cmTryCompileExec1902041597
 make[1]: Leaving directory `/root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp'
 
 
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3542113766/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3542113766.dir/build.make CMakeFiles/cmTryCompileExec3542113766.dir/build
+make[1]: Entering directory `/root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3542113766.dir/src.c.o
+/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec3542113766.dir/src.c.o   -c /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3542113766
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3542113766.dir/link.txt --verbose=1
+/usr/bin/cc   -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec3542113766.dir/src.c.o  -o cmTryCompileExec3542113766 -rdynamic 
+make[1]: Leaving directory `/root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3997782757/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3997782757.dir/build.make CMakeFiles/cmTryCompileExec3997782757.dir/build
+make[1]: Entering directory `/root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3997782757.dir/src.cxx.o
+/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec3997782757.dir/src.cxx.o -c /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3997782757
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3997782757.dir/link.txt --verbose=1
+/usr/bin/c++    -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTryCompileExec3997782757.dir/src.cxx.o  -o cmTryCompileExec3997782757 -rdynamic 
+make[1]: Leaving directory `/root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

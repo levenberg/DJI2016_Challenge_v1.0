@@ -1048,6 +1048,22 @@ ros/forwards.h
 
 /opt/ros/indigo/include/rosconsole/macros_generated.h
 
+/opt/ros/indigo/include/std_msgs/Float64.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /opt/ros/indigo/include/std_msgs/Header.h
 string
 -
@@ -1284,6 +1300,22 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 std_msgs/Header.h
+-
+
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DetectionPoints.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
 -
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControl.h
@@ -2878,6 +2910,24 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Reldist.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControl.h
 ros/service_traits.h
 -
@@ -3453,7 +3503,15 @@ actionlib/client/terminal_state.h
 -
 string
 -
+iostream
+-
 geometry_msgs/PoseWithCovarianceStamped.h
+-
+dji_sdk/Reldist.h
+-
+std_msgs/Float64.h
+-
+dji_sdk/DetectionPoints.h
 -
 
 /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/include/dji_sdk/dji_sdk.h

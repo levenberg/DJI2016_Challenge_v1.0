@@ -88,6 +88,7 @@ m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /opt/ros/indigo/include/ros/wall_timer.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /opt/ros/indigo/include/ros/wall_timer_options.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /opt/ros/indigo/include/rosconsole/macros_generated.h
+m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /opt/ros/indigo/include/std_msgs/Float64.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /opt/ros/indigo/include/std_msgs/Header.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /opt/ros/indigo/include/std_msgs/UInt8.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/A3GPS.h
@@ -104,6 +105,7 @@ m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/CameraActionControlRequest.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/CameraActionControlResponse.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Compass.h
+m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DetectionPoints.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControl.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControlRequest.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControlResponse.h
@@ -208,6 +210,7 @@ m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpUploadResponse.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/PowerStatus.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/RCChannels.h
+m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Reldist.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControl.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControlRequest.h
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControlResponse.h

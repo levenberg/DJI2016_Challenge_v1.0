@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "dji_sdk: 58 messages, 31 services")
+message(STATUS "dji_sdk: 60 messages, 31 services")
 
 set(MSG_I_FLAGS "-Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg;-Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg;-Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg")
 
@@ -18,6 +18,11 @@ add_custom_target(dji_sdk_generate_messages ALL)
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionPushInfo.msg" ""
+)
+
+get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
+add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/DetectionPoints.msg" ""
 )
 
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/Activation.srv" NAME_WE)
@@ -350,6 +355,11 @@ add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/DroneTaskControl.srv" ""
 )
 
+get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Reldist.msg" NAME_WE)
+add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Reldist.msg" "std_msgs/Header"
+)
+
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" ""
@@ -521,6 +531,12 @@ _generate_msg_cpp(dji_sdk
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
+  "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/DetectionPoints.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
   "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg"
   "${MSG_I_FLAGS}"
   "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
@@ -626,6 +642,12 @@ _generate_msg_cpp(dji_sdk
   "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
@@ -773,9 +795,9 @@ _generate_msg_cpp(dji_sdk
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
+  "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Reldist.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
@@ -1017,6 +1039,8 @@ add_dependencies(dji_sdk_generate_messages dji_sdk_generate_messages_cpp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
+add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/Activation.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/LocalPositionControl.srv" NAME_WE)
@@ -1149,6 +1173,8 @@ get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/deve
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/DroneTaskControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Reldist.msg" NAME_WE)
+add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/TimeStamp.msg" NAME_WE)
@@ -1253,6 +1279,12 @@ _generate_msg_lisp(dji_sdk
 )
 _generate_msg_lisp(dji_sdk
   "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/DetectionPoints.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
@@ -1363,6 +1395,12 @@ _generate_msg_lisp(dji_sdk
   "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
@@ -1510,9 +1548,9 @@ _generate_msg_lisp(dji_sdk
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
+  "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Reldist.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
@@ -1754,6 +1792,8 @@ add_dependencies(dji_sdk_generate_messages dji_sdk_generate_messages_lisp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
+add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/Activation.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/LocalPositionControl.srv" NAME_WE)
@@ -1886,6 +1926,8 @@ get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/deve
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/DroneTaskControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Reldist.msg" NAME_WE)
+add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/TimeStamp.msg" NAME_WE)
@@ -1990,6 +2032,12 @@ _generate_msg_py(dji_sdk
 )
 _generate_msg_py(dji_sdk
   "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/DetectionPoints.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
@@ -2100,6 +2148,12 @@ _generate_msg_py(dji_sdk
   "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
@@ -2247,9 +2301,9 @@ _generate_msg_py(dji_sdk
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
+  "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Reldist.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
@@ -2491,6 +2545,8 @@ add_dependencies(dji_sdk_generate_messages dji_sdk_generate_messages_py)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
+add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/Activation.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/LocalPositionControl.srv" NAME_WE)
@@ -2622,6 +2678,8 @@ add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_d
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/DroneTaskControl.srv" NAME_WE)
+add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Reldist.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})

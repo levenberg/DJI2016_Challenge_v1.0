@@ -88,6 +88,7 @@ dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /opt/ros/indigo/inc
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /opt/ros/indigo/include/ros/wall_timer.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /opt/ros/indigo/include/ros/wall_timer_options.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /opt/ros/indigo/include/rosconsole/macros_generated.h
+dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /opt/ros/indigo/include/std_msgs/Float64.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /opt/ros/indigo/include/std_msgs/Header.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /opt/ros/indigo/include/std_msgs/UInt8.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/A3GPS.h
@@ -104,6 +105,7 @@ dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/ros
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/CameraActionControlRequest.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/CameraActionControlResponse.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Compass.h
+dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DetectionPoints.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControl.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControlRequest.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControlResponse.h
@@ -208,6 +210,7 @@ dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/ros
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpUploadResponse.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/PowerStatus.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/RCChannels.h
+dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Reldist.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControl.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControlRequest.h
 dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/src/client.cpp.o: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControlResponse.h

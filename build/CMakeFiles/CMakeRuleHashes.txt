@@ -7,6 +7,7 @@ ff470d647ee74a7f4a06fb1ba7d7a112 /root/Documents/roswork/DJI2016_Challenge/devel
 ffa6b6912a241dedcc24824f983f79b7 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeQuaternion.h
 33023fcf057c4a3dea0089476cc401ad /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/CameraActionControl.h
 9b8678435601206220b6519d0985cd77 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Compass.h
+9974f0a9c1261ac0feb30cd0a4a1db5f /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DetectionPoints.h
 8ff7615877475406a2076a923885757e /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControl.h
 8f2d597b34b9637f1c208015699bba31 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskAction.h
 e7df9dcce57ef048ec1da9ed6aa298fb /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskActionFeedback.h
@@ -69,6 +70,7 @@ a6ef5b84ff58db8cb4a4ed88b1b53dce /root/Documents/roswork/DJI2016_Challenge/devel
 3a79b37db31ed79128bc10b78d4b71fc /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpUpload.h
 bc39bfb5b12b1283548752c89ef769f9 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/PowerStatus.h
 ee37722c156d75382b33b2cd4a010ca4 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/RCChannels.h
+fd25d6027b02115db6ae7dcbac9c44f6 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Reldist.h
 e165ada92cd7556fad154f0c1de0bb6c /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControl.h
 2c0c0b78b405524515a1bf6026e801bc /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SendDataToRemoteDevice.h
 131b3cc6780f5763800be904e687f811 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SyncFlagControl.h
@@ -94,6 +96,7 @@ e68ed774ba70cdc1b697cac92815a7a9 /root/Documents/roswork/DJI2016_Challenge/devel
 a2bf5805e78f1b0f1c101153df371da8 /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_Acceleration.py
 db9d5f81567791ce0c416a444d254600 /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_AttitudeQuaternion.py
 c8e3888909dd1dd35837042f7cb8294a /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_Compass.py
+03b60ea2f879a407d61ae39bc0034267 /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_DetectionPoints.py
 a3b2767f9f848622de10ce0a290d2284 /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_DroneTaskAction.py
 1ee06b5619bc7e07cd0117188ce1d0a1 /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_DroneTaskActionFeedback.py
 a812fe02d2add2ccfd047e18552b12a8 /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_DroneTaskActionGoal.py
@@ -135,6 +138,7 @@ cac1b8ac7ffdabec9e2e620edfc1e275 /root/Documents/roswork/DJI2016_Challenge/devel
 f100c57d3395ee68eaab83b15a80f8fc /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_MissionWaypointTask.py
 1c2e12ef06e854bffc41d28ddc16f2ed /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_PowerStatus.py
 1b1aca201ef283b779093c09ecb857a1 /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_RCChannels.py
+5763ec71060672e1f583dbd03841a13b /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_Reldist.py
 42b4df035d938b34032c2280bbfc9f7a /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_TimeStamp.py
 8755cd65524ec1ef4af422e2e5e28412 /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_TransparentTransmissionData.py
 5e073d08b68ddcfb7217fe8a924ad1c8 /root/Documents/roswork/DJI2016_Challenge/devel/lib/python2.7/dist-packages/dji_sdk/msg/_Velocity.py
@@ -187,6 +191,7 @@ da0826d704676b2a9ffc5b928d2acd81 /root/Documents/roswork/DJI2016_Challenge/devel
 a5325c128ce23250e54a92bce4d1fc0f /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/Acceleration.lisp
 190532d9d45530c8643283ba887b3496 /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/AttitudeQuaternion.lisp
 a461ae5228f1106aefd643a3a19fe498 /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/Compass.lisp
+22a058419799103acfc0f2e89d7f281f /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/DetectionPoints.lisp
 c1766c228b6ce079bfed8b16c1aff763 /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/DroneTaskAction.lisp
 af114baacb77c787675f2192129e38a2 /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/DroneTaskActionFeedback.lisp
 58169371b7c0a98a5c5a04e80f96d96c /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/DroneTaskActionGoal.lisp
@@ -228,6 +233,7 @@ c1825f0ab6f3b29907fcc0446f58476e /root/Documents/roswork/DJI2016_Challenge/devel
 bf840c4974501808bbd7e553024aee41 /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/MissionWaypointTask.lisp
 94b7c7e3c459feb394c2f5caf4b97f13 /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/PowerStatus.lisp
 59e0de355d1f4cc4779880cc7b50cbe4 /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/RCChannels.lisp
+2d40ebad940437ce13c2bf1efde41e39 /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/Reldist.lisp
 81044bf0ceec6807e71eb151522e081c /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/TimeStamp.lisp
 67c8c1ce14d00361c951652985d5ce7e /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/TransparentTransmissionData.lisp
 e521c78f269d8c425183b8002d74265c /root/Documents/roswork/DJI2016_Challenge/devel/share/common-lisp/ros/dji_sdk/msg/Velocity.lisp
@@ -300,6 +306,7 @@ a06459657b351b44f21b44e16828393a dji_sdk/CMakeFiles/_dji_sdk_generate_messages_c
 5baef9a9f563de6da4c6d26ca5b13ab9 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion
 3b438e5832fcf033be571ce8778af13a dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_CameraActionControl
 d76a69b87fd33fbe7184fc1713351c4d dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass
+8dab5dc26efee87b13168104253069b3 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints
 7d3680334a4a3cb53a19718c6ede23c1 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl
 e8c16e86a0c8c2c02a856d64588bf940 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskAction
 a742bb7188d6801ef6d2da24c66efc2f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback
@@ -362,6 +369,7 @@ bae512da69eef365c2c6fc245143b5cd dji_sdk/CMakeFiles/_dji_sdk_generate_messages_c
 f29598322b920b5e64a6deb796943280 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpUpload
 f4b853558ceac2f15097d83fc859127b dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_PowerStatus
 a18a29712ab7e9697c6f4302369e2774 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels
+9e81946892943e4e7930856bd154ff2c dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist
 1e84783710b4cad596d2e189b71471a6 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl
 5a6f1c935b0cc92bca25ecbfb4d2a75e dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice
 e6814da2ce5632f44b69ff2c68d6e751 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SyncFlagControl

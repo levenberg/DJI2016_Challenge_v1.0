@@ -57,6 +57,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFollowmeTarget.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Waypoint.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationGoal.h
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DetectionPoints.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationAction.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskGoal.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Gimbal.h
@@ -75,6 +76,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationResult.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypointAction.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionResult.h
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationAction.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/FlightControlInfo.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/RCChannels.h
@@ -99,7 +101,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeQuaternion.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/TransparentTransmissionData.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionGoal.h
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Reldist.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusFollowme.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointList.h
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusOther.h
@@ -206,6 +208,13 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/GlobalPositionNavigationGoal.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DetectionPoints.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DetectionPoints.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/DetectionPoints.msg
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DetectionPoints.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/DetectionPoints.msg"
+	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/DetectionPoints.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
+
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationAction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationAction.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationAction.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg
@@ -218,14 +227,14 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationAction.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationAction.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/GlobalPositionNavigationAction.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskGoal.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/DroneTaskGoal.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/DroneTaskGoal.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/DroneTaskGoal.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -233,14 +242,14 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Gimbal.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Gimbal.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Gimbal.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Gimbal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/Gimbal.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Gimbal.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationResult.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationResult.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/WaypointNavigationResult.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationResult.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -248,7 +257,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Compass.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Compass.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Compass.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Compass.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/Compass.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Compass.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -256,14 +265,14 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/TimeStamp.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/TimeStamp.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/TimeStamp.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/TimeStamp.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/TimeStamp.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/TimeStamp.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationFeedback.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/LocalPositionNavigationFeedback.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -271,7 +280,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPosition.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/GlobalPosition.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPosition.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPosition.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/GlobalPosition.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/GlobalPosition.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -281,7 +290,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskActionGoal.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/DroneTaskActionGoal.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -292,14 +301,14 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionFeedback.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionFeedback.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/GlobalPositionNavigationActionFeedback.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationGoal.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationGoal.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/LocalPositionNavigationGoal.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -310,14 +319,14 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionFeedback.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionFeedback.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/WaypointNavigationActionFeedback.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/A3RTK.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/A3RTK.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/A3RTK.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/A3RTK.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/A3RTK.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/A3RTK.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -328,28 +337,28 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskActionFeedback.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskActionFeedback.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/DroneTaskFeedback.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/DroneTaskActionFeedback.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskFeedback.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/DroneTaskFeedback.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/DroneTaskFeedback.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/DroneTaskFeedback.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationResult.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/LocalPositionNavigationResult.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypointAction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypointAction.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionWaypointAction.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypointAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionWaypointAction.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionWaypointAction.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -360,9 +369,20 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionResult.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionResult.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/GlobalPositionNavigationActionResult.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
+
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationResult.msg
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/WaypointNavigationActionResult.msg"
+	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationAction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationAction.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationAction.msg
@@ -378,14 +398,14 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationAction.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationAction.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/WaypointNavigationAction.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationAction.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/FlightControlInfo.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/FlightControlInfo.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/FlightControlInfo.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/FlightControlInfo.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/FlightControlInfo.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/FlightControlInfo.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -393,7 +413,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/RCChannels.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/RCChannels.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/RCChannels.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/RCChannels.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/RCChannels.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/RCChannels.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -403,7 +423,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionGoal.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/LocalPositionNavigationActionGoal.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -411,7 +431,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Velocity.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Velocity.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Velocity.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Velocity.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/Velocity.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Velocity.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -420,7 +440,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypointTask.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionWaypoint.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypointTask.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionWaypointAction.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypointTask.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionWaypointTask.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionWaypointTask.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -432,21 +452,21 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionGoal.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionGoal.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/WaypointNavigationActionGoal.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationFeedback.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/WaypointNavigationFeedback.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpAction.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpAction.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionEventWpAction.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionEventWpAction.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionEventWpAction.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -462,7 +482,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskAction.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskAction.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/DroneTaskActionResult.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/DroneTaskAction.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/DroneTaskAction.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -478,7 +498,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationAction.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationAction.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationAction.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/LocalPositionNavigationAction.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -486,14 +506,14 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Acceleration.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Acceleration.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Acceleration.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Acceleration.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/Acceleration.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Acceleration.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationFeedback.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/GlobalPositionNavigationFeedback.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -502,28 +522,28 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationGoal.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/WaypointList.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationGoal.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Waypoint.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/WaypointNavigationGoal.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/PowerStatus.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/PowerStatus.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/PowerStatus.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/PowerStatus.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/PowerStatus.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/PowerStatus.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusWaypoint.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusWaypoint.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionStatusWaypoint.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusWaypoint.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionStatusWaypoint.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionStatusWaypoint.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationResult.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/GlobalPositionNavigationResult.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -531,28 +551,28 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypoint.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionWaypoint.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypoint.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionWaypointAction.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypoint.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionWaypoint.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionWaypoint.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpUpload.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpUpload.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionEventWpUpload.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpUpload.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionEventWpUpload.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionEventWpUpload.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpReach.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpReach.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionEventWpReach.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpReach.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionEventWpReach.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionEventWpReach.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskResult.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/DroneTaskResult.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/DroneTaskResult.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/DroneTaskResult.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -560,14 +580,14 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeQuaternion.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/AttitudeQuaternion.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeQuaternion.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeQuaternion.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/AttitudeQuaternion.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/AttitudeQuaternion.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/TransparentTransmissionData.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/TransparentTransmissionData.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/TransparentTransmissionData.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/TransparentTransmissionData.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/TransparentTransmissionData.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/TransparentTransmissionData.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -577,25 +597,22 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionGoal.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionGoal.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionGoal.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/GlobalPositionNavigationActionGoal.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationResult.msg
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_52)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/WaypointNavigationActionResult.msg"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Reldist.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Reldist.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Reldist.msg
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Reldist.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Reldist.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_54)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/Reldist.msg"
+	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Reldist.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusFollowme.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusFollowme.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionStatusFollowme.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusFollowme.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionStatusFollowme.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionStatusFollowme.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -603,14 +620,14 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointList.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/WaypointList.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointList.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Waypoint.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointList.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/WaypointList.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/WaypointList.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusOther.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusOther.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionStatusOther.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusOther.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionStatusOther.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionStatusOther.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -621,14 +638,14 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionResult.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionResult.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionResult.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/LocalPositionNavigationActionResult.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHotpointTask.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHotpointTask.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionHotpointTask.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHotpointTask.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionHotpointTask.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionHotpointTask.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -639,7 +656,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionFeedback.h: /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionFeedback.h: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionFeedback.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/LocalPositionNavigationActionFeedback.msg"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -647,7 +664,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VersionCheck.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/VersionCheck.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VersionCheck.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VersionCheck.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_61)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/VersionCheck.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/VersionCheck.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -658,7 +675,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpDownload.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionWaypointAction.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpDownload.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpDownload.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_62)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionWpDownload.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionWpDownload.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -669,7 +686,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpUpload.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionWaypointAction.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpUpload.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpUpload.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_61)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_63)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionWpUpload.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionWpUpload.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -677,7 +694,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SendDataToRemoteDevice.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/SendDataToRemoteDevice.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SendDataToRemoteDevice.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SendDataToRemoteDevice.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_62)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_64)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/SendDataToRemoteDevice.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/SendDataToRemoteDevice.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -685,7 +702,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MessageFrequencyControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MessageFrequencyControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MessageFrequencyControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MessageFrequencyControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_63)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_65)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MessageFrequencyControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MessageFrequencyControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -694,7 +711,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmSetTarget.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionFollowmeTarget.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmSetTarget.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmSetTarget.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_64)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_66)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionFmSetTarget.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionFmSetTarget.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -703,7 +720,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpDownload.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionHotpointTask.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpDownload.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpDownload.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_65)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_67)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionHpDownload.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionHpDownload.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -711,7 +728,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStart.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionStart.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStart.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStart.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_66)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_68)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionStart.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionStart.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -719,7 +736,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/DroneTaskControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_67)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_69)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/DroneTaskControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/DroneTaskControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -727,7 +744,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Activation.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/Activation.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Activation.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Activation.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_68)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_70)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/Activation.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/Activation.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -735,7 +752,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/SDKPermissionControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_69)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_71)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/SDKPermissionControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/SDKPermissionControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -743,7 +760,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCEnableControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/VirtualRCEnableControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCEnableControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCEnableControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_70)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_72)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/VirtualRCEnableControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/VirtualRCEnableControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -751,7 +768,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/LocalPositionControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_71)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_73)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/LocalPositionControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/LocalPositionControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -759,7 +776,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetSpeed.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionHpSetSpeed.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetSpeed.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetSpeed.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_72)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_74)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionHpSetSpeed.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionHpSetSpeed.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -767,7 +784,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalSpeedControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/GimbalSpeedControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalSpeedControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalSpeedControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_73)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_75)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/GimbalSpeedControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/GimbalSpeedControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -775,7 +792,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetRadius.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionHpSetRadius.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetRadius.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetRadius.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_74)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_76)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionHpSetRadius.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionHpSetRadius.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -783,7 +800,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/AttitudeControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_75)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_77)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/AttitudeControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/AttitudeControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -791,7 +808,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SyncFlagControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/SyncFlagControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SyncFlagControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SyncFlagControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_76)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_78)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/SyncFlagControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/SyncFlagControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -799,7 +816,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCDataControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/VirtualRCDataControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCDataControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCDataControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_77)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_79)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/VirtualRCDataControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/VirtualRCDataControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -808,7 +825,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmUpload.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionFollowmeTask.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmUpload.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmUpload.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_78)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_80)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionFmUpload.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionFmUpload.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -816,7 +833,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpGetSpeed.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionWpGetSpeed.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpGetSpeed.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpGetSpeed.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_79)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_81)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionWpGetSpeed.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionWpGetSpeed.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -824,7 +841,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionPause.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionPause.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionPause.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionPause.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_80)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_82)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionPause.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionPause.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -832,7 +849,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpResetYaw.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionHpResetYaw.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpResetYaw.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpResetYaw.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_81)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_83)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionHpResetYaw.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionHpResetYaw.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -840,7 +857,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/GlobalPositionControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_82)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_84)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/GlobalPositionControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/GlobalPositionControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -848,7 +865,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VelocityControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/VelocityControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VelocityControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VelocityControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_83)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_85)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/VelocityControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/VelocityControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -856,7 +873,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpSetSpeed.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionWpSetSpeed.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpSetSpeed.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpSetSpeed.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_84)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_86)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionWpSetSpeed.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionWpSetSpeed.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -864,7 +881,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/CameraActionControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/CameraActionControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/CameraActionControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/CameraActionControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_85)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_87)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/CameraActionControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/CameraActionControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -872,7 +889,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalAngleControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/GimbalAngleControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalAngleControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalAngleControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_86)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_88)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/GimbalAngleControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/GimbalAngleControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -881,7 +898,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpUpload.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionHotpointTask.msg
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpUpload.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpUpload.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_87)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_89)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionHpUpload.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionHpUpload.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -889,7 +906,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionCancel.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionCancel.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionCancel.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionCancel.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_88)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_90)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/MissionCancel.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/MissionCancel.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -897,7 +914,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI201
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControl.h: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/DroneArmControl.srv
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControl.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
 /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControl.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_89)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_91)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from dji_sdk/DroneArmControl.srv"
 	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/srv/DroneArmControl.srv -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg -Idji_sdk:/root/Documents/roswork/DJI2016_Challenge/devel/share/dji_sdk/msg -Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg -Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg -p dji_sdk -o /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk -e /opt/ros/indigo/share/gencpp/cmake/..
 
@@ -911,6 +928,7 @@ dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/i
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFollowmeTarget.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Waypoint.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationGoal.h
+dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DetectionPoints.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationAction.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskGoal.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Gimbal.h
@@ -929,6 +947,7 @@ dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/i
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationResult.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypointAction.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionResult.h
+dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationAction.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/FlightControlInfo.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/RCChannels.h
@@ -953,7 +972,7 @@ dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/i
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeQuaternion.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/TransparentTransmissionData.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionGoal.h
-dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h
+dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Reldist.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusFollowme.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointList.h
 dji_sdk_generate_messages_cpp: /root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusOther.h

@@ -85,6 +85,8 @@ add_message_files(
   MissionEventWpUpload.msg
   MissionEventWpAction.msg
   MissionEventWpReach.msg
+  DetectionPoints.msg
+  Reldist.msg
 )
 
 ## Generate services in the 'srv' folder

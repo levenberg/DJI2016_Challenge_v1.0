@@ -5,8 +5,12 @@
 #include <actionlib/client/simple_action_client.h> 
 #include <actionlib/client/terminal_state.h> 
 #include <string>
+#include<iostream>
 #include<geometry_msgs/PoseWithCovarianceStamped.h>
-
+#include <dji_sdk/Reldist.h>
+#include <std_msgs/Float64.h>
+#include <dji_sdk/DetectionPoints.h>
+using namespace std;
 class DJIDrone
 {
 private:
@@ -69,7 +73,7 @@ private:
     ros::Subscriber rc_channels_subscriber;
     ros::Subscriber velocity_subscriber;
     ros::Subscriber activation_subscriber;
-    ros::Subscriber odometry_subscriber;
+ //   ros::Subscriber odometry_subscriber;
 
 	ros::Subscriber time_stamp_subscriber;
 	ros::Subscriber mission_status_subscriber;
@@ -80,6 +84,7 @@ private:
 
         //Add a suscriber to listen to apriltag_detecion_pose
         ros::Subscriber apriltag_detection_subscriber;
+	ros::Subscriber apriltag_detectionPoints_sub;
 
 
 
@@ -267,6 +272,32 @@ private:
                ROS_INFO("x:%0.3f y:%0.3f z:%0.3f",msg.pose.pose.position.x ,msg.pose.pose.position.y,msg.pose.pose.position.z);
         }
 
+	void apriltag_detectionPoints_callback ( const dji_sdk::DetectionPoints & detectionPoints )
+	{
+	 // this->detection_points = detectionPoints;
+	  // Add sending data(detection's position, id and location, etc.) to mobile device;
+
+	  string  imformation_data= "000000000000000000000000000000000000000000";
+	  // imformation_data.push_back('~');//Make it not empty.
+	  if ( detectionPoints.id >= 0 )
+	    {
+	      //  ROS_INFO ( "id:%d x0:%d,y0:%d,x1:%d,y1:%d",detectionPoints.id,detectionPoints.x0,detectionPoints.y0,detectionPoints.x1,detectionPoints.y1 );
+	      sprintf ( &imformation_data[0],"%03d%03d%03d%03d%03d%03d%03d%03d%03d%.4f%.4f",detectionPoints.x0, detectionPoints.y0,
+			detectionPoints.x1,detectionPoints.y1,detectionPoints.x2,detectionPoints.y2, detectionPoints.x3,
+			detectionPoints.y3,detectionPoints.id,global_position.longitude,global_position.latitude );
+	      // send_data_to_mobile_devide(imformation_data,34);
+	      vector<uint8_t> pushData ( imformation_data.begin(),imformation_data.end() );
+	      // cout<<&pushData[0]<<endl;
+	      if ( !send_data_to_mobile_devide ( pushData,pushData.size() ) )
+		ROS_INFO ( "Send data to mobile. Failed." );
+
+	    }
+
+	}
+
+        
+        
+
         //Add callback for data_received_from_mobile
         void data_received_from_mobile_callback(dji_sdk::TransparentTransmissionData transparentdata)
         {
@@ -280,6 +311,12 @@ private:
                 }
             }
         }
+        
+        
+        
+        
+        
+        
 public:
 	DJIDrone(ros::NodeHandle& nh):
 		drone_task_action_client(nh, "dji_sdk/drone_task_action", true),
@@ -338,7 +375,7 @@ public:
         rc_channels_subscriber = nh.subscribe<dji_sdk::RCChannels>("dji_sdk/rc_channels", 10, &DJIDrone::rc_channels_subscriber_callback, this);
         velocity_subscriber = nh.subscribe<dji_sdk::Velocity>("dji_sdk/velocity", 10, &DJIDrone::velocity_subscriber_callback, this);
         activation_subscriber = nh.subscribe<std_msgs::UInt8>("dji_sdk/activation", 10, &DJIDrone::activation_subscriber_callback, this);
-        odometry_subscriber = nh.subscribe<nav_msgs::Odometry>("dji_sdk/odometry",10, &DJIDrone::odometry_subscriber_callback, this);
+       // odometry_subscriber = nh.subscribe<nav_msgs::Odometry>("dji_sdk/odometry",10, &DJIDrone::odometry_subscriber_callback, this);
 		time_stamp_subscriber = nh.subscribe<dji_sdk::TimeStamp>("dji_sdk/time_stamp", 10, &DJIDrone::time_stamp_subscriber_callback,this);
 		mission_status_subscriber = nh.subscribe<dji_sdk::MissionPushInfo>("dji_sdk/mission_status", 10, &DJIDrone::mission_status_push_info_callback, this);  
 		mission_event_subscriber = nh.subscribe<dji_sdk::MissionPushInfo>("dji_sdk/mission_event", 10, &DJIDrone::mission_event_push_info_callback, this);
@@ -349,11 +386,13 @@ public:
 
     //Subscriber the apriltag_detection_pose
                 apriltag_detection_subscriber = nh.subscribe("apriltag_pose/pose",10,&DJIDrone::apriltag_datection_callback,this);
-                //Initialize received_cmd;
+               apriltag_detectionPoints_sub = nh.subscribe("apriltag_detection/detectionPoints",10,&DJIDrone::apriltag_detectionPoints_callback,this);
+		
+		//Initialize received_cmd;
                 std::vector<uint8_t> d;
 
                 d.push_back('D');
-                this->transparentdata.data = d;
+                this->transparentdata.data=d;
         }
 
 	bool activate()

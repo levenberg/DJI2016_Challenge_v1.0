@@ -1381,6 +1381,7 @@ dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Attitude
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/clean
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_CameraActionControl.dir/clean
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/clean
+dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/clean
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/clean
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskAction.dir/clean
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/clean
@@ -1443,6 +1444,7 @@ dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionW
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpUpload.dir/clean
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_PowerStatus.dir/clean
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/clean
+dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/clean
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/clean
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/clean
 dji_sdk/clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SyncFlagControl.dir/clean
@@ -1731,6 +1733,37 @@ dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/clean:
 
 # clean rule for target.
 clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir
+
+# All Build rule for target.
+dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/all:
+	$(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/depend
+	$(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 
+	@echo "Built target _dji_sdk_generate_messages_check_deps_DetectionPoints"
+.PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/all
+
+# Build rule for subdir invocation for target.
+dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
+.PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/rule
+
+# Convenience name for target.
+_dji_sdk_generate_messages_check_deps_DetectionPoints: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/rule
+.PHONY : _dji_sdk_generate_messages_check_deps_DetectionPoints
+
+# clean rule for target.
+dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/clean:
+	$(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/clean
+.PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/clean
+
+# clean rule for target.
+clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -3656,6 +3689,37 @@ clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/c
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir
+
+# All Build rule for target.
+dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/all:
+	$(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/depend
+	$(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 
+	@echo "Built target _dji_sdk_generate_messages_check_deps_Reldist"
+.PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/all
+
+# Build rule for subdir invocation for target.
+dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
+.PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/rule
+
+# Convenience name for target.
+_dji_sdk_generate_messages_check_deps_Reldist: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/rule
+.PHONY : _dji_sdk_generate_messages_check_deps_Reldist
+
+# clean rule for target.
+dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/clean:
+	$(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/clean
+.PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/clean
+
+# clean rule for target.
+clean: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir
 
 # All Build rule for target.
@@ -4279,8 +4343,8 @@ clean: dji_sdk/CMakeFiles/dji_sdk_gencpp.dir/clean
 # Target rules for target dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir
 
 # All Build rule for target.
-dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/all: dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/all: dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/all: dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/all: dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all
 	$(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/build.make dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/depend
 	$(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/build.make dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/build
@@ -4316,33 +4380,34 @@ clean: dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/clean
 # Target rules for target dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir
 
 # All Build rule for target.
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPushInfo.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_FlightControlInfo.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusWaypoint.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpAction.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpDownload.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationResult.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationAction.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalSpeedControl.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/all
@@ -4387,6 +4452,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dj
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TimeStamp.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/all
@@ -4439,33 +4505,34 @@ clean: dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/clean
 # Target rules for target dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir
 
 # All Build rule for target.
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPushInfo.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_FlightControlInfo.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusWaypoint.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpAction.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpDownload.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationResult.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationAction.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalSpeedControl.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/all
@@ -4510,6 +4577,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_d
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TimeStamp.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/all
@@ -4566,29 +4634,30 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: Guidance-SDK-ROS/CMakeF
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPushInfo.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_FlightControlInfo.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusWaypoint.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpAction.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpDownload.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationResult.dir/all
-dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationAction.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalSpeedControl.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/all
@@ -4633,6 +4702,7 @@ dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskControl.dir/all
+dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TimeStamp.dir/all
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/all: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/all
@@ -5110,6 +5180,57 @@ clean: dji_sdk_demo/CMakeFiles/dji_sdk_client.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory dji_sdk_read_cam
+
+# Convenience name for "all" pass in the directory.
+dji_sdk_read_cam/all: dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/all
+.PHONY : dji_sdk_read_cam/all
+
+# Convenience name for "clean" pass in the directory.
+dji_sdk_read_cam/clean: dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/clean
+.PHONY : dji_sdk_read_cam/clean
+
+# Convenience name for "preinstall" pass in the directory.
+dji_sdk_read_cam/preinstall:
+.PHONY : dji_sdk_read_cam/preinstall
+
+#=============================================================================
+# Target rules for target dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir
+
+# All Build rule for target.
+dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/all: dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/all
+dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/all: dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/all
+	$(MAKE) -f dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/build.make dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/depend
+	$(MAKE) -f dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/build.make dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 
+	@echo "Built target dji_sdk_read_cam"
+.PHONY : dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/all
+
+# Include target in all.
+all: dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 33
+	$(MAKE) -f CMakeFiles/Makefile2 dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
+.PHONY : dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/rule
+
+# Convenience name for target.
+dji_sdk_read_cam: dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/rule
+.PHONY : dji_sdk_read_cam
+
+# clean rule for target.
+dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/clean:
+	$(MAKE) -f dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/build.make dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/clean
+.PHONY : dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/clean
+
+# clean rule for target.
+clean: dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory m100_base_controller
 
 # Convenience name for "all" pass in the directory.
@@ -5583,11 +5704,11 @@ clean: fovis_ros/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
 # Target rules for target fovis_ros/CMakeFiles/fovis_mono_depth_odometer.dir
 
 # All Build rule for target.
-fovis_ros/CMakeFiles/fovis_mono_depth_odometer.dir/all: fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/all
 fovis_ros/CMakeFiles/fovis_mono_depth_odometer.dir/all: fovis_ros/CMakeFiles/visualization.dir/all
+fovis_ros/CMakeFiles/fovis_mono_depth_odometer.dir/all: fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/all
 	$(MAKE) -f fovis_ros/CMakeFiles/fovis_mono_depth_odometer.dir/build.make fovis_ros/CMakeFiles/fovis_mono_depth_odometer.dir/depend
 	$(MAKE) -f fovis_ros/CMakeFiles/fovis_mono_depth_odometer.dir/build.make fovis_ros/CMakeFiles/fovis_mono_depth_odometer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles  94
 	@echo "Built target fovis_mono_depth_odometer"
 .PHONY : fovis_ros/CMakeFiles/fovis_mono_depth_odometer.dir/all
 
@@ -5628,7 +5749,7 @@ fovis_ros/CMakeFiles/fovis_ros_gencpp.dir/all: fovis_ros/CMakeFiles/fovis_ros_ge
 
 # Build rule for subdir invocation for target.
 fovis_ros/CMakeFiles/fovis_ros_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros/CMakeFiles/fovis_ros_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
 .PHONY : fovis_ros/CMakeFiles/fovis_ros_gencpp.dir/rule
@@ -5650,9 +5771,9 @@ clean: fovis_ros/CMakeFiles/fovis_ros_gencpp.dir/clean
 # Target rules for target fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir
 
 # All Build rule for target.
-fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/all: fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/all
-fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/all: fovis_ros/CMakeFiles/fovis_ros_generate_messages_py.dir/all
 fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/all: fovis_ros/CMakeFiles/fovis_ros_generate_messages_lisp.dir/all
+fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/all: fovis_ros/CMakeFiles/fovis_ros_generate_messages_py.dir/all
+fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/all: fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/all
 	$(MAKE) -f fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/build.make fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/depend
 	$(MAKE) -f fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/build.make fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 
@@ -5665,7 +5786,7 @@ all: fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
 .PHONY : fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/rule
@@ -5691,13 +5812,13 @@ fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/all: Guidance-SDK-ROS/C
 fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/all: fovis_ros/CMakeFiles/_fovis_ros_generate_messages_check_deps_FovisInfo.dir/all
 	$(MAKE) -f fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/build.make fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/depend
 	$(MAKE) -f fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/build.make fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles  94
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 
 	@echo "Built target fovis_ros_generate_messages_cpp"
 .PHONY : fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
 .PHONY : fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/rule
@@ -5845,8 +5966,8 @@ clean: fovis_ros/CMakeFiles/fovis_ros_genpy.dir/clean
 # Target rules for target fovis_ros/CMakeFiles/fovis_stereo_odometer.dir
 
 # All Build rule for target.
-fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/all: fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/all
 fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/all: fovis_ros/CMakeFiles/visualization.dir/all
+fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/all: fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/all
 	$(MAKE) -f fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/build.make fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/depend
 	$(MAKE) -f fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/build.make fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 
@@ -5859,7 +5980,7 @@ all: fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/all
 
 # Build rule for subdir invocation for target.
 fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
 .PHONY : fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/rule
@@ -6297,7 +6418,7 @@ all: fovis_ros/CMakeFiles/visualization.dir/all
 
 # Build rule for subdir invocation for target.
 fovis_ros/CMakeFiles/visualization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros/CMakeFiles/visualization.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
 .PHONY : fovis_ros/CMakeFiles/visualization.dir/rule

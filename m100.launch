@@ -9,11 +9,16 @@
     </node>
 
     <node pkg="stereo_image_proc" type="stereo_image_proc" name="stereo_image_proc" output="screen" ns="stereo" />
+	<node pkg="dji_sdk_read_cam" type="dji_sdk_read_cam" name="dji_sdk_read_cam" output="screen">
+		<!-- node parameters -->
+		<param name="gray_or_rgb" type="int" value="0"/>
+		<param name="to_mobile" type="int" value="1"/>
+	</node>
 
     <node pkg="m100_tf" type="tf_broadcaster" name="tf_broadcaster" output="screen" />
 
     <node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster" args="0 0 0 0 0 0 /map /odom 100" />
-
+   <!--
     <node pkg="fovis_ros" type="fovis_stereo_odometer" name="fovis_stereo_odometer" output="screen">
         <remap from="stereo/left/image" to="/stereo/left/image_raw"/>
         <remap from="stereo/right/image" to="/stereo/right/image_raw"/>
@@ -21,7 +26,7 @@
         <param name="min_features_for_estimate" type="string" value="5"/>
         <param name="inlier_max_reprojection_error" type="string" value="2" />
     </node>
-
+    -->
     <include file="$(find amcl)/examples/amcl_omni.launch" />
     <!--<include file="$(find m100_2dnav)/config/amcl_node.xml" />-->
 
@@ -37,7 +42,7 @@
    <node name="map_server" pkg="map_server" type="map_server" args="$(find m100_2dnav)/maps/blank_map.yaml"/> 
 
    
-    <node pkg="m100_base_controller" type="base_controller" name="base_controller" output="screen" />
+   <node pkg="m100_base_controller" type="base_controller" name="base_controller" output="screen" /> 
 
     <node pkg="m100_navigation_goals" type="navigation_goals" name="navigation" output="screen" />
    

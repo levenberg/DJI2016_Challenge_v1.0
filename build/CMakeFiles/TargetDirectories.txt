@@ -7,6 +7,7 @@
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_CameraActionControl.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir
+/root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskAction.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir
@@ -69,6 +70,7 @@
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpUpload.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_PowerStatus.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir
+/root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SyncFlagControl.dir
@@ -111,6 +113,7 @@
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/dji_sdk_genpy.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir
 /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/dji_sdk_node.dir
+/root/Documents/roswork/DJI2016_Challenge/build/dji_sdk_read_cam/CMakeFiles/dji_sdk_read_cam.dir
 /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/download_extra_data.dir
 /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/doxygen.dir
 /root/Documents/roswork/DJI2016_Challenge/build/fovis_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir

@@ -12,7 +12,7 @@ IF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     STRING(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   ELSE(BUILD_TYPE)
-    SET(CMAKE_INSTALL_CONFIG_NAME "")
+    SET(CMAKE_INSTALL_CONFIG_NAME "Release")
   ENDIF(BUILD_TYPE)
   MESSAGE(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 ENDIF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
@@ -68,6 +68,8 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionEventWpUpload.msg"
     "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionEventWpAction.msg"
     "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/MissionEventWpReach.msg"
+    "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/DetectionPoints.msg"
+    "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/Reldist.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

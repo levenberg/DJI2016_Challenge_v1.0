@@ -3,6 +3,7 @@ from ._A3RTK import *
 from ._Acceleration import *
 from ._AttitudeQuaternion import *
 from ._Compass import *
+from ._DetectionPoints import *
 from ._DroneTaskAction import *
 from ._DroneTaskActionFeedback import *
 from ._DroneTaskActionGoal import *
@@ -44,6 +45,7 @@ from ._MissionWaypointAction import *
 from ._MissionWaypointTask import *
 from ._PowerStatus import *
 from ._RCChannels import *
+from ._Reldist import *
 from ._TimeStamp import *
 from ._TransparentTransmissionData import *
 from ._Velocity import *

@@ -21,7 +21,7 @@ int main(int argc, char** argv){
   goal.target_pose.header.frame_id = "base_link";
   goal.target_pose.header.stamp = ros::Time::now();
 
-  goal.target_pose.pose.position.x = 10.0;
+  goal.target_pose.pose.position.x = 20.0;
   goal.target_pose.pose.orientation.w = 1.0;
 
   ROS_INFO("Sending goal");

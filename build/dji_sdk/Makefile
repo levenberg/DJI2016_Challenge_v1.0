@@ -265,6 +265,20 @@ _dji_sdk_generate_messages_check_deps_Compass/fast:
 .PHONY : _dji_sdk_generate_messages_check_deps_Compass/fast
 
 # Convenience name for target.
+dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/rule:
+	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/rule
+.PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/rule
+
+# Convenience name for target.
+_dji_sdk_generate_messages_check_deps_DetectionPoints: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/rule
+.PHONY : _dji_sdk_generate_messages_check_deps_DetectionPoints
+
+# fast build rule for target.
+_dji_sdk_generate_messages_check_deps_DetectionPoints/fast:
+	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build
+.PHONY : _dji_sdk_generate_messages_check_deps_DetectionPoints/fast
+
+# Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/rule:
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/rule
@@ -1133,6 +1147,20 @@ _dji_sdk_generate_messages_check_deps_RCChannels/fast:
 .PHONY : _dji_sdk_generate_messages_check_deps_RCChannels/fast
 
 # Convenience name for target.
+dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/rule:
+	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/rule
+.PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/rule
+
+# Convenience name for target.
+_dji_sdk_generate_messages_check_deps_Reldist: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/rule
+.PHONY : _dji_sdk_generate_messages_check_deps_Reldist
+
+# fast build rule for target.
+_dji_sdk_generate_messages_check_deps_Reldist/fast:
+	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build
+.PHONY : _dji_sdk_generate_messages_check_deps_Reldist/fast
+
+# Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/rule:
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/rule
@@ -1770,6 +1798,7 @@ help:
 	@echo "... _dji_sdk_generate_messages_check_deps_AttitudeQuaternion"
 	@echo "... _dji_sdk_generate_messages_check_deps_CameraActionControl"
 	@echo "... _dji_sdk_generate_messages_check_deps_Compass"
+	@echo "... _dji_sdk_generate_messages_check_deps_DetectionPoints"
 	@echo "... _dji_sdk_generate_messages_check_deps_DroneArmControl"
 	@echo "... _dji_sdk_generate_messages_check_deps_DroneTaskAction"
 	@echo "... _dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback"
@@ -1832,6 +1861,7 @@ help:
 	@echo "... _dji_sdk_generate_messages_check_deps_MissionWpUpload"
 	@echo "... _dji_sdk_generate_messages_check_deps_PowerStatus"
 	@echo "... _dji_sdk_generate_messages_check_deps_RCChannels"
+	@echo "... _dji_sdk_generate_messages_check_deps_Reldist"
 	@echo "... _dji_sdk_generate_messages_check_deps_SDKPermissionControl"
 	@echo "... _dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice"
 	@echo "... _dji_sdk_generate_messages_check_deps_SyncFlagControl"

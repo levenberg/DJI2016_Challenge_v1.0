@@ -1,0 +1,48 @@
+1. Copy Reldist.msg to **/Onboard_SDK_ROS/dji_sdk/msg
+
+2. Edit **/Onboard_SDK_ROS/dji_sdk/include/dji_sdk/dji_sdk.h
+   
+Add #include <dji_sdk/Reldist.h>
+
+//msgs
+#include <dji_sdk/A3RTK.h>
+#include <dji_sdk/A3GPS.h>
+#include <dji_sdk/Acceleration.h>
+#include <dji_sdk/AttitudeQuaternion.h>
+#include <dji_sdk/Compass.h>
+#include <dji_sdk/FlightControlInfo.h>
+#include <dji_sdk/Gimbal.h>
+#include <dji_sdk/GlobalPosition.h>
+#include <dji_sdk/LocalPosition.h>
+#include <dji_sdk/PowerStatus.h> 
+#include <dji_sdk/RCChannels.h>
+#include <dji_sdk/Velocity.h>
+#include <dji_sdk/Waypoint.h>
+#include <dji_sdk/WaypointList.h>
+#include <dji_sdk/TransparentTransmissionData.h>
+#include <dji_sdk/TimeStamp.h>
+#include <dji_sdk/Reldist.h>   <------------
+
+3. Edit **/Onboard_SDK_ROS/dji_sdk/CMakeLists.txt
+
+Add  Reldist.msg
+
+add_message_files(
+  FILES
+  A3GPS.msg
+  A3RTK.msg
+  Acceleration.msg
+  AttitudeQuaternion.msg
+  Compass.msg
+  FlightControlInfo.msg
+  Gimbal.msg
+  GlobalPosition.msg
+  LocalPosition.msg
+  PowerStatus.msg
+  RCChannels.msg
+  Velocity.msg
+  Waypoint.msg
+  WaypointList.msg
+  TransparentTransmissionData.msg
+  TimeStamp.msg
+  Reldist.msg      <-------------------
