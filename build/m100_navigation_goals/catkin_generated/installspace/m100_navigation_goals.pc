@@ -1,0 +1,8 @@
+prefix=/root/Documents/roswork/DJI2016_Challenge/install
+
+Name: m100_navigation_goals
+Description: Description of m100_navigation_goals
+Version: 0.0.0
+Cflags: 
+Libs: -L/root/Documents/roswork/DJI2016_Challenge/install/lib 
+Requires: 

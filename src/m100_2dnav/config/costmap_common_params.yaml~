@@ -1,0 +1,11 @@
+obstacle_range: 4.0
+raytrace_range: 5.0
+
+robot_radius: 0.65
+inflation_radius: 0.3
+
+observation_sources: point_cloud_publisher GuidanceNode point_cloud2_publisher
+
+point_cloud_publisher: {sensor_frame: m100_guidance, data_type: PointCloud, topic: cloud, marking: true, clearing: true}
+
+GuidanceNode: {sensor_frame: m100_guidance, data_type: LaserScan, topic: scan, marking: true, clearing: true}

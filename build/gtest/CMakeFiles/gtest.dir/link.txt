@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/root/Documents/roswork/DJI2016_Challenge/build/gtest/src -lpthread -Wl,-rpath,/root/Documents/roswork/DJI2016_Challenge/build/gtest/src 
