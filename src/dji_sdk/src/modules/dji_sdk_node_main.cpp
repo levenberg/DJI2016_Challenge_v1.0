@@ -120,6 +120,7 @@ void DJISDKNode::broadcast_callback()
 
     //update odom msg
     if ( (msg_flags & HAS_POS) && (msg_flags & HAS_Q) && (msg_flags & HAS_W) && (msg_flags & HAS_V) ) {
+	/*
 	float yaw = atan2(2.0 * (attitude_quaternion.q3 * attitude_quaternion.q0 + attitude_quaternion.q1 * attitude_quaternion.q2) , - 1.0 + 2.0 * (attitude_quaternion.q0 * attitude_quaternion.q0 + attitude_quaternion.q1 * attitude_quaternion.q1));
 	geometry_msgs::Quaternion odom_quat = tf::createQuaternionMsgFromYaw(yaw);
 
@@ -155,6 +156,7 @@ void DJISDKNode::broadcast_callback()
         odometry.twist.twist.linear.y = velocity.vy;
         odometry.twist.twist.linear.z = velocity.vz;
         odometry_publisher.publish(odometry);
+	*/
     }
 
     //update rc_channel msg

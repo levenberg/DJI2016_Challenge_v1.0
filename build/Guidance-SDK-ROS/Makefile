@@ -153,20 +153,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/rule
-.PHONY : Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/rule
-
-# Convenience name for target.
-CaptureImage: Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/rule
-.PHONY : CaptureImage
-
-# fast build rule for target.
-CaptureImage/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/build.make Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/build
-.PHONY : CaptureImage/fast
-
-# Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
@@ -437,7 +423,6 @@ src/DJI_utility.o: src/DJI_utility.cpp.o
 
 # target to build an object file
 src/DJI_utility.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/build.make Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/src/DJI_utility.cpp.o
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/DJI_utility.cpp.o
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/DJI_utility.cpp.o
@@ -449,7 +434,6 @@ src/DJI_utility.i: src/DJI_utility.cpp.i
 
 # target to preprocess a source file
 src/DJI_utility.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/build.make Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/src/DJI_utility.cpp.i
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.i
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/DJI_utility.cpp.i
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/DJI_utility.cpp.i
@@ -461,7 +445,6 @@ src/DJI_utility.s: src/DJI_utility.cpp.s
 
 # target to generate assembly for a file
 src/DJI_utility.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/build.make Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/src/DJI_utility.cpp.s
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.s
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/DJI_utility.cpp.s
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/DJI_utility.cpp.s
@@ -564,37 +547,12 @@ src/Guidance_Laserscan.cpp.s:
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.s
 .PHONY : src/Guidance_Laserscan.cpp.s
 
-src/image.o: src/image.cpp.o
-.PHONY : src/image.o
-
-# target to build an object file
-src/image.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/build.make Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/src/image.cpp.o
-.PHONY : src/image.cpp.o
-
-src/image.i: src/image.cpp.i
-.PHONY : src/image.i
-
-# target to preprocess a source file
-src/image.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/build.make Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/src/image.cpp.i
-.PHONY : src/image.cpp.i
-
-src/image.s: src/image.cpp.s
-.PHONY : src/image.s
-
-# target to generate assembly for a file
-src/image.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/build.make Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/src/image.cpp.s
-.PHONY : src/image.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... CaptureImage"
 	@echo "... edit_cache"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -636,9 +594,6 @@ help:
 	@echo "... src/Guidance_Laserscan.o"
 	@echo "... src/Guidance_Laserscan.i"
 	@echo "... src/Guidance_Laserscan.s"
-	@echo "... src/image.o"
-	@echo "... src/image.i"
-	@echo "... src/image.s"
 .PHONY : help
 
 

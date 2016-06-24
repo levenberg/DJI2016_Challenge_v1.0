@@ -153,62 +153,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-m100_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : m100_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_gencfg: m100_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : dynamic_reconfigure_gencfg
-
-# fast build rule for target.
-dynamic_reconfigure_gencfg/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make m100_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-.PHONY : dynamic_reconfigure_gencfg/fast
-
-# Convenience name for target.
-m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_cpp: m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_cpp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
-
-# Convenience name for target.
-m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_lisp: m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
-
-# Convenience name for target.
-m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_py: m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : dynamic_reconfigure_generate_messages_py
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_py/fast
-
-# Convenience name for target.
 m100_2dnav/CMakeFiles/move_base_gencfg.dir/rule:
 	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/CMakeFiles/move_base_gencfg.dir/rule
 .PHONY : m100_2dnav/CMakeFiles/move_base_gencfg.dir/rule
@@ -228,10 +172,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... dynamic_reconfigure_gencfg"
-	@echo "... dynamic_reconfigure_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"

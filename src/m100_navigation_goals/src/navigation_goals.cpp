@@ -25,6 +25,7 @@ int main(int argc, char** argv){
   goal.target_pose.pose.orientation.w = 1.0;
 
   ROS_INFO("Sending goal");
+  sleep(15);
   ac.sendGoal(goal);
 
   ac.waitForResult();

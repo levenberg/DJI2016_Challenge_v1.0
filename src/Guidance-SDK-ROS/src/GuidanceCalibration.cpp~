@@ -121,7 +121,7 @@ int my_callback(int data_type, int data_len, char *content)
 
 		if ( data->m_greyscale_image_left[CAMERA_ID] ){
 			memcpy(g_greyscale_image_left.data, data->m_greyscale_image_left[CAMERA_ID], IMAGE_SIZE);
-			//imshow("left",  g_greyscale_image_left);
+			// imshow("left",  g_greyscale_image_left);
 			// publish left greyscale image
 			cv_bridge::CvImage left_8;
 			g_greyscale_image_left.copyTo(left_8.image);
@@ -139,7 +139,7 @@ int my_callback(int data_type, int data_len, char *content)
 		}
 		if ( data->m_greyscale_image_right[CAMERA_ID] ){
 			memcpy(g_greyscale_image_right.data, data->m_greyscale_image_right[CAMERA_ID], IMAGE_SIZE);
-			//imshow("right", g_greyscale_image_right);
+			// imshow("right", g_greyscale_image_right);
 			// publish right greyscale image
 			cv_bridge::CvImage right_8;
 			g_greyscale_image_right.copyTo(right_8.image);
@@ -158,7 +158,7 @@ int my_callback(int data_type, int data_len, char *content)
 		if ( data->m_depth_image[CAMERA_ID] ){
 			memcpy(g_depth.data, data->m_depth_image[CAMERA_ID], IMAGE_SIZE * 2);
 			g_depth.convertTo(depth8, CV_8UC1);
-			//imshow("depth", depth8);
+			// imshow("depth", depth8);
 			//publish depth image
 			cv_bridge::CvImage depth_16;
 			g_depth.copyTo(depth_16.image);
@@ -186,7 +186,7 @@ int main(int argc, char** argv)
     /* initialize ros */
     ros::init(argc, argv, "GuidanceNode");
     ros::NodeHandle my_node;
-    camera_params_left =  "./calibration_files/camera_params_left.yaml";
+    camera_params_left =  "/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/calibration_files/camera_params_left.yaml";
     camera_params_right = "/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/calibration_files/camera_params_right.yaml";
     my_node.getParam("/right_param_file", camera_params_right);
     depth_image_pub			= my_node.advertise<sensor_msgs::Image>("/guidance/depth_image",1);
@@ -217,10 +217,6 @@ int main(int argc, char** argv)
 	err_code = get_stereo_cali(cali);
 	RETURN_IF_ERR(err_code);
     std::cout<<"cu\tcv\tfocal\tbaseline\n";
-	for (int i=0; i<CAMERA_PAIR_NUM; i++)
-	{
-        std::cout<<cali[i].cu<<"\t"<<cali[i].cv<<"\t"<<cali[i].focal<<"\t"<<cali[i].baseline<<std::endl;
-	}
 	
     /* select data */
     err_code = select_greyscale_image(CAMERA_ID, true);
@@ -251,49 +247,7 @@ int main(int argc, char** argv)
 	while (ros::ok())
 	{
 		g_event.wait_event();
-		if (key > 0)
-			// set exposure parameters
-			if(key=='j' || key=='k' || key=='m' || key=='n'){
-				if(key=='j')
-					if(para.m_is_auto_exposure) para.m_expected_brightness += 20;
-					else para.m_exposure_time += 3;
-				else if(key=='k')
-					if(para.m_is_auto_exposure) para.m_expected_brightness -= 20;
-					else para.m_exposure_time -= 3;
-				else if(key=='m'){
-					para.m_is_auto_exposure = !para.m_is_auto_exposure;
-                    std::cout<<"exposure is "<<para.m_is_auto_exposure<<std::endl;
-				}
-				else if(key=='n'){//return to default
-					para.m_expected_brightness = para.m_exposure_time = 0;
-				}
-
-                std::cout<<"Setting exposure parameters....SensorId="<<CAMERA_ID<<std::endl;
-                para.m_camera_pair_index = CAMERA_ID;
-				set_exposure_param(&para);
-				key = 0;
-			}
-			else {// switch image direction
-				err_code = stop_transfer();
-				RETURN_IF_ERR(err_code);
-				reset_config();
-
-				if (key == 'q') break;
-				if (key == 'w') CAMERA_ID = e_vbus1;
-				if (key == 'd') CAMERA_ID = e_vbus2;
-				if (key == 'x') CAMERA_ID = e_vbus3;
-				if (key == 'a') CAMERA_ID = e_vbus4;	   
-				if (key == 's') CAMERA_ID = e_vbus5;
-
-				select_greyscale_image(CAMERA_ID, true);
-				select_greyscale_image(CAMERA_ID, false);
-				select_depth_image(CAMERA_ID);
-
-				err_code = start_transfer();
-				RETURN_IF_ERR(err_code);
-				key = 0;
-			}
-			ros::spinOnce();
+		ros::spinOnce();
 	}
 
 	/* release data transfer */

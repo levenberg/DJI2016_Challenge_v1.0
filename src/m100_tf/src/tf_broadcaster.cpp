@@ -14,7 +14,7 @@ int main(int argc, char** argv) {
     while(n.ok()) {
         broadcaster.sendTransform(
             tf::StampedTransform(
-                tf::Transform(tf::Quaternion(pi / 2, 0, -pi / 2), tf::Vector3(0.12, 0.0, 0.1)),
+                tf::Transform(tf::Quaternion(pi / 2, 0, -pi / 2), tf::Vector3(0.0, 0.0, 0.0)),
                 ros::Time::now(),"base_link", "m100_guidance"));
         r.sleep();
     }

@@ -270,19 +270,6 @@ dji_sdk_lib/fast:
 .PHONY : dji_sdk_lib/fast
 
 #=============================================================================
-# Target rules for targets named CaptureImage
-
-# Build rule for target.
-CaptureImage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CaptureImage
-.PHONY : CaptureImage
-
-# fast build rule for target.
-CaptureImage/fast:
-	$(MAKE) -f Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/build.make Guidance-SDK-ROS/CMakeFiles/CaptureImage.dir/build
-.PHONY : CaptureImage/fast
-
-#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -528,32 +515,6 @@ std_msgs_generate_messages_py: cmake_check_build_system
 std_msgs_generate_messages_py/fast:
 	$(MAKE) -f Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_py.dir/build.make Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named laser_scan_publisher
-
-# Build rule for target.
-laser_scan_publisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 laser_scan_publisher
-.PHONY : laser_scan_publisher
-
-# fast build rule for target.
-laser_scan_publisher/fast:
-	$(MAKE) -f laser_scan_publisher_tutorial/CMakeFiles/laser_scan_publisher.dir/build.make laser_scan_publisher_tutorial/CMakeFiles/laser_scan_publisher.dir/build
-.PHONY : laser_scan_publisher/fast
-
-#=============================================================================
-# Target rules for targets named point_cloud_publisher
-
-# Build rule for target.
-point_cloud_publisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 point_cloud_publisher
-.PHONY : point_cloud_publisher
-
-# fast build rule for target.
-point_cloud_publisher/fast:
-	$(MAKE) -f point_cloud_publisher_tutorial/CMakeFiles/point_cloud_publisher.dir/build.make point_cloud_publisher_tutorial/CMakeFiles/point_cloud_publisher.dir/build
-.PHONY : point_cloud_publisher/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_generate_messages_cpp
@@ -2129,6 +2090,58 @@ tf_listener/fast:
 .PHONY : tf_listener/fast
 
 #=============================================================================
+# Target rules for targets named _fovis_ros_generate_messages_check_deps_FovisInfo
+
+# Build rule for target.
+_fovis_ros_generate_messages_check_deps_FovisInfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _fovis_ros_generate_messages_check_deps_FovisInfo
+.PHONY : _fovis_ros_generate_messages_check_deps_FovisInfo
+
+# fast build rule for target.
+_fovis_ros_generate_messages_check_deps_FovisInfo/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/_fovis_ros_generate_messages_check_deps_FovisInfo.dir/build.make fovis_ros/CMakeFiles/_fovis_ros_generate_messages_check_deps_FovisInfo.dir/build
+.PHONY : _fovis_ros_generate_messages_check_deps_FovisInfo/fast
+
+#=============================================================================
+# Target rules for targets named bond_generate_messages_cpp
+
+# Build rule for target.
+bond_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_cpp
+.PHONY : bond_generate_messages_cpp
+
+# fast build rule for target.
+bond_generate_messages_cpp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/bond_generate_messages_cpp.dir/build.make fovis_ros/CMakeFiles/bond_generate_messages_cpp.dir/build
+.PHONY : bond_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named bond_generate_messages_lisp
+
+# Build rule for target.
+bond_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_lisp
+.PHONY : bond_generate_messages_lisp
+
+# fast build rule for target.
+bond_generate_messages_lisp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/bond_generate_messages_lisp.dir/build.make fovis_ros/CMakeFiles/bond_generate_messages_lisp.dir/build
+.PHONY : bond_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named bond_generate_messages_py
+
+# Build rule for target.
+bond_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bond_generate_messages_py
+.PHONY : bond_generate_messages_py
+
+# fast build rule for target.
+bond_generate_messages_py/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/bond_generate_messages_py.dir/build.make fovis_ros/CMakeFiles/bond_generate_messages_py.dir/build
+.PHONY : bond_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named dynamic_reconfigure_gencfg
 
 # Build rule for target.
@@ -2138,7 +2151,7 @@ dynamic_reconfigure_gencfg: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	$(MAKE) -f m100_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make m100_2dnav/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	$(MAKE) -f fovis_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make fovis_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 #=============================================================================
@@ -2151,7 +2164,7 @@ dynamic_reconfigure_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	$(MAKE) -f m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	$(MAKE) -f fovis_ros/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make fovis_ros/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 #=============================================================================
@@ -2164,7 +2177,7 @@ dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	$(MAKE) -f m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	$(MAKE) -f fovis_ros/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make fovis_ros/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 #=============================================================================
@@ -2177,8 +2190,307 @@ dynamic_reconfigure_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	$(MAKE) -f m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make m100_2dnav/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	$(MAKE) -f fovis_ros/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make fovis_ros/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named fovis_mono_depth_odometer
+
+# Build rule for target.
+fovis_mono_depth_odometer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fovis_mono_depth_odometer
+.PHONY : fovis_mono_depth_odometer
+
+# fast build rule for target.
+fovis_mono_depth_odometer/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/fovis_mono_depth_odometer.dir/build.make fovis_ros/CMakeFiles/fovis_mono_depth_odometer.dir/build
+.PHONY : fovis_mono_depth_odometer/fast
+
+#=============================================================================
+# Target rules for targets named fovis_ros_gencpp
+
+# Build rule for target.
+fovis_ros_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros_gencpp
+.PHONY : fovis_ros_gencpp
+
+# fast build rule for target.
+fovis_ros_gencpp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/fovis_ros_gencpp.dir/build.make fovis_ros/CMakeFiles/fovis_ros_gencpp.dir/build
+.PHONY : fovis_ros_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named fovis_ros_generate_messages
+
+# Build rule for target.
+fovis_ros_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros_generate_messages
+.PHONY : fovis_ros_generate_messages
+
+# fast build rule for target.
+fovis_ros_generate_messages/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/build.make fovis_ros/CMakeFiles/fovis_ros_generate_messages.dir/build
+.PHONY : fovis_ros_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named fovis_ros_generate_messages_cpp
+
+# Build rule for target.
+fovis_ros_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros_generate_messages_cpp
+.PHONY : fovis_ros_generate_messages_cpp
+
+# fast build rule for target.
+fovis_ros_generate_messages_cpp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/build.make fovis_ros/CMakeFiles/fovis_ros_generate_messages_cpp.dir/build
+.PHONY : fovis_ros_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named fovis_ros_generate_messages_lisp
+
+# Build rule for target.
+fovis_ros_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros_generate_messages_lisp
+.PHONY : fovis_ros_generate_messages_lisp
+
+# fast build rule for target.
+fovis_ros_generate_messages_lisp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/fovis_ros_generate_messages_lisp.dir/build.make fovis_ros/CMakeFiles/fovis_ros_generate_messages_lisp.dir/build
+.PHONY : fovis_ros_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named fovis_ros_generate_messages_py
+
+# Build rule for target.
+fovis_ros_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros_generate_messages_py
+.PHONY : fovis_ros_generate_messages_py
+
+# fast build rule for target.
+fovis_ros_generate_messages_py/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/fovis_ros_generate_messages_py.dir/build.make fovis_ros/CMakeFiles/fovis_ros_generate_messages_py.dir/build
+.PHONY : fovis_ros_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named fovis_ros_genlisp
+
+# Build rule for target.
+fovis_ros_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros_genlisp
+.PHONY : fovis_ros_genlisp
+
+# fast build rule for target.
+fovis_ros_genlisp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/fovis_ros_genlisp.dir/build.make fovis_ros/CMakeFiles/fovis_ros_genlisp.dir/build
+.PHONY : fovis_ros_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named fovis_ros_genpy
+
+# Build rule for target.
+fovis_ros_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fovis_ros_genpy
+.PHONY : fovis_ros_genpy
+
+# fast build rule for target.
+fovis_ros_genpy/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/fovis_ros_genpy.dir/build.make fovis_ros/CMakeFiles/fovis_ros_genpy.dir/build
+.PHONY : fovis_ros_genpy/fast
+
+#=============================================================================
+# Target rules for targets named fovis_stereo_odometer
+
+# Build rule for target.
+fovis_stereo_odometer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fovis_stereo_odometer
+.PHONY : fovis_stereo_odometer
+
+# fast build rule for target.
+fovis_stereo_odometer/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/build.make fovis_ros/CMakeFiles/fovis_stereo_odometer.dir/build
+.PHONY : fovis_stereo_odometer/fast
+
+#=============================================================================
+# Target rules for targets named nodelet_generate_messages_cpp
+
+# Build rule for target.
+nodelet_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_cpp
+.PHONY : nodelet_generate_messages_cpp
+
+# fast build rule for target.
+nodelet_generate_messages_cpp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make fovis_ros/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+.PHONY : nodelet_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named nodelet_generate_messages_lisp
+
+# Build rule for target.
+nodelet_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_lisp
+.PHONY : nodelet_generate_messages_lisp
+
+# fast build rule for target.
+nodelet_generate_messages_lisp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make fovis_ros/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+.PHONY : nodelet_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named nodelet_generate_messages_py
+
+# Build rule for target.
+nodelet_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodelet_generate_messages_py
+.PHONY : nodelet_generate_messages_py
+
+# fast build rule for target.
+nodelet_generate_messages_py/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/nodelet_generate_messages_py.dir/build.make fovis_ros/CMakeFiles/nodelet_generate_messages_py.dir/build
+.PHONY : nodelet_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named pcl_msgs_generate_messages_cpp
+
+# Build rule for target.
+pcl_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_cpp
+.PHONY : pcl_msgs_generate_messages_cpp
+
+# fast build rule for target.
+pcl_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make fovis_ros/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build
+.PHONY : pcl_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named pcl_msgs_generate_messages_lisp
+
+# Build rule for target.
+pcl_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_lisp
+.PHONY : pcl_msgs_generate_messages_lisp
+
+# fast build rule for target.
+pcl_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make fovis_ros/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
+.PHONY : pcl_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named pcl_msgs_generate_messages_py
+
+# Build rule for target.
+pcl_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_py
+.PHONY : pcl_msgs_generate_messages_py
+
+# fast build rule for target.
+pcl_msgs_generate_messages_py/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make fovis_ros/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
+.PHONY : pcl_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named pcl_ros_gencfg
+
+# Build rule for target.
+pcl_ros_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_ros_gencfg
+.PHONY : pcl_ros_gencfg
+
+# fast build rule for target.
+pcl_ros_gencfg/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/pcl_ros_gencfg.dir/build.make fovis_ros/CMakeFiles/pcl_ros_gencfg.dir/build
+.PHONY : pcl_ros_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_cpp
+
+# Build rule for target.
+std_srvs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_cpp
+.PHONY : std_srvs_generate_messages_cpp
+
+# fast build rule for target.
+std_srvs_generate_messages_cpp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make fovis_ros/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+.PHONY : std_srvs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_lisp
+
+# Build rule for target.
+std_srvs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_lisp
+.PHONY : std_srvs_generate_messages_lisp
+
+# fast build rule for target.
+std_srvs_generate_messages_lisp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make fovis_ros/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+.PHONY : std_srvs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_srvs_generate_messages_py
+
+# Build rule for target.
+std_srvs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
+.PHONY : std_srvs_generate_messages_py
+
+# fast build rule for target.
+std_srvs_generate_messages_py/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/std_srvs_generate_messages_py.dir/build.make fovis_ros/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named topic_tools_generate_messages_cpp
+
+# Build rule for target.
+topic_tools_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_cpp
+.PHONY : topic_tools_generate_messages_cpp
+
+# fast build rule for target.
+topic_tools_generate_messages_cpp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/topic_tools_generate_messages_cpp.dir/build.make fovis_ros/CMakeFiles/topic_tools_generate_messages_cpp.dir/build
+.PHONY : topic_tools_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named topic_tools_generate_messages_lisp
+
+# Build rule for target.
+topic_tools_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_lisp
+.PHONY : topic_tools_generate_messages_lisp
+
+# fast build rule for target.
+topic_tools_generate_messages_lisp/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/topic_tools_generate_messages_lisp.dir/build.make fovis_ros/CMakeFiles/topic_tools_generate_messages_lisp.dir/build
+.PHONY : topic_tools_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named topic_tools_generate_messages_py
+
+# Build rule for target.
+topic_tools_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 topic_tools_generate_messages_py
+.PHONY : topic_tools_generate_messages_py
+
+# fast build rule for target.
+topic_tools_generate_messages_py/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/topic_tools_generate_messages_py.dir/build.make fovis_ros/CMakeFiles/topic_tools_generate_messages_py.dir/build
+.PHONY : topic_tools_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named visualization
+
+# Build rule for target.
+visualization: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualization
+.PHONY : visualization
+
+# fast build rule for target.
+visualization/fast:
+	$(MAKE) -f fovis_ros/CMakeFiles/visualization.dir/build.make fovis_ros/CMakeFiles/visualization.dir/build
+.PHONY : visualization/fast
 
 #=============================================================================
 # Target rules for targets named move_base_gencfg
@@ -2215,7 +2527,6 @@ help:
 	@echo "... gtest_main"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... dji_sdk_lib"
-	@echo "... CaptureImage"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
@@ -2235,8 +2546,6 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... laser_scan_publisher"
-	@echo "... point_cloud_publisher"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... actionlib_generate_messages_py"
@@ -2358,10 +2667,37 @@ help:
 	@echo "... base_controller_test"
 	@echo "... tf_broadcaster"
 	@echo "... tf_listener"
+	@echo "... _fovis_ros_generate_messages_check_deps_FovisInfo"
+	@echo "... bond_generate_messages_cpp"
+	@echo "... bond_generate_messages_lisp"
+	@echo "... bond_generate_messages_py"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
 	@echo "... dynamic_reconfigure_generate_messages_py"
+	@echo "... fovis_mono_depth_odometer"
+	@echo "... fovis_ros_gencpp"
+	@echo "... fovis_ros_generate_messages"
+	@echo "... fovis_ros_generate_messages_cpp"
+	@echo "... fovis_ros_generate_messages_lisp"
+	@echo "... fovis_ros_generate_messages_py"
+	@echo "... fovis_ros_genlisp"
+	@echo "... fovis_ros_genpy"
+	@echo "... fovis_stereo_odometer"
+	@echo "... nodelet_generate_messages_cpp"
+	@echo "... nodelet_generate_messages_lisp"
+	@echo "... nodelet_generate_messages_py"
+	@echo "... pcl_msgs_generate_messages_cpp"
+	@echo "... pcl_msgs_generate_messages_lisp"
+	@echo "... pcl_msgs_generate_messages_py"
+	@echo "... pcl_ros_gencfg"
+	@echo "... std_srvs_generate_messages_cpp"
+	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... std_srvs_generate_messages_py"
+	@echo "... topic_tools_generate_messages_cpp"
+	@echo "... topic_tools_generate_messages_lisp"
+	@echo "... topic_tools_generate_messages_py"
+	@echo "... visualization"
 	@echo "... move_base_gencfg"
 .PHONY : help
 

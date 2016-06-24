@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec617726616/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec617726616.dir/build.make CMakeFiles/cmTryCompileExec617726616.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec3977581751/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3977581751.dir/build.make CMakeFiles/cmTryCompileExec3977581751.dir/build
 make[1]: Entering directory `/root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec617726616.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec617726616.dir/CheckSymbolExists.c.o   -c /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTryCompileExec617726616
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec617726616.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec617726616.dir/CheckSymbolExists.c.o  -o cmTryCompileExec617726616 -rdynamic 
-CMakeFiles/cmTryCompileExec617726616.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTryCompileExec3977581751.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3977581751.dir/CheckSymbolExists.c.o   -c /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3977581751
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3977581751.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3977581751.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3977581751 -rdynamic 
+CMakeFiles/cmTryCompileExec3977581751.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0xe): undefined reference to `pthread_create'
 CheckSymbolExists.c:(.text+0x12): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [cmTryCompileExec617726616] Error 1
+make[1]: *** [cmTryCompileExec3977581751] Error 1
 make[1]: Leaving directory `/root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp'
-make: *** [cmTryCompileExec617726616/fast] Error 2
+make: *** [cmTryCompileExec3977581751/fast] Error 2
 
 File /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,19 +36,19 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec2754931199/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2754931199.dir/build.make CMakeFiles/cmTryCompileExec2754931199.dir/build
+Run Build Command:/usr/bin/make "cmTryCompileExec4178347800/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4178347800.dir/build.make CMakeFiles/cmTryCompileExec4178347800.dir/build
 make[1]: Entering directory `/root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2754931199.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2754931199.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
-Linking C executable cmTryCompileExec2754931199
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2754931199.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2754931199.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2754931199 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTryCompileExec4178347800.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4178347800.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4178347800
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4178347800.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4178347800.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4178347800 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
 make[1]: Leaving directory `/root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles/CMakeTmp'
-make[1]: *** [cmTryCompileExec2754931199] Error 1
-make: *** [cmTryCompileExec2754931199/fast] Error 2
+make[1]: *** [cmTryCompileExec4178347800] Error 1
+make: *** [cmTryCompileExec4178347800/fast] Error 2
 
 

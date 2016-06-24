@@ -1,8 +1,8 @@
 obstacle_range: 4.0
 raytrace_range: 5.0
 
-robot_radius: 0.65
-inflation_radius: 0.3
+robot_radius: 0.8
+inflation_radius: 0.8
 
 observation_sources: point_cloud_publisher GuidanceNode point_cloud2_publisher
 

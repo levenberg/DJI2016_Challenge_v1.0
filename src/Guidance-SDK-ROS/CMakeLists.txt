@@ -43,9 +43,6 @@ add_executable(guidance_depthimage ${PROJECT_SOURCE_DIR}/src/Guidance_Depthimage
 add_executable(guidance_calibration ${PROJECT_SOURCE_DIR}/src/Guidance_Calibration.cpp ${PROJECT_SOURCE_DIR}/src/DJI_utility.cpp)
 add_executable(guidance_calibration_stereo ${PROJECT_SOURCE_DIR}/src/GuidanceCalibration.cpp ${PROJECT_SOURCE_DIR}/src/DJI_utility.cpp)
 
-add_executable(CaptureImage ${PROJECT_SOURCE_DIR}/src/image.cpp ${PROJECT_SOURCE_DIR}/src/DJI_utility.cpp)
-target_link_libraries(CaptureImage DJI_guidance usb-1.0 yaml-cpp ${catkin_LIBRARIES} ${OpenCV_LIBS})
-
 target_link_libraries(guidance_laserscan DJI_guidance usb-1.0 ${catkin_LIBRARIES} ${OpenCV_LIBS})
 target_link_libraries(guidance_depthimage DJI_guidance usb-1.0 ${catkin_LIBRARIES} ${OpenCV_LIBS})
 target_link_libraries(guidance_calibration DJI_guidance usb-1.0 yaml-cpp ${catkin_LIBRARIES} ${OpenCV_LIBS})
