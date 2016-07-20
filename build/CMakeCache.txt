@@ -89,6 +89,9 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 //List of ';' separated packages to build
 CATKIN_WHITELIST_PACKAGES:STRING=
 
+//No help, variable specified on the command line.
+CMAKEY_BUILD_TYPE:UNINITIALIZED=Release
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
