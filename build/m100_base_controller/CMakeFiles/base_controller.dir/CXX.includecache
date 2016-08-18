@@ -1048,6 +1048,24 @@ ros/forwards.h
 
 /opt/ros/indigo/include/rosconsole/macros_generated.h
 
+/opt/ros/indigo/include/sensor_msgs/LaserScan.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
 /opt/ros/indigo/include/std_msgs/Float64.h
 string
 -
@@ -3740,5 +3758,7 @@ geometry_msgs/Twist.h
 dji_sdk/dji_drone.h
 -
 pthread.h
+-
+sensor_msgs/LaserScan.h
 -
 

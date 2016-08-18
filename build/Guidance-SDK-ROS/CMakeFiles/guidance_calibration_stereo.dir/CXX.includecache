@@ -886,10 +886,6 @@ pthread.h
 semaphore.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.cpp
-DJI_utility.h
-/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.h
-
 /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/GuidanceCalibration.cpp
 stdio.h
 -

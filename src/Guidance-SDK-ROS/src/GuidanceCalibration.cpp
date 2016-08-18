@@ -171,6 +171,24 @@ int my_callback(int data_type, int data_len, char *content)
 		
         key = waitKey(1);
     }
+    
+    /* ultrasonic */
+    if ( e_ultrasonic == data_type && NULL != content )
+    {
+        ultrasonic_data *ultrasonic = (ultrasonic_data*)content;
+		
+	// publish ultrasonic data
+	sensor_msgs::LaserScan g_ul;
+	g_ul.ranges.resize(CAMERA_PAIR_NUM);
+	g_ul.intensities.resize(CAMERA_PAIR_NUM);
+	g_ul.header.frame_id = "guidance";
+	g_ul.header.stamp    = ros::Time::now();
+	for ( int d = 0; d < CAMERA_PAIR_NUM; ++d ){
+	    g_ul.ranges[d] = 0.001f * ultrasonic->ultrasonic[d];
+	    g_ul.intensities[d] = 1.0 * ultrasonic->reliability[d];
+	}
+	ultrasonic_pub.publish(g_ul);
+    }
 
     g_lock.leave();
     g_event.set_event();

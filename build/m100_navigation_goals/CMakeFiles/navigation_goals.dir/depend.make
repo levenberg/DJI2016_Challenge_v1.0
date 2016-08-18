@@ -90,6 +90,7 @@ m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.o
 m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.o: /opt/ros/indigo/include/ros/wall_timer.h
 m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.o: /opt/ros/indigo/include/ros/wall_timer_options.h
 m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.o: /opt/ros/indigo/include/rosconsole/macros_generated.h
+m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.o: /opt/ros/indigo/include/sensor_msgs/LaserScan.h
 m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.o: /opt/ros/indigo/include/std_msgs/Header.h
 m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/m100_navigation_goals/src/navigation_goals.cpp
 
