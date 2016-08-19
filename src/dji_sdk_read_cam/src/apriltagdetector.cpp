@@ -8,7 +8,9 @@ using namespace std;
 
 
 float flight_height = 0.0;
-
+bool change_once_flag = true;
+const float EPS = 0.00000001;
+const int tag25h9 = 1;
 //uint8_t CMD = 'W';
 /**
  * Normalize angle to be within the interval [-pi,pi].
@@ -106,8 +108,8 @@ void ApriltagDetector::processImage ( cv::Mat& image )
       t0 = tic();
     }
 
-  // no prev window, do detection on the whole image
-  if ( m_win.size() !=4||m_mode==0 )
+  // no prev window, do detection on the whole image; if searching for apriltags, detect the whole image
+  if ( m_win.size() !=4||m_mode==0 )//||m_mission_type==true)
     {
       detections = m_tagDetector->extractTags ( image_gray );
     }
@@ -179,7 +181,7 @@ void ApriltagDetector::print_detections ( )
   ROS_INFO ( "%d tags detected.",detections.size() );
 // ROS_INFO ( "Publish detection routine is working..." );
 
- // float last_flight_height = 0.0;
+// float last_flight_height = 0.0;
   m_numOfDetections.data = detections.size();
   m_numOfDetection_pub.publish ( m_numOfDetections );
   if ( detections.empty() ) // no Tag found
@@ -189,7 +191,7 @@ void ApriltagDetector::print_detections ( )
       rel_dist.y = 0;
       rel_dist.z = 0;
       rel_dist.norm = 0.0;
-      rel_dist.gimbal_inc = 0.0;
+      rel_dist.gimbal_pitch_inc = 0.0;
       rel_dist.istracked = false;
 
       m_detectionPoints.x0 = m_detectionPoints.y0 =
@@ -235,79 +237,95 @@ void ApriltagDetector::print_detections ( )
       rel_dist.header.stamp = ros::Time::now();
       rel_dist.x = translation ( 0 );
       rel_dist.y = translation ( 1 );
-      
+
       rel_dist.yaw = yaw;
       rel_dist.pitch = pitch;
       rel_dist.roll = roll;
       rel_dist.norm = translation.norm();
-      rel_dist.gimbal_inc = atan ( translation ( 2 ) /translation ( 0 ) ) *57.2958;
+      rel_dist.gimbal_pitch_inc = atan ( translation ( 2 ) /translation ( 0 ) ) *57.2958;
       rel_dist.istracked = true;
 
 #ifndef GIMBAL_USED
+      rel_dist.height_with_gimbal = translation ( 0 );
       rel_dist.z = translation ( 2 );//IMPORTANT NOTE: Uisng GIMBAL makes it a little bit different
 #else //NOTE: The following only makes sense when GIMBAL CONTROLLING is USED.
       if ( m_gimbal.pitch+90.0<0.1 )
         {
           rel_dist.z = translation ( 2 );
 
-         // flight_height  = rel_dist.x;
-	  ROS_INFO("Gimbal is straight down <0.1");
+          rel_dist.height_with_gimbal = translation ( 0 );
+          // flight_height  = rel_dist.x;
+          //ROS_INFO ( "Gimbal is straight down <0.1" );
         }
       else
         {
- 
-	   ROS_INFO("Gimbal >0.1");
-          rel_dist.z = translation.norm() *sin ( 0.017453* ( rel_dist.gimbal_inc+m_gimbal.pitch+90.0 ) ); // /57.2958 ); //IMPORTANT NOTE: Uisng GIMBAL makes it a little bit different
-        //  flight_height = translation(0)*cos((rel_dist.gimbal_inc+m_gimbal.pitch+90)/57.2958);
+
+          //ROS_INFO ( "Gimbal >0.1" );
+          float temp = sqrt ( pow ( translation ( 0 ),2 ) +pow ( translation ( 2 ),2 ) );
+          rel_dist.z = temp *sin ( 0.017453* ( rel_dist.gimbal_pitch_inc+m_gimbal.pitch+90.0 ) ); // /57.2958 ); //IMPORTANT NOTE: Uisng GIMBAL makes it a little bit different
+          rel_dist.height_with_gimbal = temp*cos ( ( rel_dist.gimbal_pitch_inc+m_gimbal.pitch+90.0 ) /57.2958 );
+
+
+          //  flight_height = translation(0)*cos((rel_dist.gimbal_pitch_inc+m_gimbal.pitch+90)/57.2958);
         }
 #endif
- 
+
       // ros::Rate dist_pub_rate(20);
-      m_result_pub.publish ( rel_dist );
 
 
       //However, we just publish the detection result of the first detected tag;
-      m_detectionPoints.x0 = detections[0].p[0].first;
-      m_detectionPoints.y0 = detections[0].p[0].second;
-      m_detectionPoints.x1 = detections[0].p[1].first;
-      m_detectionPoints.y1 = detections[0].p[1].second;
-      m_detectionPoints.x2 = detections[0].p[2].first;
-      m_detectionPoints.y2 = detections[0].p[2].second;
+      if(m_CMD_from_remote != 'd')
+      {
 
-      m_detectionPoints.x3 = detections[0].p[3].first;
-      m_detectionPoints.y3 = detections[0].p[3].second;
-      m_detectionPoints.id = detections[0].id;
-      m_detectionPoints_pub.publish ( m_detectionPoints );
+          m_detectionPoints.x0 = detections[0].p[0].first;
+          m_detectionPoints.y0 = detections[0].p[0].second;
+          m_detectionPoints.x1 = detections[0].p[1].first;
+          m_detectionPoints.y1 = detections[0].p[1].second;
+          m_detectionPoints.x2 = detections[0].p[2].first;
+          m_detectionPoints.y2 = detections[0].p[2].second;
+
+          m_detectionPoints.x3 = detections[0].p[3].first;
+          m_detectionPoints.y3 = detections[0].p[3].second;
+          m_detectionPoints.id = detections[0].id;
+          m_detectionPoints_pub.publish ( m_detectionPoints );
+
+      }
 
 
       //  if(()
 
 
+//       if ( this->usingSmallTags )
+//         {
+//           rel_dist.z -= 0.60 ;
+//         }
+
 #ifdef SMALL_TAG_USED
-      if ( translation(0) < 2.0 && m_CMD_from_remote == 'd')//(last_flight_height-flight_height)>0.01 )//If is descending
+      if ( change_once_flag && translation ( 0 ) < 1.35 && m_CMD_from_remote == 'd' ) //(last_flight_height-flight_height)>0.01 )//If is descending
         {
           setTagCodes ( "16h5" );
           // m_tagCodes = AprilTags::tagCodes25h9;
-          ROS_INFO ( "Tag is 16h5" );
+        //  ROS_INFO ( "Tag is 16h5" );
           m_tagSize  = 0.057;
-		//  m_CMD_from_remote = 'W';
-	  this->usingSmallTags = true;
+          //  m_CMD_from_remote = 'W';
+          this->usingSmallTags = true;
+          change_once_flag = false;
         }
 #endif
+     rel_dist.gimbal_yaw_inc = atan(-rel_dist.y/(EPS+rel_dist.z))* 57.2958;
 
+      m_result_pub.publish ( rel_dist );
 
-    
-      
 
     }
 
 
-    if(this->usingSmallTags)
+  if ( this->usingSmallTags )
     {
       std_msgs::Bool using_smallTags;
       using_smallTags.data = true;
-      m_using_smallTags_pub.publish(using_smallTags);
-      
+      m_using_smallTags_pub.publish ( using_smallTags );
+
     }
 
 

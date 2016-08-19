@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -123,14 +123,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge/build/m100_base_controller/CMakeFiles/progress.marks
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_base_controller/CMakeFiles/progress.marks
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/clean
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/clean
 .PHONY : clean
 
 # The main clean target
@@ -139,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 m100_base_controller/CMakeFiles/base_controller.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/CMakeFiles/base_controller.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/CMakeFiles/base_controller.dir/rule
 .PHONY : m100_base_controller/CMakeFiles/base_controller.dir/rule
 
 # Convenience name for target.
@@ -163,12 +163,12 @@ base_controller: m100_base_controller/CMakeFiles/base_controller.dir/rule
 
 # fast build rule for target.
 base_controller/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller.dir/build.make m100_base_controller/CMakeFiles/base_controller.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller.dir/build.make m100_base_controller/CMakeFiles/base_controller.dir/build
 .PHONY : base_controller/fast
 
 # Convenience name for target.
 m100_base_controller/CMakeFiles/base_controller_test.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/CMakeFiles/base_controller_test.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_base_controller/CMakeFiles/base_controller_test.dir/rule
 .PHONY : m100_base_controller/CMakeFiles/base_controller_test.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ base_controller_test: m100_base_controller/CMakeFiles/base_controller_test.dir/r
 
 # fast build rule for target.
 base_controller_test/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller_test.dir/build.make m100_base_controller/CMakeFiles/base_controller_test.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller_test.dir/build.make m100_base_controller/CMakeFiles/base_controller_test.dir/build
 .PHONY : base_controller_test/fast
 
 src/base_controller.o: src/base_controller.cpp.o
@@ -185,7 +185,7 @@ src/base_controller.o: src/base_controller.cpp.o
 
 # target to build an object file
 src/base_controller.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller.dir/build.make m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller.dir/build.make m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o
 .PHONY : src/base_controller.cpp.o
 
 src/base_controller.i: src/base_controller.cpp.i
@@ -193,7 +193,7 @@ src/base_controller.i: src/base_controller.cpp.i
 
 # target to preprocess a source file
 src/base_controller.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller.dir/build.make m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller.dir/build.make m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.i
 .PHONY : src/base_controller.cpp.i
 
 src/base_controller.s: src/base_controller.cpp.s
@@ -201,7 +201,7 @@ src/base_controller.s: src/base_controller.cpp.s
 
 # target to generate assembly for a file
 src/base_controller.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller.dir/build.make m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller.dir/build.make m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.s
 .PHONY : src/base_controller.cpp.s
 
 src/base_controller_test.o: src/base_controller_test.cpp.o
@@ -209,7 +209,7 @@ src/base_controller_test.o: src/base_controller_test.cpp.o
 
 # target to build an object file
 src/base_controller_test.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller_test.dir/build.make m100_base_controller/CMakeFiles/base_controller_test.dir/src/base_controller_test.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller_test.dir/build.make m100_base_controller/CMakeFiles/base_controller_test.dir/src/base_controller_test.cpp.o
 .PHONY : src/base_controller_test.cpp.o
 
 src/base_controller_test.i: src/base_controller_test.cpp.i
@@ -217,7 +217,7 @@ src/base_controller_test.i: src/base_controller_test.cpp.i
 
 # target to preprocess a source file
 src/base_controller_test.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller_test.dir/build.make m100_base_controller/CMakeFiles/base_controller_test.dir/src/base_controller_test.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller_test.dir/build.make m100_base_controller/CMakeFiles/base_controller_test.dir/src/base_controller_test.cpp.i
 .PHONY : src/base_controller_test.cpp.i
 
 src/base_controller_test.s: src/base_controller_test.cpp.s
@@ -225,7 +225,7 @@ src/base_controller_test.s: src/base_controller_test.cpp.s
 
 # target to generate assembly for a file
 src/base_controller_test.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller_test.dir/build.make m100_base_controller/CMakeFiles/base_controller_test.dir/src/base_controller_test.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_base_controller/CMakeFiles/base_controller_test.dir/build.make m100_base_controller/CMakeFiles/base_controller_test.dir/src/base_controller_test.cpp.s
 .PHONY : src/base_controller_test.cpp.s
 
 # Help Target
@@ -260,6 +260,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

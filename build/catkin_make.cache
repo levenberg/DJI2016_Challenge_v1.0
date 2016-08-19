@@ -1,2 +1,2 @@
-Guidance-SDK-ROS:dji_sdk:dji_sdk_demo:dji_sdk_lib:dji_sdk_read_cam:fovis:fovis_ros:m100_2dnav:m100_base_controller:m100_navigation_goals:m100_tf
--DCMAKEY_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/root/Documents/roswork/DJI2016_Challenge/devel -DCMAKE_INSTALL_PREFIX=/root/Documents/roswork/DJI2016_Challenge/install -G Unix Makefiles
+Guidance-SDK-ROS:dji_sdk:dji_sdk_demo_mine:dji_sdk_lib:dji_sdk_read_cam:m100_2dnav:m100_base_controller:m100_navigation_goals:m100_tf:pid
+-DCMAKEY_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/root/Documents/roswork/DJI2016_Challenge_v1.0/devel -DCMAKE_INSTALL_PREFIX=/root/Documents/roswork/DJI2016_Challenge_v1.0/install -G Unix Makefiles

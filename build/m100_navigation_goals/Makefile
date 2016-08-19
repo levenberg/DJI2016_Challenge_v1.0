@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -123,14 +123,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge/build/m100_navigation_goals/CMakeFiles/progress.marks
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_navigation_goals/CMakeFiles/progress.marks
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/clean
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/clean
 .PHONY : clean
 
 # The main clean target
@@ -139,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 m100_navigation_goals/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 .PHONY : m100_navigation_goals/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -163,12 +163,12 @@ actionlib_generate_messages_cpp: m100_navigation_goals/CMakeFiles/actionlib_gene
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 m100_navigation_goals/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : m100_navigation_goals/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ actionlib_generate_messages_lisp: m100_navigation_goals/CMakeFiles/actionlib_gen
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 m100_navigation_goals/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : m100_navigation_goals/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -191,12 +191,12 @@ actionlib_generate_messages_py: m100_navigation_goals/CMakeFiles/actionlib_gener
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_generate_messages_py.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_generate_messages_py.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
 m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -205,12 +205,12 @@ actionlib_msgs_generate_messages_cpp: m100_navigation_goals/CMakeFiles/actionlib
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -219,12 +219,12 @@ actionlib_msgs_generate_messages_lisp: m100_navigation_goals/CMakeFiles/actionli
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 .PHONY : m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -233,12 +233,12 @@ actionlib_msgs_generate_messages_py: m100_navigation_goals/CMakeFiles/actionlib_
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make m100_navigation_goals/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
 .PHONY : m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -247,12 +247,12 @@ move_base_msgs_generate_messages_cpp: m100_navigation_goals/CMakeFiles/move_base
 
 # fast build rule for target.
 move_base_msgs_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
 .PHONY : move_base_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
 .PHONY : m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -261,12 +261,12 @@ move_base_msgs_generate_messages_lisp: m100_navigation_goals/CMakeFiles/move_bas
 
 # fast build rule for target.
 move_base_msgs_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
 .PHONY : move_base_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
 .PHONY : m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -275,12 +275,12 @@ move_base_msgs_generate_messages_py: m100_navigation_goals/CMakeFiles/move_base_
 
 # fast build rule for target.
 move_base_msgs_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make m100_navigation_goals/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
 .PHONY : move_base_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 m100_navigation_goals/CMakeFiles/navigation_goals.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/navigation_goals.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_navigation_goals/CMakeFiles/navigation_goals.dir/rule
 .PHONY : m100_navigation_goals/CMakeFiles/navigation_goals.dir/rule
 
 # Convenience name for target.
@@ -289,7 +289,7 @@ navigation_goals: m100_navigation_goals/CMakeFiles/navigation_goals.dir/rule
 
 # fast build rule for target.
 navigation_goals/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/navigation_goals.dir/build.make m100_navigation_goals/CMakeFiles/navigation_goals.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/navigation_goals.dir/build.make m100_navigation_goals/CMakeFiles/navigation_goals.dir/build
 .PHONY : navigation_goals/fast
 
 src/navigation_goals.o: src/navigation_goals.cpp.o
@@ -297,7 +297,7 @@ src/navigation_goals.o: src/navigation_goals.cpp.o
 
 # target to build an object file
 src/navigation_goals.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/navigation_goals.dir/build.make m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/navigation_goals.dir/build.make m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.o
 .PHONY : src/navigation_goals.cpp.o
 
 src/navigation_goals.i: src/navigation_goals.cpp.i
@@ -305,7 +305,7 @@ src/navigation_goals.i: src/navigation_goals.cpp.i
 
 # target to preprocess a source file
 src/navigation_goals.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/navigation_goals.dir/build.make m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/navigation_goals.dir/build.make m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.i
 .PHONY : src/navigation_goals.cpp.i
 
 src/navigation_goals.s: src/navigation_goals.cpp.s
@@ -313,7 +313,7 @@ src/navigation_goals.s: src/navigation_goals.cpp.s
 
 # target to generate assembly for a file
 src/navigation_goals.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/navigation_goals.dir/build.make m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_navigation_goals/CMakeFiles/navigation_goals.dir/build.make m100_navigation_goals/CMakeFiles/navigation_goals.dir/src/navigation_goals.cpp.s
 .PHONY : src/navigation_goals.cpp.s
 
 # Help Target
@@ -353,6 +353,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

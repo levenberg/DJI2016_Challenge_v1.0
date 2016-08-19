@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 # Include any dependencies generated for this target.
 include m100_base_controller/CMakeFiles/base_controller.dir/depend.make
@@ -53,18 +53,18 @@ include m100_base_controller/CMakeFiles/base_controller.dir/progress.make
 include m100_base_controller/CMakeFiles/base_controller.dir/flags.make
 
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: m100_base_controller/CMakeFiles/base_controller.dir/flags.make
-m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/m100_base_controller/src/base_controller.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_1)
+m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_base_controller/src/base_controller.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/m100_base_controller && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base_controller.dir/src/base_controller.cpp.o -c /root/Documents/roswork/DJI2016_Challenge/src/m100_base_controller/src/base_controller.cpp
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_base_controller && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/base_controller.dir/src/base_controller.cpp.o -c /root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_base_controller/src/base_controller.cpp
 
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_controller.dir/src/base_controller.cpp.i"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/m100_base_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge/src/m100_base_controller/src/base_controller.cpp > CMakeFiles/base_controller.dir/src/base_controller.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_base_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_base_controller/src/base_controller.cpp > CMakeFiles/base_controller.dir/src/base_controller.cpp.i
 
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_controller.dir/src/base_controller.cpp.s"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/m100_base_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge/src/m100_base_controller/src/base_controller.cpp -o CMakeFiles/base_controller.dir/src/base_controller.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_base_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_base_controller/src/base_controller.cpp -o CMakeFiles/base_controller.dir/src/base_controller.cpp.s
 
 m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o.requires:
 .PHONY : m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o.requires
@@ -82,43 +82,43 @@ base_controller_OBJECTS = \
 # External object files for target base_controller
 base_controller_EXTERNAL_OBJECTS =
 
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: m100_base_controller/CMakeFiles/base_controller.dir/build.make
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/libactionlib.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /root/Documents/roswork/DJI2016_Challenge/devel/lib/libdji_sdk_lib.a
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/libroscpp.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/librosconsole.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /usr/lib/liblog4cxx.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/libroscpp_serialization.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/librostime.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/libxmlrpcpp.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/libcpp_common.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_system.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libpthread.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller: m100_base_controller/CMakeFiles/base_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/m100_base_controller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base_controller.dir/link.txt --verbose=$(VERBOSE)
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: m100_base_controller/CMakeFiles/base_controller.dir/build.make
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/libactionlib.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/libdji_sdk_lib.a
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/libroscpp.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/librosconsole.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /usr/lib/liblog4cxx.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/libroscpp_serialization.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/librostime.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/libxmlrpcpp.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /opt/ros/indigo/lib/libcpp_common.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_system.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libpthread.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller: m100_base_controller/CMakeFiles/base_controller.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller"
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_base_controller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-m100_base_controller/CMakeFiles/base_controller.dir/build: /root/Documents/roswork/DJI2016_Challenge/devel/lib/m100_base_controller/base_controller
+m100_base_controller/CMakeFiles/base_controller.dir/build: /root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/m100_base_controller/base_controller
 .PHONY : m100_base_controller/CMakeFiles/base_controller.dir/build
 
 m100_base_controller/CMakeFiles/base_controller.dir/requires: m100_base_controller/CMakeFiles/base_controller.dir/src/base_controller.cpp.o.requires
 .PHONY : m100_base_controller/CMakeFiles/base_controller.dir/requires
 
 m100_base_controller/CMakeFiles/base_controller.dir/clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build/m100_base_controller && $(CMAKE_COMMAND) -P CMakeFiles/base_controller.dir/cmake_clean.cmake
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_base_controller && $(CMAKE_COMMAND) -P CMakeFiles/base_controller.dir/cmake_clean.cmake
 .PHONY : m100_base_controller/CMakeFiles/base_controller.dir/clean
 
 m100_base_controller/CMakeFiles/base_controller.dir/depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge/src /root/Documents/roswork/DJI2016_Challenge/src/m100_base_controller /root/Documents/roswork/DJI2016_Challenge/build /root/Documents/roswork/DJI2016_Challenge/build/m100_base_controller /root/Documents/roswork/DJI2016_Challenge/build/m100_base_controller/CMakeFiles/base_controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge_v1.0/src /root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_base_controller /root/Documents/roswork/DJI2016_Challenge_v1.0/build /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_base_controller /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_base_controller/CMakeFiles/base_controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : m100_base_controller/CMakeFiles/base_controller.dir/depend
 

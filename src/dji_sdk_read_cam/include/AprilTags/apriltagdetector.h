@@ -33,18 +33,18 @@
 #include<dji_sdk/Gimbal.h>
 #endif
 
-/*
+
 #ifndef SMALL_TAG_USED
 #define SMALL_TAG_USED
 #endif
-*/ 
+
 
 #ifndef PI
 const double PI = 3.14159265358979323846;
 #endif
 
 const double TWOPI = 2.0*PI;
-
+static int last_received_apriltag_type = 1;
 class ApriltagDetector
 {
 public:
@@ -70,6 +70,7 @@ public:
   int m_frames;
   vector<int> m_win; // [ x_min, x_max, y_min, y_max ]
   bool m_isTracking;
+  
  // bool m_usi
 
 
@@ -87,6 +88,8 @@ public:
   ros::Publisher m_using_smallTags_pub;
   
   ros::Subscriber m_CMD_FROM_DJI_sub;
+  ros::Subscriber m_mission_type_sub;
+ // ros::Subscriber m_used_apriltag_type_sub;
 #ifdef GIMBAL_USED
   ros::Subscriber m_gimbal_sub;
   dji_sdk::Gimbal m_gimbal;
@@ -96,9 +99,11 @@ public:
   //float last_flight_height
 
   uint8_t m_CMD_from_remote; 
+  bool m_mission_type;
   std::vector<cv::Point2f> points[2];
   vector<AprilTags::TagDetection> detections;
   bool usingSmallTags;
+  int m_used_apriltag_type;
 public:
   ApriltagDetector ( ros::NodeHandle& node ) :
     m_tagCodes ( AprilTags::tagCodes25h9 ),
@@ -121,8 +126,11 @@ public:
     m_frames ( 0 ),
     m_isTracking ( false ),
     m_CMD_from_remote('W'),
-    usingSmallTags(false)
-  { 
+    m_mission_type ( true ),
+//    m_used_apriltag_type(1),
+
+    usingSmallTags ( false )
+  {
 
     m_tagDetector = new AprilTags::TagDetector ( m_tagCodes );
     // cv::namedWindow("AprilTag", 1);
@@ -130,13 +138,15 @@ public:
     m_numOfDetection_pub = node.advertise<std_msgs::Int8> ( "apriltag_detection/numofdetections",10 );
     m_detectionPoints_pub = node.advertise<dji_sdk::DetectionPoints> ( "apriltag_detection/detectionPoints",10 );
 
-    m_using_smallTags_pub = node.advertise<std_msgs::Bool>("apriltag_detection/usingSmallTags",10);
+    m_using_smallTags_pub = node.advertise<std_msgs::Bool> ( "apriltag_detection/usingSmallTags",10 );
 #ifdef GIMBAL_USED
-    m_gimbal_sub = node.subscribe( "dji_sdk/gimbal",10,&ApriltagDetector::gimbal_read_callback,this );
+    m_gimbal_sub = node.subscribe ( "dji_sdk/gimbal",10,&ApriltagDetector::gimbal_read_callback,this );
 #endif
 
-    m_CMD_FROM_DJI_sub = node.subscribe( "dji_sdk/data_received_from_remote_device",10,&ApriltagDetector::cmd_from_mobile_callback,this );
+    m_CMD_FROM_DJI_sub = node.subscribe ( "dji_sdk/data_received_from_remote_device",10,&ApriltagDetector::cmd_from_mobile_callback,this );
+    m_mission_type_sub = node.subscribe ( "dji_sdk_demo/mission_type",10,&ApriltagDetector::mission_type_callback,this );
 
+//   m_used_apriltag_type_sub = node.subscribe("used_apriltag_type",10,&ApriltagDetector::apriltag_type_change_callback,this);
   }
 
   ~ApriltagDetector() {
@@ -177,7 +187,27 @@ public:
 void cmd_from_mobile_callback(const dji_sdk::TransparentTransmissionData & transData)
 {
   m_CMD_from_remote = transData.data.at(0);
+  if('d' == m_CMD_from_remote )
+          setTagCodes("36h11");
 }
+void mission_type_callback(const std_msgs::Bool &mission_data)
+{
+  m_mission_type=mission_data.data;
+}
+/*
+void apriltag_type_change_callback(const std_msgs::Int8 & used_type)
+{
+  m_used_apriltag_type = used_type.data;
+  if((int)used_type.data != last_received_apriltag_type)
+  {
+    if(1 == used_type.data)
+      setTagCodes("25h9");
+    else if(2== used_type.data)
+      setTagCodes("36h11");
+    else
+      setTagCodes("16h5");
+  }
+}*/
 
 };
 

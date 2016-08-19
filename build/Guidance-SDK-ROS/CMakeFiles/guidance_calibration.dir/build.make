@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 # Include any dependencies generated for this target.
 include Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/depend.make
@@ -53,18 +53,18 @@ include Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/progress.make
 include Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/flags.make
 
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/flags.make
-Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/Guidance_Calibration.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_1)
+Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/Guidance_Calibration.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o -c /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/Guidance_Calibration.cpp
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o -c /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/Guidance_Calibration.cpp
 
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.i"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/Guidance_Calibration.cpp > CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/Guidance_Calibration.cpp > CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.i
 
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.s"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/Guidance_Calibration.cpp -o CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/Guidance_Calibration.cpp -o CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.s
 
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o.requires:
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o.requires
@@ -76,18 +76,18 @@ Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cp
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o.provides.build: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o
 
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/flags.make
-Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_2)
+Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o -c /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.cpp
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o -c /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.cpp
 
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.i"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.cpp > CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.cpp > CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.i
 
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.s"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.cpp -o CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.cpp -o CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.s
 
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o.requires:
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o.requires
@@ -106,78 +106,78 @@ guidance_calibration_OBJECTS = \
 # External object files for target guidance_calibration
 guidance_calibration_EXTERNAL_OBJECTS =
 
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/libroscpp.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/libxmlrpcpp.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/libcv_bridge.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_videostab.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_superres.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_stitching.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_ocl.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_gpu.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_contrib.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/librosconsole.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/liblog4cxx.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/libroscpp_serialization.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/librostime.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/libcpp_common.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_system.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libpthread.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_videostab.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_superres.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_stitching.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_ocl.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_gpu.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_contrib.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/guidance_calibration.dir/link.txt --verbose=$(VERBOSE)
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/libroscpp.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/libxmlrpcpp.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/libcv_bridge.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_videostab.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_superres.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_stitching.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_ocl.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_gpu.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_contrib.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/librosconsole.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/liblog4cxx.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/libroscpp_serialization.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/librostime.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /opt/ros/indigo/lib/libcpp_common.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_system.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libpthread.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_videostab.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_superres.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_stitching.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_ocl.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_gpu.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_contrib.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration"
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/guidance_calibration.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build: /root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_calibration
+Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build: /root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_calibration
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build
 
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/requires: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o.requires
@@ -185,10 +185,10 @@ Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/requires: Guidance-SDK-ROS/
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/requires
 
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && $(CMAKE_COMMAND) -P CMakeFiles/guidance_calibration.dir/cmake_clean.cmake
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && $(CMAKE_COMMAND) -P CMakeFiles/guidance_calibration.dir/cmake_clean.cmake
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/clean
 
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge/src /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS /root/Documents/roswork/DJI2016_Challenge/build /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge_v1.0/src /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS /root/Documents/roswork/DJI2016_Challenge_v1.0/build /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/depend
 

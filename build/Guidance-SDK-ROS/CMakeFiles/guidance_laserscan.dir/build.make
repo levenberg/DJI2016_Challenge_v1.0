@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 # Include any dependencies generated for this target.
 include Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/depend.make
@@ -53,18 +53,18 @@ include Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/progress.make
 include Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/flags.make
 
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/flags.make
-Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/Guidance_Laserscan.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_1)
+Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/Guidance_Laserscan.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o -c /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/Guidance_Laserscan.cpp
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o -c /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/Guidance_Laserscan.cpp
 
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.i"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/Guidance_Laserscan.cpp > CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/Guidance_Laserscan.cpp > CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.i
 
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.s"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/Guidance_Laserscan.cpp -o CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/Guidance_Laserscan.cpp -o CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.s
 
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o.requires:
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o.requires
@@ -76,18 +76,18 @@ Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o.
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o.provides.build: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o
 
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/flags.make
-Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_2)
+Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o -c /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.cpp
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o -c /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.cpp
 
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.i"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.cpp > CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.cpp > CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.i
 
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.s"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.cpp -o CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.cpp -o CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.s
 
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o.requires:
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o.requires
@@ -106,78 +106,78 @@ guidance_laserscan_OBJECTS = \
 # External object files for target guidance_laserscan
 guidance_laserscan_EXTERNAL_OBJECTS =
 
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/libroscpp.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/libxmlrpcpp.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/libcv_bridge.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_videostab.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_superres.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_stitching.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_ocl.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_gpu.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_contrib.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/librosconsole.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/liblog4cxx.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/libroscpp_serialization.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/librostime.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/libcpp_common.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_system.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libpthread.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_videostab.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_superres.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_stitching.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_ocl.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_gpu.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_contrib.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/guidance_laserscan.dir/link.txt --verbose=$(VERBOSE)
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/libroscpp.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/libxmlrpcpp.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/libcv_bridge.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_videostab.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_superres.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_stitching.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_ocl.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_gpu.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_contrib.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/librosconsole.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/liblog4cxx.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/libroscpp_serialization.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/librostime.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /opt/ros/indigo/lib/libcpp_common.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_system.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libpthread.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_videostab.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_superres.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_stitching.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_ocl.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_gpu.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_contrib.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_photo.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_legacy.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_video.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_objdetect.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_ml.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_calib3d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_features2d.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_highgui.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_imgproc.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_flann.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: /usr/lib/arm-linux-gnueabihf/libopencv_core.so.2.4.8
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan"
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/guidance_laserscan.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build: /root/Documents/roswork/DJI2016_Challenge/devel/lib/guidance/guidance_laserscan
+Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build: /root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/guidance/guidance_laserscan
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build
 
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/requires: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o.requires
@@ -185,10 +185,10 @@ Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/requires: Guidance-SDK-ROS/CM
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/requires
 
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS && $(CMAKE_COMMAND) -P CMakeFiles/guidance_laserscan.dir/cmake_clean.cmake
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS && $(CMAKE_COMMAND) -P CMakeFiles/guidance_laserscan.dir/cmake_clean.cmake
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/clean
 
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge/src /root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS /root/Documents/roswork/DJI2016_Challenge/build /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge_v1.0/src /root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS /root/Documents/roswork/DJI2016_Challenge_v1.0/build /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/depend
 

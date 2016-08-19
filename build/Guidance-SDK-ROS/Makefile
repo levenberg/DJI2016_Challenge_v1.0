@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -123,14 +123,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS/CMakeFiles/progress.marks
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS/CMakeFiles/progress.marks
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/clean
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/clean
 .PHONY : clean
 
 # The main clean target
@@ -139,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -163,12 +163,12 @@ geometry_msgs_generate_messages_cpp: Guidance-SDK-ROS/CMakeFiles/geometry_msgs_g
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ geometry_msgs_generate_messages_lisp: Guidance-SDK-ROS/CMakeFiles/geometry_msgs_
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -191,12 +191,12 @@ geometry_msgs_generate_messages_py: Guidance-SDK-ROS/CMakeFiles/geometry_msgs_ge
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make Guidance-SDK-ROS/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/rule
 
 # Convenience name for target.
@@ -205,12 +205,12 @@ guidance_calibration: Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/rule
 
 # fast build rule for target.
 guidance_calibration/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build
 .PHONY : guidance_calibration/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/rule
 
 # Convenience name for target.
@@ -219,12 +219,12 @@ guidance_calibration_stereo: Guidance-SDK-ROS/CMakeFiles/guidance_calibration_st
 
 # fast build rule for target.
 guidance_calibration_stereo/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build
 .PHONY : guidance_calibration_stereo/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/rule
 
 # Convenience name for target.
@@ -233,12 +233,12 @@ guidance_depthimage: Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/rule
 
 # fast build rule for target.
 guidance_depthimage/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build
 .PHONY : guidance_depthimage/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/rule
 
 # Convenience name for target.
@@ -247,12 +247,12 @@ guidance_laserscan: Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/rule
 
 # fast build rule for target.
 guidance_laserscan/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build
 .PHONY : guidance_laserscan/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -261,12 +261,12 @@ roscpp_generate_messages_cpp: Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messag
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -275,12 +275,12 @@ roscpp_generate_messages_lisp: Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messa
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -289,12 +289,12 @@ roscpp_generate_messages_py: Guidance-SDK-ROS/CMakeFiles/roscpp_generate_message
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_py.dir/build.make Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_py.dir/build.make Guidance-SDK-ROS/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ rosgraph_msgs_generate_messages_cpp: Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_g
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -317,12 +317,12 @@ rosgraph_msgs_generate_messages_lisp: Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -331,12 +331,12 @@ rosgraph_msgs_generate_messages_py: Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_ge
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make Guidance-SDK-ROS/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -345,12 +345,12 @@ sensor_msgs_generate_messages_cpp: Guidance-SDK-ROS/CMakeFiles/sensor_msgs_gener
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ sensor_msgs_generate_messages_lisp: Guidance-SDK-ROS/CMakeFiles/sensor_msgs_gene
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -373,12 +373,12 @@ sensor_msgs_generate_messages_py: Guidance-SDK-ROS/CMakeFiles/sensor_msgs_genera
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make Guidance-SDK-ROS/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ std_msgs_generate_messages_cpp: Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_me
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -401,12 +401,12 @@ std_msgs_generate_messages_lisp: Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_m
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -415,7 +415,7 @@ std_msgs_generate_messages_py: Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_mes
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_py.dir/build.make Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_py.dir/build.make Guidance-SDK-ROS/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 src/DJI_utility.o: src/DJI_utility.cpp.o
@@ -423,10 +423,10 @@ src/DJI_utility.o: src/DJI_utility.cpp.o
 
 # target to build an object file
 src/DJI_utility.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/DJI_utility.cpp.o
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/DJI_utility.cpp.o
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/DJI_utility.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/DJI_utility.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o
 .PHONY : src/DJI_utility.cpp.o
 
 src/DJI_utility.i: src/DJI_utility.cpp.i
@@ -434,10 +434,10 @@ src/DJI_utility.i: src/DJI_utility.cpp.i
 
 # target to preprocess a source file
 src/DJI_utility.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.i
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/DJI_utility.cpp.i
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/DJI_utility.cpp.i
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/DJI_utility.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/DJI_utility.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.i
 .PHONY : src/DJI_utility.cpp.i
 
 src/DJI_utility.s: src/DJI_utility.cpp.s
@@ -445,10 +445,10 @@ src/DJI_utility.s: src/DJI_utility.cpp.s
 
 # target to generate assembly for a file
 src/DJI_utility.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.s
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/DJI_utility.cpp.s
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/DJI_utility.cpp.s
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/DJI_utility.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/DJI_utility.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/DJI_utility.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.s
 .PHONY : src/DJI_utility.cpp.s
 
 src/GuidanceCalibration.o: src/GuidanceCalibration.cpp.o
@@ -456,7 +456,7 @@ src/GuidanceCalibration.o: src/GuidanceCalibration.cpp.o
 
 # target to build an object file
 src/GuidanceCalibration.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/GuidanceCalibration.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/GuidanceCalibration.cpp.o
 .PHONY : src/GuidanceCalibration.cpp.o
 
 src/GuidanceCalibration.i: src/GuidanceCalibration.cpp.i
@@ -464,7 +464,7 @@ src/GuidanceCalibration.i: src/GuidanceCalibration.cpp.i
 
 # target to preprocess a source file
 src/GuidanceCalibration.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/GuidanceCalibration.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/GuidanceCalibration.cpp.i
 .PHONY : src/GuidanceCalibration.cpp.i
 
 src/GuidanceCalibration.s: src/GuidanceCalibration.cpp.s
@@ -472,7 +472,7 @@ src/GuidanceCalibration.s: src/GuidanceCalibration.cpp.s
 
 # target to generate assembly for a file
 src/GuidanceCalibration.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/GuidanceCalibration.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration_stereo.dir/src/GuidanceCalibration.cpp.s
 .PHONY : src/GuidanceCalibration.cpp.s
 
 src/Guidance_Calibration.o: src/Guidance_Calibration.cpp.o
@@ -480,7 +480,7 @@ src/Guidance_Calibration.o: src/Guidance_Calibration.cpp.o
 
 # target to build an object file
 src/Guidance_Calibration.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.o
 .PHONY : src/Guidance_Calibration.cpp.o
 
 src/Guidance_Calibration.i: src/Guidance_Calibration.cpp.i
@@ -488,7 +488,7 @@ src/Guidance_Calibration.i: src/Guidance_Calibration.cpp.i
 
 # target to preprocess a source file
 src/Guidance_Calibration.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.i
 .PHONY : src/Guidance_Calibration.cpp.i
 
 src/Guidance_Calibration.s: src/Guidance_Calibration.cpp.s
@@ -496,7 +496,7 @@ src/Guidance_Calibration.s: src/Guidance_Calibration.cpp.s
 
 # target to generate assembly for a file
 src/Guidance_Calibration.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_calibration.dir/src/Guidance_Calibration.cpp.s
 .PHONY : src/Guidance_Calibration.cpp.s
 
 src/Guidance_Depthimage.o: src/Guidance_Depthimage.cpp.o
@@ -504,7 +504,7 @@ src/Guidance_Depthimage.o: src/Guidance_Depthimage.cpp.o
 
 # target to build an object file
 src/Guidance_Depthimage.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/Guidance_Depthimage.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/Guidance_Depthimage.cpp.o
 .PHONY : src/Guidance_Depthimage.cpp.o
 
 src/Guidance_Depthimage.i: src/Guidance_Depthimage.cpp.i
@@ -512,7 +512,7 @@ src/Guidance_Depthimage.i: src/Guidance_Depthimage.cpp.i
 
 # target to preprocess a source file
 src/Guidance_Depthimage.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/Guidance_Depthimage.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/Guidance_Depthimage.cpp.i
 .PHONY : src/Guidance_Depthimage.cpp.i
 
 src/Guidance_Depthimage.s: src/Guidance_Depthimage.cpp.s
@@ -520,7 +520,7 @@ src/Guidance_Depthimage.s: src/Guidance_Depthimage.cpp.s
 
 # target to generate assembly for a file
 src/Guidance_Depthimage.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/Guidance_Depthimage.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_depthimage.dir/src/Guidance_Depthimage.cpp.s
 .PHONY : src/Guidance_Depthimage.cpp.s
 
 src/Guidance_Laserscan.o: src/Guidance_Laserscan.cpp.o
@@ -528,7 +528,7 @@ src/Guidance_Laserscan.o: src/Guidance_Laserscan.cpp.o
 
 # target to build an object file
 src/Guidance_Laserscan.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o
 .PHONY : src/Guidance_Laserscan.cpp.o
 
 src/Guidance_Laserscan.i: src/Guidance_Laserscan.cpp.i
@@ -536,7 +536,7 @@ src/Guidance_Laserscan.i: src/Guidance_Laserscan.cpp.i
 
 # target to preprocess a source file
 src/Guidance_Laserscan.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.i
 .PHONY : src/Guidance_Laserscan.cpp.i
 
 src/Guidance_Laserscan.s: src/Guidance_Laserscan.cpp.s
@@ -544,7 +544,7 @@ src/Guidance_Laserscan.s: src/Guidance_Laserscan.cpp.s
 
 # target to generate assembly for a file
 src/Guidance_Laserscan.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/build.make Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.s
 .PHONY : src/Guidance_Laserscan.cpp.s
 
 # Help Target
@@ -605,6 +605,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

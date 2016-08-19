@@ -21,7 +21,7 @@
 #include <dji_sdk/WaypointList.h>
 #include <dji_sdk/TransparentTransmissionData.h>
 #include <dji_sdk/TimeStamp.h>
-
+#include <dji_sdk/Reldist.h>
 //srvs
 #include <dji_sdk/Activation.h>
 #include <dji_sdk/AttitudeControl.h>

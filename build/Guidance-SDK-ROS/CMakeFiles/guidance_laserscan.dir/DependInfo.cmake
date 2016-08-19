@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.cpp" "/root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o"
-  "/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/Guidance_Laserscan.cpp" "/root/Documents/roswork/DJI2016_Challenge/build/Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o"
+  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.cpp" "/root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/DJI_utility.cpp.o"
+  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/Guidance_Laserscan.cpp" "/root/Documents/roswork/DJI2016_Challenge_v1.0/build/Guidance-SDK-ROS/CMakeFiles/guidance_laserscan.dir/src/Guidance_Laserscan.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,7 +24,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/include/opencv"
   "/opt/ros/indigo/include"
-  "/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/include"
+  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

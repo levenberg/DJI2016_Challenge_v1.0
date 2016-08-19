@@ -1,8 +1,8 @@
-# Install script for directory: /root/Documents/roswork/DJI2016_Challenge/src/m100_tf
+# Install script for directory: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_tf
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/root/Documents/roswork/DJI2016_Challenge/install")
+  SET(CMAKE_INSTALL_PREFIX "/root/Documents/roswork/DJI2016_Challenge_v1.0/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ IF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     STRING(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   ELSE(BUILD_TYPE)
-    SET(CMAKE_INSTALL_CONFIG_NAME "Release")
+    SET(CMAKE_INSTALL_CONFIG_NAME "")
   ENDIF(BUILD_TYPE)
   MESSAGE(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 ENDIF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/Documents/roswork/DJI2016_Challenge/build/m100_tf/catkin_generated/installspace/m100_tf.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_tf/catkin_generated/installspace/m100_tf.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/m100_tf/cmake" TYPE FILE FILES
-    "/root/Documents/roswork/DJI2016_Challenge/build/m100_tf/catkin_generated/installspace/m100_tfConfig.cmake"
-    "/root/Documents/roswork/DJI2016_Challenge/build/m100_tf/catkin_generated/installspace/m100_tfConfig-version.cmake"
+    "/root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_tf/catkin_generated/installspace/m100_tfConfig.cmake"
+    "/root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_tf/catkin_generated/installspace/m100_tfConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/m100_tf" TYPE FILE FILES "/root/Documents/roswork/DJI2016_Challenge/src/m100_tf/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/m100_tf" TYPE FILE FILES "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_tf/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

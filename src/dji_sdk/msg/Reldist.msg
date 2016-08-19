@@ -7,5 +7,7 @@ float32 roll
 float32 pitch
 float32 yaw
 float32 norm
-float32 gimbal_inc
+float32 height_with_gimbal
+float32 gimbal_pitch_inc
+float32 gimbal_yaw_inc
 bool istracked

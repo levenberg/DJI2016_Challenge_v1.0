@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 SET(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/gtest")
-SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/root/Documents/roswork/DJI2016_Challenge/build")
+SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/root/Documents/roswork/DJI2016_Challenge_v1.0/build")
 
 # Force unix paths in dependencies.
 SET(CMAKE_FORCE_UNIX_PATHS 1)

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -123,14 +123,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/progress.marks
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk/CMakeFiles/progress.marks
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/clean
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/clean
 .PHONY : clean
 
 # The main clean target
@@ -139,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3GPS.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3GPS.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3GPS.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3GPS.dir/rule
 
 # Convenience name for target.
@@ -163,12 +163,12 @@ _dji_sdk_generate_messages_check_deps_A3GPS: dji_sdk/CMakeFiles/_dji_sdk_generat
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_A3GPS/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3GPS.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3GPS.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3GPS.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3GPS.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_A3GPS/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3RTK.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3RTK.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3RTK.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3RTK.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ _dji_sdk_generate_messages_check_deps_A3RTK: dji_sdk/CMakeFiles/_dji_sdk_generat
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_A3RTK/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3RTK.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3RTK.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3RTK.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_A3RTK.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_A3RTK/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Acceleration.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Acceleration.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Acceleration.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Acceleration.dir/rule
 
 # Convenience name for target.
@@ -191,12 +191,12 @@ _dji_sdk_generate_messages_check_deps_Acceleration: dji_sdk/CMakeFiles/_dji_sdk_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_Acceleration/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Acceleration.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Acceleration.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Acceleration.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Acceleration.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_Acceleration/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/rule
 
 # Convenience name for target.
@@ -205,12 +205,12 @@ _dji_sdk_generate_messages_check_deps_Activation: dji_sdk/CMakeFiles/_dji_sdk_ge
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_Activation/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Activation.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_Activation/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeControl.dir/rule
 
 # Convenience name for target.
@@ -219,12 +219,12 @@ _dji_sdk_generate_messages_check_deps_AttitudeControl: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_AttitudeControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_AttitudeControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/rule
 
 # Convenience name for target.
@@ -233,12 +233,12 @@ _dji_sdk_generate_messages_check_deps_AttitudeQuaternion: dji_sdk/CMakeFiles/_dj
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_AttitudeQuaternion/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_AttitudeQuaternion.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_AttitudeQuaternion/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_CameraActionControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_CameraActionControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_CameraActionControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_CameraActionControl.dir/rule
 
 # Convenience name for target.
@@ -247,12 +247,12 @@ _dji_sdk_generate_messages_check_deps_CameraActionControl: dji_sdk/CMakeFiles/_d
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_CameraActionControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_CameraActionControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_CameraActionControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_CameraActionControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_CameraActionControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_CameraActionControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/rule
 
 # Convenience name for target.
@@ -261,12 +261,12 @@ _dji_sdk_generate_messages_check_deps_Compass: dji_sdk/CMakeFiles/_dji_sdk_gener
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_Compass/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Compass.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_Compass/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/rule
 
 # Convenience name for target.
@@ -275,12 +275,12 @@ _dji_sdk_generate_messages_check_deps_DetectionPoints: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_DetectionPoints/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DetectionPoints.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_DetectionPoints/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/rule
 
 # Convenience name for target.
@@ -289,12 +289,12 @@ _dji_sdk_generate_messages_check_deps_DroneArmControl: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_DroneArmControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneArmControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_DroneArmControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskAction.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskAction.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskAction.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskAction.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ _dji_sdk_generate_messages_check_deps_DroneTaskAction: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_DroneTaskAction/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskAction.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskAction.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_DroneTaskAction/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/rule
 
 # Convenience name for target.
@@ -317,12 +317,12 @@ _dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback: dji_sdk/CMakeFile
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_DroneTaskActionFeedback/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/rule
 
 # Convenience name for target.
@@ -331,12 +331,12 @@ _dji_sdk_generate_messages_check_deps_DroneTaskActionGoal: dji_sdk/CMakeFiles/_d
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_DroneTaskActionGoal/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionGoal.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_DroneTaskActionGoal/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionResult.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionResult.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionResult.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionResult.dir/rule
 
 # Convenience name for target.
@@ -345,12 +345,12 @@ _dji_sdk_generate_messages_check_deps_DroneTaskActionResult: dji_sdk/CMakeFiles/
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_DroneTaskActionResult/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionResult.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskActionResult.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_DroneTaskActionResult/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskControl.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ _dji_sdk_generate_messages_check_deps_DroneTaskControl: dji_sdk/CMakeFiles/_dji_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_DroneTaskControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_DroneTaskControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskFeedback.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskFeedback.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskFeedback.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskFeedback.dir/rule
 
 # Convenience name for target.
@@ -373,12 +373,12 @@ _dji_sdk_generate_messages_check_deps_DroneTaskFeedback: dji_sdk/CMakeFiles/_dji
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_DroneTaskFeedback/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskFeedback.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskFeedback.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_DroneTaskFeedback/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskGoal.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskGoal.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskGoal.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskGoal.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ _dji_sdk_generate_messages_check_deps_DroneTaskGoal: dji_sdk/CMakeFiles/_dji_sdk
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_DroneTaskGoal/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskGoal.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskGoal.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_DroneTaskGoal/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskResult.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskResult.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskResult.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskResult.dir/rule
 
 # Convenience name for target.
@@ -401,12 +401,12 @@ _dji_sdk_generate_messages_check_deps_DroneTaskResult: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_DroneTaskResult/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskResult.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_DroneTaskResult.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_DroneTaskResult/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_FlightControlInfo.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_FlightControlInfo.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_FlightControlInfo.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_FlightControlInfo.dir/rule
 
 # Convenience name for target.
@@ -415,12 +415,12 @@ _dji_sdk_generate_messages_check_deps_FlightControlInfo: dji_sdk/CMakeFiles/_dji
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_FlightControlInfo/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_FlightControlInfo.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_FlightControlInfo.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_FlightControlInfo.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_FlightControlInfo.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_FlightControlInfo/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Gimbal.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Gimbal.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Gimbal.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Gimbal.dir/rule
 
 # Convenience name for target.
@@ -429,12 +429,12 @@ _dji_sdk_generate_messages_check_deps_Gimbal: dji_sdk/CMakeFiles/_dji_sdk_genera
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_Gimbal/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Gimbal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Gimbal.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Gimbal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Gimbal.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_Gimbal/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalAngleControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalAngleControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalAngleControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalAngleControl.dir/rule
 
 # Convenience name for target.
@@ -443,12 +443,12 @@ _dji_sdk_generate_messages_check_deps_GimbalAngleControl: dji_sdk/CMakeFiles/_dj
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_GimbalAngleControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalAngleControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalAngleControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalAngleControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalAngleControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_GimbalAngleControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalSpeedControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalSpeedControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalSpeedControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalSpeedControl.dir/rule
 
 # Convenience name for target.
@@ -457,12 +457,12 @@ _dji_sdk_generate_messages_check_deps_GimbalSpeedControl: dji_sdk/CMakeFiles/_dj
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_GimbalSpeedControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalSpeedControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalSpeedControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalSpeedControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GimbalSpeedControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_GimbalSpeedControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/rule
 
 # Convenience name for target.
@@ -471,12 +471,12 @@ _dji_sdk_generate_messages_check_deps_GlobalPosition: dji_sdk/CMakeFiles/_dji_sd
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_GlobalPosition/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_GlobalPosition/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionControl.dir/rule
 
 # Convenience name for target.
@@ -485,12 +485,12 @@ _dji_sdk_generate_messages_check_deps_GlobalPositionControl: dji_sdk/CMakeFiles/
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_GlobalPositionControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_GlobalPositionControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction.dir/rule
 
 # Convenience name for target.
@@ -499,12 +499,12 @@ _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction: dji_sdk/CM
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationAction/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionFeedback.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionFeedback.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionFeedback.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionFeedback.dir/rule
 
 # Convenience name for target.
@@ -513,12 +513,12 @@ _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionFeedback: dj
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionFeedback/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionFeedback.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionFeedback.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionFeedback/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/rule
 
 # Convenience name for target.
@@ -527,12 +527,12 @@ _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal: dji_sd
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionGoal/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionResult.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionResult.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionResult.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionResult.dir/rule
 
 # Convenience name for target.
@@ -541,12 +541,12 @@ _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionResult: dji_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionResult/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionResult.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionResult.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationActionResult/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback.dir/rule
 
 # Convenience name for target.
@@ -555,12 +555,12 @@ _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback: dji_sdk/
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationFeedback/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationGoal.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationGoal.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationGoal.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationGoal.dir/rule
 
 # Convenience name for target.
@@ -569,12 +569,12 @@ _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationGoal: dji_sdk/CMak
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationGoal/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationGoal.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationGoal.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationGoal/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationResult.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationResult.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationResult.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationResult.dir/rule
 
 # Convenience name for target.
@@ -583,12 +583,12 @@ _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationResult: dji_sdk/CM
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationResult/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationResult.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPositionNavigationResult.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_GlobalPositionNavigationResult/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/rule
 
 # Convenience name for target.
@@ -597,12 +597,12 @@ _dji_sdk_generate_messages_check_deps_LocalPosition: dji_sdk/CMakeFiles/_dji_sdk
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_LocalPosition/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPosition.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_LocalPosition/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/rule
 
 # Convenience name for target.
@@ -611,12 +611,12 @@ _dji_sdk_generate_messages_check_deps_LocalPositionControl: dji_sdk/CMakeFiles/_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_LocalPositionControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_LocalPositionControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationAction.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationAction.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationAction.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationAction.dir/rule
 
 # Convenience name for target.
@@ -625,12 +625,12 @@ _dji_sdk_generate_messages_check_deps_LocalPositionNavigationAction: dji_sdk/CMa
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_LocalPositionNavigationAction/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationAction.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationAction.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_LocalPositionNavigationAction/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback.dir/rule
 
 # Convenience name for target.
@@ -639,12 +639,12 @@ _dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback: dji
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionFeedback/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/rule
 
 # Convenience name for target.
@@ -653,12 +653,12 @@ _dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal: dji_sdk
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionGoal/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionResult.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionResult.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionResult.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionResult.dir/rule
 
 # Convenience name for target.
@@ -667,12 +667,12 @@ _dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionResult: dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionResult/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionResult.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionResult.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_LocalPositionNavigationActionResult/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationFeedback.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationFeedback.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationFeedback.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationFeedback.dir/rule
 
 # Convenience name for target.
@@ -681,12 +681,12 @@ _dji_sdk_generate_messages_check_deps_LocalPositionNavigationFeedback: dji_sdk/C
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_LocalPositionNavigationFeedback/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationFeedback.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationFeedback.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_LocalPositionNavigationFeedback/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationGoal.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationGoal.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationGoal.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationGoal.dir/rule
 
 # Convenience name for target.
@@ -695,12 +695,12 @@ _dji_sdk_generate_messages_check_deps_LocalPositionNavigationGoal: dji_sdk/CMake
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_LocalPositionNavigationGoal/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationGoal.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationGoal.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_LocalPositionNavigationGoal/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationResult.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationResult.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationResult.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationResult.dir/rule
 
 # Convenience name for target.
@@ -709,12 +709,12 @@ _dji_sdk_generate_messages_check_deps_LocalPositionNavigationResult: dji_sdk/CMa
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_LocalPositionNavigationResult/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationResult.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_LocalPositionNavigationResult.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_LocalPositionNavigationResult/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MessageFrequencyControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MessageFrequencyControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MessageFrequencyControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MessageFrequencyControl.dir/rule
 
 # Convenience name for target.
@@ -723,12 +723,12 @@ _dji_sdk_generate_messages_check_deps_MessageFrequencyControl: dji_sdk/CMakeFile
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MessageFrequencyControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MessageFrequencyControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MessageFrequencyControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MessageFrequencyControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MessageFrequencyControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MessageFrequencyControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionCancel.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionCancel.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionCancel.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionCancel.dir/rule
 
 # Convenience name for target.
@@ -737,12 +737,12 @@ _dji_sdk_generate_messages_check_deps_MissionCancel: dji_sdk/CMakeFiles/_dji_sdk
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionCancel/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionCancel.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionCancel.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionCancel.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionCancel.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionCancel/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpAction.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpAction.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpAction.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpAction.dir/rule
 
 # Convenience name for target.
@@ -751,12 +751,12 @@ _dji_sdk_generate_messages_check_deps_MissionEventWpAction: dji_sdk/CMakeFiles/_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionEventWpAction/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpAction.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpAction.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionEventWpAction/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpReach.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpReach.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpReach.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpReach.dir/rule
 
 # Convenience name for target.
@@ -765,12 +765,12 @@ _dji_sdk_generate_messages_check_deps_MissionEventWpReach: dji_sdk/CMakeFiles/_d
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionEventWpReach/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpReach.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpReach.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpReach.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpReach.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionEventWpReach/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/rule
 
 # Convenience name for target.
@@ -779,12 +779,12 @@ _dji_sdk_generate_messages_check_deps_MissionEventWpUpload: dji_sdk/CMakeFiles/_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionEventWpUpload/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionEventWpUpload.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionEventWpUpload/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmSetTarget.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmSetTarget.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmSetTarget.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmSetTarget.dir/rule
 
 # Convenience name for target.
@@ -793,12 +793,12 @@ _dji_sdk_generate_messages_check_deps_MissionFmSetTarget: dji_sdk/CMakeFiles/_dj
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionFmSetTarget/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmSetTarget.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmSetTarget.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmSetTarget.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmSetTarget.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionFmSetTarget/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmUpload.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmUpload.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmUpload.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmUpload.dir/rule
 
 # Convenience name for target.
@@ -807,12 +807,12 @@ _dji_sdk_generate_messages_check_deps_MissionFmUpload: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionFmUpload/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmUpload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmUpload.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmUpload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFmUpload.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionFmUpload/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTarget.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTarget.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTarget.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTarget.dir/rule
 
 # Convenience name for target.
@@ -821,12 +821,12 @@ _dji_sdk_generate_messages_check_deps_MissionFollowmeTarget: dji_sdk/CMakeFiles/
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionFollowmeTarget/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTarget.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTarget.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTarget.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTarget.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionFollowmeTarget/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/rule
 
 # Convenience name for target.
@@ -835,12 +835,12 @@ _dji_sdk_generate_messages_check_deps_MissionFollowmeTask: dji_sdk/CMakeFiles/_d
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionFollowmeTask/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionFollowmeTask.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionFollowmeTask/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHotpointTask.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHotpointTask.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHotpointTask.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHotpointTask.dir/rule
 
 # Convenience name for target.
@@ -849,12 +849,12 @@ _dji_sdk_generate_messages_check_deps_MissionHotpointTask: dji_sdk/CMakeFiles/_d
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionHotpointTask/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHotpointTask.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHotpointTask.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHotpointTask.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHotpointTask.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionHotpointTask/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpDownload.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpDownload.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpDownload.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpDownload.dir/rule
 
 # Convenience name for target.
@@ -863,12 +863,12 @@ _dji_sdk_generate_messages_check_deps_MissionHpDownload: dji_sdk/CMakeFiles/_dji
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionHpDownload/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpDownload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpDownload.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpDownload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpDownload.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionHpDownload/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpResetYaw.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpResetYaw.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpResetYaw.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpResetYaw.dir/rule
 
 # Convenience name for target.
@@ -877,12 +877,12 @@ _dji_sdk_generate_messages_check_deps_MissionHpResetYaw: dji_sdk/CMakeFiles/_dji
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionHpResetYaw/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpResetYaw.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpResetYaw.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpResetYaw.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpResetYaw.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionHpResetYaw/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetRadius.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetRadius.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetRadius.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetRadius.dir/rule
 
 # Convenience name for target.
@@ -891,12 +891,12 @@ _dji_sdk_generate_messages_check_deps_MissionHpSetRadius: dji_sdk/CMakeFiles/_dj
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionHpSetRadius/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetRadius.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetRadius.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetRadius.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetRadius.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionHpSetRadius/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetSpeed.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetSpeed.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetSpeed.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetSpeed.dir/rule
 
 # Convenience name for target.
@@ -905,12 +905,12 @@ _dji_sdk_generate_messages_check_deps_MissionHpSetSpeed: dji_sdk/CMakeFiles/_dji
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionHpSetSpeed/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetSpeed.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetSpeed.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetSpeed.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpSetSpeed.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionHpSetSpeed/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpUpload.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpUpload.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpUpload.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpUpload.dir/rule
 
 # Convenience name for target.
@@ -919,12 +919,12 @@ _dji_sdk_generate_messages_check_deps_MissionHpUpload: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionHpUpload/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpUpload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpUpload.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpUpload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionHpUpload.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionHpUpload/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPause.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPause.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPause.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPause.dir/rule
 
 # Convenience name for target.
@@ -933,12 +933,12 @@ _dji_sdk_generate_messages_check_deps_MissionPause: dji_sdk/CMakeFiles/_dji_sdk_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionPause/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPause.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPause.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPause.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPause.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionPause/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPushInfo.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPushInfo.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPushInfo.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPushInfo.dir/rule
 
 # Convenience name for target.
@@ -947,12 +947,12 @@ _dji_sdk_generate_messages_check_deps_MissionPushInfo: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionPushInfo/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPushInfo.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPushInfo.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPushInfo.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionPushInfo.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionPushInfo/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStart.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStart.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStart.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStart.dir/rule
 
 # Convenience name for target.
@@ -961,12 +961,12 @@ _dji_sdk_generate_messages_check_deps_MissionStart: dji_sdk/CMakeFiles/_dji_sdk_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionStart/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStart.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStart.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStart.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStart.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionStart/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/rule
 
 # Convenience name for target.
@@ -975,12 +975,12 @@ _dji_sdk_generate_messages_check_deps_MissionStatusFollowme: dji_sdk/CMakeFiles/
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionStatusFollowme/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusFollowme.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionStatusFollowme/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusHotpoint.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusHotpoint.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusHotpoint.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusHotpoint.dir/rule
 
 # Convenience name for target.
@@ -989,12 +989,12 @@ _dji_sdk_generate_messages_check_deps_MissionStatusHotpoint: dji_sdk/CMakeFiles/
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionStatusHotpoint/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusHotpoint.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusHotpoint.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusHotpoint.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusHotpoint.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionStatusHotpoint/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusOther.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusOther.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusOther.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusOther.dir/rule
 
 # Convenience name for target.
@@ -1003,12 +1003,12 @@ _dji_sdk_generate_messages_check_deps_MissionStatusOther: dji_sdk/CMakeFiles/_dj
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionStatusOther/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusOther.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusOther.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusOther.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusOther.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionStatusOther/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusWaypoint.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusWaypoint.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusWaypoint.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusWaypoint.dir/rule
 
 # Convenience name for target.
@@ -1017,12 +1017,12 @@ _dji_sdk_generate_messages_check_deps_MissionStatusWaypoint: dji_sdk/CMakeFiles/
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionStatusWaypoint/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusWaypoint.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusWaypoint.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusWaypoint.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionStatusWaypoint.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionStatusWaypoint/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypoint.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypoint.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypoint.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypoint.dir/rule
 
 # Convenience name for target.
@@ -1031,12 +1031,12 @@ _dji_sdk_generate_messages_check_deps_MissionWaypoint: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionWaypoint/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypoint.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypoint.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypoint.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypoint.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionWaypoint/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointAction.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointAction.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointAction.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointAction.dir/rule
 
 # Convenience name for target.
@@ -1045,12 +1045,12 @@ _dji_sdk_generate_messages_check_deps_MissionWaypointAction: dji_sdk/CMakeFiles/
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionWaypointAction/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointAction.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointAction.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionWaypointAction/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointTask.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointTask.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointTask.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointTask.dir/rule
 
 # Convenience name for target.
@@ -1059,12 +1059,12 @@ _dji_sdk_generate_messages_check_deps_MissionWaypointTask: dji_sdk/CMakeFiles/_d
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionWaypointTask/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointTask.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointTask.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointTask.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWaypointTask.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionWaypointTask/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpDownload.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpDownload.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpDownload.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpDownload.dir/rule
 
 # Convenience name for target.
@@ -1073,12 +1073,12 @@ _dji_sdk_generate_messages_check_deps_MissionWpDownload: dji_sdk/CMakeFiles/_dji
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionWpDownload/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpDownload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpDownload.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpDownload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpDownload.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionWpDownload/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpGetSpeed.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpGetSpeed.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpGetSpeed.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpGetSpeed.dir/rule
 
 # Convenience name for target.
@@ -1087,12 +1087,12 @@ _dji_sdk_generate_messages_check_deps_MissionWpGetSpeed: dji_sdk/CMakeFiles/_dji
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionWpGetSpeed/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpGetSpeed.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpGetSpeed.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpGetSpeed.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpGetSpeed.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionWpGetSpeed/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpSetSpeed.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpSetSpeed.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpSetSpeed.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpSetSpeed.dir/rule
 
 # Convenience name for target.
@@ -1101,12 +1101,12 @@ _dji_sdk_generate_messages_check_deps_MissionWpSetSpeed: dji_sdk/CMakeFiles/_dji
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionWpSetSpeed/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpSetSpeed.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpSetSpeed.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpSetSpeed.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpSetSpeed.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionWpSetSpeed/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpUpload.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpUpload.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpUpload.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpUpload.dir/rule
 
 # Convenience name for target.
@@ -1115,12 +1115,12 @@ _dji_sdk_generate_messages_check_deps_MissionWpUpload: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_MissionWpUpload/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpUpload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpUpload.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpUpload.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_MissionWpUpload.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_MissionWpUpload/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_PowerStatus.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_PowerStatus.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_PowerStatus.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_PowerStatus.dir/rule
 
 # Convenience name for target.
@@ -1129,12 +1129,12 @@ _dji_sdk_generate_messages_check_deps_PowerStatus: dji_sdk/CMakeFiles/_dji_sdk_g
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_PowerStatus/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_PowerStatus.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_PowerStatus.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_PowerStatus.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_PowerStatus.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_PowerStatus/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/rule
 
 # Convenience name for target.
@@ -1143,12 +1143,12 @@ _dji_sdk_generate_messages_check_deps_RCChannels: dji_sdk/CMakeFiles/_dji_sdk_ge
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_RCChannels/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_RCChannels.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_RCChannels/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/rule
 
 # Convenience name for target.
@@ -1157,12 +1157,12 @@ _dji_sdk_generate_messages_check_deps_Reldist: dji_sdk/CMakeFiles/_dji_sdk_gener
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_Reldist/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Reldist.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_Reldist/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/rule
 
 # Convenience name for target.
@@ -1171,12 +1171,12 @@ _dji_sdk_generate_messages_check_deps_SDKPermissionControl: dji_sdk/CMakeFiles/_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_SDKPermissionControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SDKPermissionControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_SDKPermissionControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/rule
 
 # Convenience name for target.
@@ -1185,12 +1185,12 @@ _dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice: dji_sdk/CMakeFiles
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_SendDataToRemoteDevice/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SyncFlagControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SyncFlagControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SyncFlagControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SyncFlagControl.dir/rule
 
 # Convenience name for target.
@@ -1199,12 +1199,12 @@ _dji_sdk_generate_messages_check_deps_SyncFlagControl: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_SyncFlagControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SyncFlagControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SyncFlagControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SyncFlagControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_SyncFlagControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_SyncFlagControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TimeStamp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TimeStamp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TimeStamp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TimeStamp.dir/rule
 
 # Convenience name for target.
@@ -1213,12 +1213,12 @@ _dji_sdk_generate_messages_check_deps_TimeStamp: dji_sdk/CMakeFiles/_dji_sdk_gen
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_TimeStamp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TimeStamp.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TimeStamp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TimeStamp.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TimeStamp.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_TimeStamp/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TransparentTransmissionData.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TransparentTransmissionData.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TransparentTransmissionData.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TransparentTransmissionData.dir/rule
 
 # Convenience name for target.
@@ -1227,12 +1227,12 @@ _dji_sdk_generate_messages_check_deps_TransparentTransmissionData: dji_sdk/CMake
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_TransparentTransmissionData/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TransparentTransmissionData.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TransparentTransmissionData.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TransparentTransmissionData.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_TransparentTransmissionData.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_TransparentTransmissionData/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Velocity.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Velocity.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Velocity.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Velocity.dir/rule
 
 # Convenience name for target.
@@ -1241,12 +1241,12 @@ _dji_sdk_generate_messages_check_deps_Velocity: dji_sdk/CMakeFiles/_dji_sdk_gene
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_Velocity/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Velocity.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Velocity.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Velocity.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Velocity.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_Velocity/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/rule
 
 # Convenience name for target.
@@ -1255,12 +1255,12 @@ _dji_sdk_generate_messages_check_deps_VelocityControl: dji_sdk/CMakeFiles/_dji_s
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_VelocityControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VelocityControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_VelocityControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/rule
 
 # Convenience name for target.
@@ -1269,12 +1269,12 @@ _dji_sdk_generate_messages_check_deps_VersionCheck: dji_sdk/CMakeFiles/_dji_sdk_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_VersionCheck/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VersionCheck.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_VersionCheck/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCDataControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCDataControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCDataControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCDataControl.dir/rule
 
 # Convenience name for target.
@@ -1283,12 +1283,12 @@ _dji_sdk_generate_messages_check_deps_VirtualRCDataControl: dji_sdk/CMakeFiles/_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_VirtualRCDataControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCDataControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCDataControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCDataControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCDataControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_VirtualRCDataControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCEnableControl.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCEnableControl.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCEnableControl.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCEnableControl.dir/rule
 
 # Convenience name for target.
@@ -1297,12 +1297,12 @@ _dji_sdk_generate_messages_check_deps_VirtualRCEnableControl: dji_sdk/CMakeFiles
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_VirtualRCEnableControl/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCEnableControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCEnableControl.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCEnableControl.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_VirtualRCEnableControl.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_VirtualRCEnableControl/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Waypoint.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Waypoint.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Waypoint.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Waypoint.dir/rule
 
 # Convenience name for target.
@@ -1311,12 +1311,12 @@ _dji_sdk_generate_messages_check_deps_Waypoint: dji_sdk/CMakeFiles/_dji_sdk_gene
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_Waypoint/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Waypoint.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Waypoint.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Waypoint.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_Waypoint.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_Waypoint/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointList.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointList.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointList.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointList.dir/rule
 
 # Convenience name for target.
@@ -1325,12 +1325,12 @@ _dji_sdk_generate_messages_check_deps_WaypointList: dji_sdk/CMakeFiles/_dji_sdk_
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_WaypointList/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointList.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointList.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointList.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointList.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_WaypointList/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationAction.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationAction.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationAction.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationAction.dir/rule
 
 # Convenience name for target.
@@ -1339,12 +1339,12 @@ _dji_sdk_generate_messages_check_deps_WaypointNavigationAction: dji_sdk/CMakeFil
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_WaypointNavigationAction/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationAction.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationAction.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationAction.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_WaypointNavigationAction/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/rule
 
 # Convenience name for target.
@@ -1353,12 +1353,12 @@ _dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback: dji_sdk/
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_WaypointNavigationActionFeedback/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionGoal.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionGoal.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionGoal.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionGoal.dir/rule
 
 # Convenience name for target.
@@ -1367,12 +1367,12 @@ _dji_sdk_generate_messages_check_deps_WaypointNavigationActionGoal: dji_sdk/CMak
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_WaypointNavigationActionGoal/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionGoal.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionGoal.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_WaypointNavigationActionGoal/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionResult.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionResult.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionResult.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionResult.dir/rule
 
 # Convenience name for target.
@@ -1381,12 +1381,12 @@ _dji_sdk_generate_messages_check_deps_WaypointNavigationActionResult: dji_sdk/CM
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_WaypointNavigationActionResult/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionResult.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationActionResult.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_WaypointNavigationActionResult/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationFeedback.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationFeedback.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationFeedback.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationFeedback.dir/rule
 
 # Convenience name for target.
@@ -1395,12 +1395,12 @@ _dji_sdk_generate_messages_check_deps_WaypointNavigationFeedback: dji_sdk/CMakeF
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_WaypointNavigationFeedback/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationFeedback.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationFeedback.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationFeedback.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_WaypointNavigationFeedback/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationGoal.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationGoal.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationGoal.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationGoal.dir/rule
 
 # Convenience name for target.
@@ -1409,12 +1409,12 @@ _dji_sdk_generate_messages_check_deps_WaypointNavigationGoal: dji_sdk/CMakeFiles
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_WaypointNavigationGoal/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationGoal.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationGoal.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationGoal.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_WaypointNavigationGoal/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationResult.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationResult.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationResult.dir/rule
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationResult.dir/rule
 
 # Convenience name for target.
@@ -1423,12 +1423,12 @@ _dji_sdk_generate_messages_check_deps_WaypointNavigationResult: dji_sdk/CMakeFil
 
 # fast build rule for target.
 _dji_sdk_generate_messages_check_deps_WaypointNavigationResult/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationResult.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationResult.dir/build.make dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_WaypointNavigationResult.dir/build
 .PHONY : _dji_sdk_generate_messages_check_deps_WaypointNavigationResult/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/dji_sdk_gencpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_gencpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_gencpp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_gencpp.dir/rule
 
 # Convenience name for target.
@@ -1437,12 +1437,12 @@ dji_sdk_gencpp: dji_sdk/CMakeFiles/dji_sdk_gencpp.dir/rule
 
 # fast build rule for target.
 dji_sdk_gencpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_gencpp.dir/build.make dji_sdk/CMakeFiles/dji_sdk_gencpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_gencpp.dir/build.make dji_sdk/CMakeFiles/dji_sdk_gencpp.dir/build
 .PHONY : dji_sdk_gencpp/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/rule
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -1451,12 +1451,12 @@ dji_sdk_generate_messages: dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/rule
 
 # fast build rule for target.
 dji_sdk_generate_messages/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/build.make dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/build.make dji_sdk/CMakeFiles/dji_sdk_generate_messages.dir/build
 .PHONY : dji_sdk_generate_messages/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1465,12 +1465,12 @@ dji_sdk_generate_messages_cpp: dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.
 
 # fast build rule for target.
 dji_sdk_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/dji_sdk_generate_messages_cpp.dir/build
 .PHONY : dji_sdk_generate_messages_cpp/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1479,12 +1479,12 @@ dji_sdk_generate_messages_lisp: dji_sdk/CMakeFiles/dji_sdk_generate_messages_lis
 
 # fast build rule for target.
 dji_sdk_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/dji_sdk_generate_messages_lisp.dir/build
 .PHONY : dji_sdk_generate_messages_lisp/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/rule
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1493,12 +1493,12 @@ dji_sdk_generate_messages_py: dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.di
 
 # fast build rule for target.
 dji_sdk_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/dji_sdk_generate_messages_py.dir/build
 .PHONY : dji_sdk_generate_messages_py/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/dji_sdk_genlisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_genlisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_genlisp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_genlisp.dir/rule
 
 # Convenience name for target.
@@ -1507,12 +1507,12 @@ dji_sdk_genlisp: dji_sdk/CMakeFiles/dji_sdk_genlisp.dir/rule
 
 # fast build rule for target.
 dji_sdk_genlisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_genlisp.dir/build.make dji_sdk/CMakeFiles/dji_sdk_genlisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_genlisp.dir/build.make dji_sdk/CMakeFiles/dji_sdk_genlisp.dir/build
 .PHONY : dji_sdk_genlisp/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/dji_sdk_genpy.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_genpy.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_genpy.dir/rule
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_genpy.dir/rule
 
 # Convenience name for target.
@@ -1521,12 +1521,12 @@ dji_sdk_genpy: dji_sdk/CMakeFiles/dji_sdk_genpy.dir/rule
 
 # fast build rule for target.
 dji_sdk_genpy/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_genpy.dir/build.make dji_sdk/CMakeFiles/dji_sdk_genpy.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_genpy.dir/build.make dji_sdk/CMakeFiles/dji_sdk_genpy.dir/build
 .PHONY : dji_sdk_genpy/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/dji_sdk_node.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_node.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/dji_sdk_node.dir/rule
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_node.dir/rule
 
 # Convenience name for target.
@@ -1535,12 +1535,12 @@ dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/rule
 
 # fast build rule for target.
 dji_sdk_node/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/build
 .PHONY : dji_sdk_node/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1549,12 +1549,12 @@ nav_msgs_generate_messages_cpp: dji_sdk/CMakeFiles/nav_msgs_generate_messages_cp
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1563,12 +1563,12 @@ nav_msgs_generate_messages_lisp: dji_sdk/CMakeFiles/nav_msgs_generate_messages_l
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 .PHONY : dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1577,12 +1577,12 @@ nav_msgs_generate_messages_py: dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1591,12 +1591,12 @@ tf2_msgs_generate_messages_cpp: dji_sdk/CMakeFiles/tf2_msgs_generate_messages_cp
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1605,12 +1605,12 @@ tf2_msgs_generate_messages_lisp: dji_sdk/CMakeFiles/tf2_msgs_generate_messages_l
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 .PHONY : dji_sdk/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1619,12 +1619,12 @@ tf2_msgs_generate_messages_py: dji_sdk/CMakeFiles/tf2_msgs_generate_messages_py.
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf_generate_messages_cpp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf_generate_messages_cpp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1633,12 +1633,12 @@ tf_generate_messages_cpp: dji_sdk/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/tf_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/tf_generate_messages_cpp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/tf_generate_messages_cpp.dir/build.make dji_sdk/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf_generate_messages_lisp.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf_generate_messages_lisp.dir/rule
 .PHONY : dji_sdk/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1647,12 +1647,12 @@ tf_generate_messages_lisp: dji_sdk/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/tf_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/tf_generate_messages_lisp.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/tf_generate_messages_lisp.dir/build.make dji_sdk/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 dji_sdk/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf_generate_messages_py.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk/CMakeFiles/tf_generate_messages_py.dir/rule
 .PHONY : dji_sdk/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1661,7 +1661,7 @@ tf_generate_messages_py: dji_sdk/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/tf_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/tf_generate_messages_py.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/tf_generate_messages_py.dir/build.make dji_sdk/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
 src/dji_sdk_node.o: src/dji_sdk_node.cpp.o
@@ -1669,7 +1669,7 @@ src/dji_sdk_node.o: src/dji_sdk_node.cpp.o
 
 # target to build an object file
 src/dji_sdk_node.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o
 .PHONY : src/dji_sdk_node.cpp.o
 
 src/dji_sdk_node.i: src/dji_sdk_node.cpp.i
@@ -1677,7 +1677,7 @@ src/dji_sdk_node.i: src/dji_sdk_node.cpp.i
 
 # target to preprocess a source file
 src/dji_sdk_node.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.i
 .PHONY : src/dji_sdk_node.cpp.i
 
 src/dji_sdk_node.s: src/dji_sdk_node.cpp.s
@@ -1685,7 +1685,7 @@ src/dji_sdk_node.s: src/dji_sdk_node.cpp.s
 
 # target to generate assembly for a file
 src/dji_sdk_node.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.s
 .PHONY : src/dji_sdk_node.cpp.s
 
 src/modules/dji_sdk_node_actions.o: src/modules/dji_sdk_node_actions.cpp.o
@@ -1693,7 +1693,7 @@ src/modules/dji_sdk_node_actions.o: src/modules/dji_sdk_node_actions.cpp.o
 
 # target to build an object file
 src/modules/dji_sdk_node_actions.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o
 .PHONY : src/modules/dji_sdk_node_actions.cpp.o
 
 src/modules/dji_sdk_node_actions.i: src/modules/dji_sdk_node_actions.cpp.i
@@ -1701,7 +1701,7 @@ src/modules/dji_sdk_node_actions.i: src/modules/dji_sdk_node_actions.cpp.i
 
 # target to preprocess a source file
 src/modules/dji_sdk_node_actions.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.i
 .PHONY : src/modules/dji_sdk_node_actions.cpp.i
 
 src/modules/dji_sdk_node_actions.s: src/modules/dji_sdk_node_actions.cpp.s
@@ -1709,7 +1709,7 @@ src/modules/dji_sdk_node_actions.s: src/modules/dji_sdk_node_actions.cpp.s
 
 # target to generate assembly for a file
 src/modules/dji_sdk_node_actions.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.s
 .PHONY : src/modules/dji_sdk_node_actions.cpp.s
 
 src/modules/dji_sdk_node_main.o: src/modules/dji_sdk_node_main.cpp.o
@@ -1717,7 +1717,7 @@ src/modules/dji_sdk_node_main.o: src/modules/dji_sdk_node_main.cpp.o
 
 # target to build an object file
 src/modules/dji_sdk_node_main.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o
 .PHONY : src/modules/dji_sdk_node_main.cpp.o
 
 src/modules/dji_sdk_node_main.i: src/modules/dji_sdk_node_main.cpp.i
@@ -1725,7 +1725,7 @@ src/modules/dji_sdk_node_main.i: src/modules/dji_sdk_node_main.cpp.i
 
 # target to preprocess a source file
 src/modules/dji_sdk_node_main.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.i
 .PHONY : src/modules/dji_sdk_node_main.cpp.i
 
 src/modules/dji_sdk_node_main.s: src/modules/dji_sdk_node_main.cpp.s
@@ -1733,7 +1733,7 @@ src/modules/dji_sdk_node_main.s: src/modules/dji_sdk_node_main.cpp.s
 
 # target to generate assembly for a file
 src/modules/dji_sdk_node_main.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.s
 .PHONY : src/modules/dji_sdk_node_main.cpp.s
 
 src/modules/dji_sdk_node_mission.o: src/modules/dji_sdk_node_mission.cpp.o
@@ -1741,7 +1741,7 @@ src/modules/dji_sdk_node_mission.o: src/modules/dji_sdk_node_mission.cpp.o
 
 # target to build an object file
 src/modules/dji_sdk_node_mission.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o
 .PHONY : src/modules/dji_sdk_node_mission.cpp.o
 
 src/modules/dji_sdk_node_mission.i: src/modules/dji_sdk_node_mission.cpp.i
@@ -1749,7 +1749,7 @@ src/modules/dji_sdk_node_mission.i: src/modules/dji_sdk_node_mission.cpp.i
 
 # target to preprocess a source file
 src/modules/dji_sdk_node_mission.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.i
 .PHONY : src/modules/dji_sdk_node_mission.cpp.i
 
 src/modules/dji_sdk_node_mission.s: src/modules/dji_sdk_node_mission.cpp.s
@@ -1757,7 +1757,7 @@ src/modules/dji_sdk_node_mission.s: src/modules/dji_sdk_node_mission.cpp.s
 
 # target to generate assembly for a file
 src/modules/dji_sdk_node_mission.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.s
 .PHONY : src/modules/dji_sdk_node_mission.cpp.s
 
 src/modules/dji_sdk_node_services.o: src/modules/dji_sdk_node_services.cpp.o
@@ -1765,7 +1765,7 @@ src/modules/dji_sdk_node_services.o: src/modules/dji_sdk_node_services.cpp.o
 
 # target to build an object file
 src/modules/dji_sdk_node_services.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o
 .PHONY : src/modules/dji_sdk_node_services.cpp.o
 
 src/modules/dji_sdk_node_services.i: src/modules/dji_sdk_node_services.cpp.i
@@ -1773,7 +1773,7 @@ src/modules/dji_sdk_node_services.i: src/modules/dji_sdk_node_services.cpp.i
 
 # target to preprocess a source file
 src/modules/dji_sdk_node_services.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.i
 .PHONY : src/modules/dji_sdk_node_services.cpp.i
 
 src/modules/dji_sdk_node_services.s: src/modules/dji_sdk_node_services.cpp.s
@@ -1781,7 +1781,7 @@ src/modules/dji_sdk_node_services.s: src/modules/dji_sdk_node_services.cpp.s
 
 # target to generate assembly for a file
 src/modules/dji_sdk_node_services.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.s
 .PHONY : src/modules/dji_sdk_node_services.cpp.s
 
 # Help Target
@@ -1931,6 +1931,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

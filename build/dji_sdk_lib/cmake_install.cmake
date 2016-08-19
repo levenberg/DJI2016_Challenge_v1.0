@@ -1,8 +1,8 @@
-# Install script for directory: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib
+# Install script for directory: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/root/Documents/roswork/DJI2016_Challenge/install")
+  SET(CMAKE_INSTALL_PREFIX "/root/Documents/roswork/DJI2016_Challenge_v1.0/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ IF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     STRING(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   ELSE(BUILD_TYPE)
-    SET(CMAKE_INSTALL_CONFIG_NAME "Release")
+    SET(CMAKE_INSTALL_CONFIG_NAME "")
   ENDIF(BUILD_TYPE)
   MESSAGE(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 ENDIF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
@@ -33,25 +33,25 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/Documents/roswork/DJI2016_Challenge/build/dji_sdk_lib/catkin_generated/installspace/dji_sdk_lib.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk_lib/catkin_generated/installspace/dji_sdk_lib.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dji_sdk_lib/cmake" TYPE FILE FILES
-    "/root/Documents/roswork/DJI2016_Challenge/build/dji_sdk_lib/catkin_generated/installspace/dji_sdk_libConfig.cmake"
-    "/root/Documents/roswork/DJI2016_Challenge/build/dji_sdk_lib/catkin_generated/installspace/dji_sdk_libConfig-version.cmake"
+    "/root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk_lib/catkin_generated/installspace/dji_sdk_libConfig.cmake"
+    "/root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk_lib/catkin_generated/installspace/dji_sdk_libConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dji_sdk_lib" TYPE FILE FILES "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dji_sdk_lib" TYPE FILE FILES "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dji_sdk_lib" TYPE DIRECTORY FILES "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dji_sdk_lib" TYPE DIRECTORY FILES "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/root/Documents/roswork/DJI2016_Challenge/devel/lib/libdji_sdk_lib.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/libdji_sdk_lib.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

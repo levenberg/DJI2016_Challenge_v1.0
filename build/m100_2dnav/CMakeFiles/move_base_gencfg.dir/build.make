@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 # Utility rule file for move_base_gencfg.
 
@@ -59,10 +59,10 @@ m100_2dnav/CMakeFiles/move_base_gencfg.dir/build: move_base_gencfg
 .PHONY : m100_2dnav/CMakeFiles/move_base_gencfg.dir/build
 
 m100_2dnav/CMakeFiles/move_base_gencfg.dir/clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build/m100_2dnav && $(CMAKE_COMMAND) -P CMakeFiles/move_base_gencfg.dir/cmake_clean.cmake
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_2dnav && $(CMAKE_COMMAND) -P CMakeFiles/move_base_gencfg.dir/cmake_clean.cmake
 .PHONY : m100_2dnav/CMakeFiles/move_base_gencfg.dir/clean
 
 m100_2dnav/CMakeFiles/move_base_gencfg.dir/depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge/src /root/Documents/roswork/DJI2016_Challenge/src/m100_2dnav /root/Documents/roswork/DJI2016_Challenge/build /root/Documents/roswork/DJI2016_Challenge/build/m100_2dnav /root/Documents/roswork/DJI2016_Challenge/build/m100_2dnav/CMakeFiles/move_base_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge_v1.0/src /root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_2dnav /root/Documents/roswork/DJI2016_Challenge_v1.0/build /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_2dnav /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_2dnav/CMakeFiles/move_base_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : m100_2dnav/CMakeFiles/move_base_gencfg.dir/depend
 

@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -123,14 +123,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge/build/m100_2dnav/CMakeFiles/progress.marks
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge_v1.0/build/m100_2dnav/CMakeFiles/progress.marks
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/clean
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/clean
 .PHONY : clean
 
 # The main clean target
@@ -139,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 m100_2dnav/CMakeFiles/move_base_gencfg.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/CMakeFiles/move_base_gencfg.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 m100_2dnav/CMakeFiles/move_base_gencfg.dir/rule
 .PHONY : m100_2dnav/CMakeFiles/move_base_gencfg.dir/rule
 
 # Convenience name for target.
@@ -163,7 +163,7 @@ move_base_gencfg: m100_2dnav/CMakeFiles/move_base_gencfg.dir/rule
 
 # fast build rule for target.
 move_base_gencfg/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f m100_2dnav/CMakeFiles/move_base_gencfg.dir/build.make m100_2dnav/CMakeFiles/move_base_gencfg.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f m100_2dnav/CMakeFiles/move_base_gencfg.dir/build.make m100_2dnav/CMakeFiles/move_base_gencfg.dir/build
 .PHONY : move_base_gencfg/fast
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

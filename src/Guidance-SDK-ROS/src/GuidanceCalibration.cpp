@@ -190,6 +190,29 @@ int my_callback(int data_type, int data_len, char *content)
 	ultrasonic_pub.publish(g_ul);
     }
 
+    /* obstacle distance */
+    if ( e_obstacle_distance == data_type && NULL != content )
+    {
+        obstacle_distance *oa = (obstacle_distance*)content;
+     
+	// publish obstacle distance
+	sensor_msgs::LaserScan scan;
+	scan.ranges.resize(CAMERA_PAIR_NUM);
+	scan.header.frame_id = "m100_guidance";
+	scan.header.stamp    = ros::Time::now();
+
+	scan.angle_min = -1.57;
+        scan.angle_max = 1.57;
+        scan.angle_increment = 3.14 / 5;
+        scan.time_increment = (1 / 40) / (5);
+        scan.range_min = 0.0;
+        scan.range_max = 100.0;
+
+	for ( int i = 0; i < CAMERA_PAIR_NUM; ++i )
+	scan.ranges[i] = 0.01f * oa->distance[i];
+	obstacle_distance_pub.publish(scan);		
+    }  
+
     g_lock.leave();
     g_event.set_event();
 

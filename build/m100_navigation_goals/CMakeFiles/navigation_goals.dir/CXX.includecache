@@ -1112,6 +1112,22 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
+/opt/ros/indigo/include/std_msgs/Bool.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /opt/ros/indigo/include/std_msgs/Header.h
 string
 -
@@ -1128,7 +1144,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/m100_navigation_goals/src/navigation_goals.cpp
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_navigation_goals/src/navigation_goals.cpp
 ros/ros.h
 -
 stdlib.h
@@ -1140,5 +1156,7 @@ sensor_msgs/LaserScan.h
 move_base_msgs/MoveBaseAction.h
 -
 actionlib/client/simple_action_client.h
+-
+std_msgs/Bool.h
 -
 

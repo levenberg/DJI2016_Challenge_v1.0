@@ -1144,6 +1144,22 @@ ros/forwards.h
 
 /opt/ros/indigo/include/rosconsole/macros_generated.h
 
+/opt/ros/indigo/include/std_msgs/Bool.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /opt/ros/indigo/include/std_msgs/Header.h
 string
 -
@@ -1462,7 +1478,7 @@ ros/ros.h
 geometry_msgs/TransformStamped.h
 /opt/ros/indigo/include/tf2_ros/geometry_msgs/TransformStamped.h
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/A3GPS.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/A3GPS.h
 string
 -
 vector
@@ -1478,7 +1494,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/A3RTK.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/A3RTK.h
 string
 -
 vector
@@ -1494,7 +1510,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Acceleration.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/Acceleration.h
 string
 -
 vector
@@ -1512,7 +1528,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Activation.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/Activation.h
 ros/service_traits.h
 -
 dji_sdk/ActivationRequest.h
@@ -1520,7 +1536,7 @@ dji_sdk/ActivationRequest.h
 dji_sdk/ActivationResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/ActivationRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/ActivationRequest.h
 string
 -
 vector
@@ -1536,7 +1552,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/ActivationResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/ActivationResponse.h
 string
 -
 vector
@@ -1552,7 +1568,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/AttitudeControl.h
 ros/service_traits.h
 -
 dji_sdk/AttitudeControlRequest.h
@@ -1560,7 +1576,7 @@ dji_sdk/AttitudeControlRequest.h
 dji_sdk/AttitudeControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/AttitudeControlRequest.h
 string
 -
 vector
@@ -1576,7 +1592,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/AttitudeControlResponse.h
 string
 -
 vector
@@ -1592,7 +1608,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/AttitudeQuaternion.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/AttitudeQuaternion.h
 string
 -
 vector
@@ -1610,7 +1626,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/CameraActionControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/CameraActionControl.h
 ros/service_traits.h
 -
 dji_sdk/CameraActionControlRequest.h
@@ -1618,7 +1634,7 @@ dji_sdk/CameraActionControlRequest.h
 dji_sdk/CameraActionControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/CameraActionControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/CameraActionControlRequest.h
 string
 -
 vector
@@ -1634,7 +1650,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/CameraActionControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/CameraActionControlResponse.h
 string
 -
 vector
@@ -1650,7 +1666,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Compass.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/Compass.h
 string
 -
 vector
@@ -1668,7 +1684,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneArmControl.h
 ros/service_traits.h
 -
 dji_sdk/DroneArmControlRequest.h
@@ -1676,7 +1692,7 @@ dji_sdk/DroneArmControlRequest.h
 dji_sdk/DroneArmControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneArmControlRequest.h
 string
 -
 vector
@@ -1692,7 +1708,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneArmControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneArmControlResponse.h
 string
 -
 vector
@@ -1708,7 +1724,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskAction.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneTaskAction.h
 string
 -
 vector
@@ -1730,7 +1746,7 @@ dji_sdk/DroneTaskActionResult.h
 dji_sdk/DroneTaskActionFeedback.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskActionFeedback.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneTaskActionFeedback.h
 string
 -
 vector
@@ -1752,7 +1768,7 @@ actionlib_msgs/GoalStatus.h
 dji_sdk/DroneTaskFeedback.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskActionGoal.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneTaskActionGoal.h
 string
 -
 vector
@@ -1774,7 +1790,7 @@ actionlib_msgs/GoalID.h
 dji_sdk/DroneTaskGoal.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskActionResult.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneTaskActionResult.h
 string
 -
 vector
@@ -1796,7 +1812,7 @@ actionlib_msgs/GoalStatus.h
 dji_sdk/DroneTaskResult.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneTaskControl.h
 ros/service_traits.h
 -
 dji_sdk/DroneTaskControlRequest.h
@@ -1804,7 +1820,7 @@ dji_sdk/DroneTaskControlRequest.h
 dji_sdk/DroneTaskControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneTaskControlRequest.h
 string
 -
 vector
@@ -1820,7 +1836,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneTaskControlResponse.h
 string
 -
 vector
@@ -1836,7 +1852,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskFeedback.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneTaskFeedback.h
 string
 -
 vector
@@ -1852,7 +1868,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskGoal.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneTaskGoal.h
 string
 -
 vector
@@ -1868,7 +1884,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/DroneTaskResult.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/DroneTaskResult.h
 string
 -
 vector
@@ -1884,7 +1900,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/FlightControlInfo.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/FlightControlInfo.h
 string
 -
 vector
@@ -1900,7 +1916,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Gimbal.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/Gimbal.h
 string
 -
 vector
@@ -1918,7 +1934,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalAngleControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GimbalAngleControl.h
 ros/service_traits.h
 -
 dji_sdk/GimbalAngleControlRequest.h
@@ -1926,7 +1942,7 @@ dji_sdk/GimbalAngleControlRequest.h
 dji_sdk/GimbalAngleControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalAngleControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GimbalAngleControlRequest.h
 string
 -
 vector
@@ -1942,7 +1958,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalAngleControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GimbalAngleControlResponse.h
 string
 -
 vector
@@ -1958,7 +1974,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalSpeedControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GimbalSpeedControl.h
 ros/service_traits.h
 -
 dji_sdk/GimbalSpeedControlRequest.h
@@ -1966,7 +1982,7 @@ dji_sdk/GimbalSpeedControlRequest.h
 dji_sdk/GimbalSpeedControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalSpeedControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GimbalSpeedControlRequest.h
 string
 -
 vector
@@ -1982,7 +1998,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GimbalSpeedControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GimbalSpeedControlResponse.h
 string
 -
 vector
@@ -1998,7 +2014,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPosition.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GlobalPosition.h
 string
 -
 vector
@@ -2016,7 +2032,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GlobalPositionControl.h
 ros/service_traits.h
 -
 dji_sdk/GlobalPositionControlRequest.h
@@ -2024,7 +2040,7 @@ dji_sdk/GlobalPositionControlRequest.h
 dji_sdk/GlobalPositionControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GlobalPositionControlRequest.h
 string
 -
 vector
@@ -2040,7 +2056,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GlobalPositionControlResponse.h
 string
 -
 vector
@@ -2056,7 +2072,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationAction.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GlobalPositionNavigationAction.h
 string
 -
 vector
@@ -2078,7 +2094,7 @@ dji_sdk/GlobalPositionNavigationActionResult.h
 dji_sdk/GlobalPositionNavigationActionFeedback.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionFeedback.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GlobalPositionNavigationActionFeedback.h
 string
 -
 vector
@@ -2100,7 +2116,7 @@ actionlib_msgs/GoalStatus.h
 dji_sdk/GlobalPositionNavigationFeedback.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionGoal.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GlobalPositionNavigationActionGoal.h
 string
 -
 vector
@@ -2122,7 +2138,7 @@ actionlib_msgs/GoalID.h
 dji_sdk/GlobalPositionNavigationGoal.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationActionResult.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GlobalPositionNavigationActionResult.h
 string
 -
 vector
@@ -2144,7 +2160,7 @@ actionlib_msgs/GoalStatus.h
 dji_sdk/GlobalPositionNavigationResult.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationFeedback.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GlobalPositionNavigationFeedback.h
 string
 -
 vector
@@ -2160,7 +2176,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationGoal.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GlobalPositionNavigationGoal.h
 string
 -
 vector
@@ -2176,7 +2192,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/GlobalPositionNavigationResult.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/GlobalPositionNavigationResult.h
 string
 -
 vector
@@ -2192,7 +2208,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPosition.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/LocalPosition.h
 string
 -
 vector
@@ -2210,7 +2226,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/LocalPositionControl.h
 ros/service_traits.h
 -
 dji_sdk/LocalPositionControlRequest.h
@@ -2218,7 +2234,7 @@ dji_sdk/LocalPositionControlRequest.h
 dji_sdk/LocalPositionControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/LocalPositionControlRequest.h
 string
 -
 vector
@@ -2234,7 +2250,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/LocalPositionControlResponse.h
 string
 -
 vector
@@ -2250,7 +2266,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationAction.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/LocalPositionNavigationAction.h
 string
 -
 vector
@@ -2272,7 +2288,7 @@ dji_sdk/LocalPositionNavigationActionResult.h
 dji_sdk/LocalPositionNavigationActionFeedback.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionFeedback.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/LocalPositionNavigationActionFeedback.h
 string
 -
 vector
@@ -2294,7 +2310,7 @@ actionlib_msgs/GoalStatus.h
 dji_sdk/LocalPositionNavigationFeedback.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionGoal.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/LocalPositionNavigationActionGoal.h
 string
 -
 vector
@@ -2316,7 +2332,7 @@ actionlib_msgs/GoalID.h
 dji_sdk/LocalPositionNavigationGoal.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationActionResult.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/LocalPositionNavigationActionResult.h
 string
 -
 vector
@@ -2338,7 +2354,7 @@ actionlib_msgs/GoalStatus.h
 dji_sdk/LocalPositionNavigationResult.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationFeedback.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/LocalPositionNavigationFeedback.h
 string
 -
 vector
@@ -2354,7 +2370,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationGoal.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/LocalPositionNavigationGoal.h
 string
 -
 vector
@@ -2370,7 +2386,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/LocalPositionNavigationResult.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/LocalPositionNavigationResult.h
 string
 -
 vector
@@ -2386,7 +2402,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MessageFrequencyControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MessageFrequencyControl.h
 ros/service_traits.h
 -
 dji_sdk/MessageFrequencyControlRequest.h
@@ -2394,7 +2410,7 @@ dji_sdk/MessageFrequencyControlRequest.h
 dji_sdk/MessageFrequencyControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MessageFrequencyControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MessageFrequencyControlRequest.h
 string
 -
 vector
@@ -2410,7 +2426,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MessageFrequencyControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MessageFrequencyControlResponse.h
 string
 -
 vector
@@ -2426,7 +2442,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionCancel.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionCancel.h
 ros/service_traits.h
 -
 dji_sdk/MissionCancelRequest.h
@@ -2434,7 +2450,7 @@ dji_sdk/MissionCancelRequest.h
 dji_sdk/MissionCancelResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionCancelRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionCancelRequest.h
 string
 -
 vector
@@ -2450,7 +2466,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionCancelResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionCancelResponse.h
 string
 -
 vector
@@ -2466,7 +2482,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpAction.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionEventWpAction.h
 string
 -
 vector
@@ -2482,7 +2498,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpReach.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionEventWpReach.h
 string
 -
 vector
@@ -2498,7 +2514,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionEventWpUpload.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionEventWpUpload.h
 string
 -
 vector
@@ -2514,7 +2530,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmSetTarget.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionFmSetTarget.h
 ros/service_traits.h
 -
 dji_sdk/MissionFmSetTargetRequest.h
@@ -2522,7 +2538,7 @@ dji_sdk/MissionFmSetTargetRequest.h
 dji_sdk/MissionFmSetTargetResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmSetTargetRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionFmSetTargetRequest.h
 string
 -
 vector
@@ -2540,7 +2556,7 @@ ros/message_operations.h
 dji_sdk/MissionFollowmeTarget.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmSetTargetResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionFmSetTargetResponse.h
 string
 -
 vector
@@ -2556,7 +2572,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmUpload.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionFmUpload.h
 ros/service_traits.h
 -
 dji_sdk/MissionFmUploadRequest.h
@@ -2564,7 +2580,7 @@ dji_sdk/MissionFmUploadRequest.h
 dji_sdk/MissionFmUploadResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmUploadRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionFmUploadRequest.h
 string
 -
 vector
@@ -2582,7 +2598,7 @@ ros/message_operations.h
 dji_sdk/MissionFollowmeTask.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFmUploadResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionFmUploadResponse.h
 string
 -
 vector
@@ -2598,7 +2614,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFollowmeTarget.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionFollowmeTarget.h
 string
 -
 vector
@@ -2614,7 +2630,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionFollowmeTask.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionFollowmeTask.h
 string
 -
 vector
@@ -2630,7 +2646,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHotpointTask.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHotpointTask.h
 string
 -
 vector
@@ -2646,7 +2662,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpDownload.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpDownload.h
 ros/service_traits.h
 -
 dji_sdk/MissionHpDownloadRequest.h
@@ -2654,7 +2670,7 @@ dji_sdk/MissionHpDownloadRequest.h
 dji_sdk/MissionHpDownloadResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpDownloadRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpDownloadRequest.h
 string
 -
 vector
@@ -2670,7 +2686,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpDownloadResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpDownloadResponse.h
 string
 -
 vector
@@ -2688,7 +2704,7 @@ ros/message_operations.h
 dji_sdk/MissionHotpointTask.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpResetYaw.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpResetYaw.h
 ros/service_traits.h
 -
 dji_sdk/MissionHpResetYawRequest.h
@@ -2696,7 +2712,7 @@ dji_sdk/MissionHpResetYawRequest.h
 dji_sdk/MissionHpResetYawResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpResetYawRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpResetYawRequest.h
 string
 -
 vector
@@ -2712,7 +2728,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpResetYawResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpResetYawResponse.h
 string
 -
 vector
@@ -2728,7 +2744,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetRadius.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpSetRadius.h
 ros/service_traits.h
 -
 dji_sdk/MissionHpSetRadiusRequest.h
@@ -2736,7 +2752,7 @@ dji_sdk/MissionHpSetRadiusRequest.h
 dji_sdk/MissionHpSetRadiusResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetRadiusRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpSetRadiusRequest.h
 string
 -
 vector
@@ -2752,7 +2768,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetRadiusResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpSetRadiusResponse.h
 string
 -
 vector
@@ -2768,7 +2784,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetSpeed.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpSetSpeed.h
 ros/service_traits.h
 -
 dji_sdk/MissionHpSetSpeedRequest.h
@@ -2776,7 +2792,7 @@ dji_sdk/MissionHpSetSpeedRequest.h
 dji_sdk/MissionHpSetSpeedResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetSpeedRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpSetSpeedRequest.h
 string
 -
 vector
@@ -2792,7 +2808,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpSetSpeedResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpSetSpeedResponse.h
 string
 -
 vector
@@ -2808,7 +2824,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpUpload.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpUpload.h
 ros/service_traits.h
 -
 dji_sdk/MissionHpUploadRequest.h
@@ -2816,7 +2832,7 @@ dji_sdk/MissionHpUploadRequest.h
 dji_sdk/MissionHpUploadResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpUploadRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpUploadRequest.h
 string
 -
 vector
@@ -2834,7 +2850,7 @@ ros/message_operations.h
 dji_sdk/MissionHotpointTask.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionHpUploadResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionHpUploadResponse.h
 string
 -
 vector
@@ -2850,7 +2866,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionPause.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionPause.h
 ros/service_traits.h
 -
 dji_sdk/MissionPauseRequest.h
@@ -2858,7 +2874,7 @@ dji_sdk/MissionPauseRequest.h
 dji_sdk/MissionPauseResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionPauseRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionPauseRequest.h
 string
 -
 vector
@@ -2874,7 +2890,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionPauseResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionPauseResponse.h
 string
 -
 vector
@@ -2890,7 +2906,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionPushInfo.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionPushInfo.h
 string
 -
 vector
@@ -2906,7 +2922,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStart.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionStart.h
 ros/service_traits.h
 -
 dji_sdk/MissionStartRequest.h
@@ -2914,7 +2930,7 @@ dji_sdk/MissionStartRequest.h
 dji_sdk/MissionStartResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStartRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionStartRequest.h
 string
 -
 vector
@@ -2930,7 +2946,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStartResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionStartResponse.h
 string
 -
 vector
@@ -2946,7 +2962,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusFollowme.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionStatusFollowme.h
 string
 -
 vector
@@ -2962,7 +2978,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusHotpoint.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionStatusHotpoint.h
 string
 -
 vector
@@ -2978,7 +2994,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusOther.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionStatusOther.h
 string
 -
 vector
@@ -2994,7 +3010,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionStatusWaypoint.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionStatusWaypoint.h
 string
 -
 vector
@@ -3010,7 +3026,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypoint.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWaypoint.h
 string
 -
 vector
@@ -3028,7 +3044,7 @@ ros/message_operations.h
 dji_sdk/MissionWaypointAction.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypointAction.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWaypointAction.h
 string
 -
 vector
@@ -3044,7 +3060,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWaypointTask.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWaypointTask.h
 string
 -
 vector
@@ -3062,7 +3078,7 @@ ros/message_operations.h
 dji_sdk/MissionWaypoint.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpDownload.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpDownload.h
 ros/service_traits.h
 -
 dji_sdk/MissionWpDownloadRequest.h
@@ -3070,7 +3086,7 @@ dji_sdk/MissionWpDownloadRequest.h
 dji_sdk/MissionWpDownloadResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpDownloadRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpDownloadRequest.h
 string
 -
 vector
@@ -3086,7 +3102,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpDownloadResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpDownloadResponse.h
 string
 -
 vector
@@ -3104,7 +3120,7 @@ ros/message_operations.h
 dji_sdk/MissionWaypointTask.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpGetSpeed.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpGetSpeed.h
 ros/service_traits.h
 -
 dji_sdk/MissionWpGetSpeedRequest.h
@@ -3112,7 +3128,7 @@ dji_sdk/MissionWpGetSpeedRequest.h
 dji_sdk/MissionWpGetSpeedResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpGetSpeedRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpGetSpeedRequest.h
 string
 -
 vector
@@ -3128,7 +3144,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpGetSpeedResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpGetSpeedResponse.h
 string
 -
 vector
@@ -3144,7 +3160,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpSetSpeed.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpSetSpeed.h
 ros/service_traits.h
 -
 dji_sdk/MissionWpSetSpeedRequest.h
@@ -3152,7 +3168,7 @@ dji_sdk/MissionWpSetSpeedRequest.h
 dji_sdk/MissionWpSetSpeedResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpSetSpeedRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpSetSpeedRequest.h
 string
 -
 vector
@@ -3168,7 +3184,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpSetSpeedResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpSetSpeedResponse.h
 string
 -
 vector
@@ -3184,7 +3200,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpUpload.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpUpload.h
 ros/service_traits.h
 -
 dji_sdk/MissionWpUploadRequest.h
@@ -3192,7 +3208,7 @@ dji_sdk/MissionWpUploadRequest.h
 dji_sdk/MissionWpUploadResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpUploadRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpUploadRequest.h
 string
 -
 vector
@@ -3210,7 +3226,7 @@ ros/message_operations.h
 dji_sdk/MissionWaypointTask.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/MissionWpUploadResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/MissionWpUploadResponse.h
 string
 -
 vector
@@ -3226,7 +3242,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/PowerStatus.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/PowerStatus.h
 string
 -
 vector
@@ -3242,7 +3258,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/RCChannels.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/RCChannels.h
 string
 -
 vector
@@ -3260,7 +3276,25 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/Reldist.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/SDKPermissionControl.h
 ros/service_traits.h
 -
 dji_sdk/SDKPermissionControlRequest.h
@@ -3268,7 +3302,7 @@ dji_sdk/SDKPermissionControlRequest.h
 dji_sdk/SDKPermissionControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/SDKPermissionControlRequest.h
 string
 -
 vector
@@ -3284,7 +3318,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SDKPermissionControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/SDKPermissionControlResponse.h
 string
 -
 vector
@@ -3300,7 +3334,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SendDataToRemoteDevice.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/SendDataToRemoteDevice.h
 ros/service_traits.h
 -
 dji_sdk/SendDataToRemoteDeviceRequest.h
@@ -3308,7 +3342,7 @@ dji_sdk/SendDataToRemoteDeviceRequest.h
 dji_sdk/SendDataToRemoteDeviceResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SendDataToRemoteDeviceRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/SendDataToRemoteDeviceRequest.h
 string
 -
 vector
@@ -3324,7 +3358,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SendDataToRemoteDeviceResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/SendDataToRemoteDeviceResponse.h
 string
 -
 vector
@@ -3340,7 +3374,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SyncFlagControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/SyncFlagControl.h
 ros/service_traits.h
 -
 dji_sdk/SyncFlagControlRequest.h
@@ -3348,7 +3382,7 @@ dji_sdk/SyncFlagControlRequest.h
 dji_sdk/SyncFlagControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SyncFlagControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/SyncFlagControlRequest.h
 string
 -
 vector
@@ -3364,7 +3398,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/SyncFlagControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/SyncFlagControlResponse.h
 string
 -
 vector
@@ -3380,41 +3414,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/TimeStamp.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/TransparentTransmissionData.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Velocity.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/TimeStamp.h
 string
 -
 vector
@@ -3432,7 +3432,41 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VelocityControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/TransparentTransmissionData.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/Velocity.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VelocityControl.h
 ros/service_traits.h
 -
 dji_sdk/VelocityControlRequest.h
@@ -3440,7 +3474,7 @@ dji_sdk/VelocityControlRequest.h
 dji_sdk/VelocityControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VelocityControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VelocityControlRequest.h
 string
 -
 vector
@@ -3456,7 +3490,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VelocityControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VelocityControlResponse.h
 string
 -
 vector
@@ -3472,7 +3506,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VersionCheck.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VersionCheck.h
 ros/service_traits.h
 -
 dji_sdk/VersionCheckRequest.h
@@ -3480,7 +3514,7 @@ dji_sdk/VersionCheckRequest.h
 dji_sdk/VersionCheckResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VersionCheckRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VersionCheckRequest.h
 string
 -
 vector
@@ -3496,7 +3530,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VersionCheckResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VersionCheckResponse.h
 string
 -
 vector
@@ -3512,7 +3546,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCDataControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VirtualRCDataControl.h
 ros/service_traits.h
 -
 dji_sdk/VirtualRCDataControlRequest.h
@@ -3520,7 +3554,7 @@ dji_sdk/VirtualRCDataControlRequest.h
 dji_sdk/VirtualRCDataControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCDataControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VirtualRCDataControlRequest.h
 string
 -
 vector
@@ -3536,7 +3570,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCDataControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VirtualRCDataControlResponse.h
 string
 -
 vector
@@ -3552,7 +3586,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCEnableControl.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VirtualRCEnableControl.h
 ros/service_traits.h
 -
 dji_sdk/VirtualRCEnableControlRequest.h
@@ -3560,7 +3594,7 @@ dji_sdk/VirtualRCEnableControlRequest.h
 dji_sdk/VirtualRCEnableControlResponse.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCEnableControlRequest.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VirtualRCEnableControlRequest.h
 string
 -
 vector
@@ -3576,7 +3610,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/VirtualRCEnableControlResponse.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/VirtualRCEnableControlResponse.h
 string
 -
 vector
@@ -3592,7 +3626,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/Waypoint.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/Waypoint.h
 string
 -
 vector
@@ -3608,7 +3642,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointList.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/WaypointList.h
 string
 -
 vector
@@ -3626,7 +3660,7 @@ ros/message_operations.h
 dji_sdk/Waypoint.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationAction.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/WaypointNavigationAction.h
 string
 -
 vector
@@ -3648,7 +3682,7 @@ dji_sdk/WaypointNavigationActionResult.h
 dji_sdk/WaypointNavigationActionFeedback.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionFeedback.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/WaypointNavigationActionFeedback.h
 string
 -
 vector
@@ -3670,7 +3704,7 @@ actionlib_msgs/GoalStatus.h
 dji_sdk/WaypointNavigationFeedback.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionGoal.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/WaypointNavigationActionGoal.h
 string
 -
 vector
@@ -3692,7 +3726,7 @@ actionlib_msgs/GoalID.h
 dji_sdk/WaypointNavigationGoal.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationActionResult.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/WaypointNavigationActionResult.h
 string
 -
 vector
@@ -3714,7 +3748,7 @@ actionlib_msgs/GoalStatus.h
 dji_sdk/WaypointNavigationResult.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationFeedback.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/WaypointNavigationFeedback.h
 string
 -
 vector
@@ -3730,7 +3764,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationGoal.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/WaypointNavigationGoal.h
 string
 -
 vector
@@ -3748,7 +3782,7 @@ ros/message_operations.h
 dji_sdk/WaypointList.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/devel/include/dji_sdk/WaypointNavigationResult.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include/dji_sdk/WaypointNavigationResult.h
 string
 -
 vector
@@ -3764,7 +3798,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/include/dji_sdk/DJI_HardDriver_Manifold.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/include/dji_sdk/DJI_HardDriver_Manifold.h
 stdio.h
 -
 string
@@ -3792,9 +3826,9 @@ dji_sdk_lib/DJI_Type.h
 dji_sdk_lib/DJI_HardDriver.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/include/dji_sdk/DJI_LIB_ROS_Adapter.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/include/dji_sdk/DJI_LIB_ROS_Adapter.h
 DJI_HardDriver_Manifold.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/include/dji_sdk/DJI_HardDriver_Manifold.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/include/dji_sdk/DJI_HardDriver_Manifold.h
 dji_sdk_lib/DJI_API.h
 -
 dji_sdk_lib/DJI_Flight.h
@@ -3820,9 +3854,9 @@ pthread.h
 functional
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/include/dji_sdk/dji_sdk.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/include/dji_sdk/dji_sdk.h
 DJI_LIB_ROS_Adapter.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/include/dji_sdk/DJI_LIB_ROS_Adapter.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/include/dji_sdk/DJI_LIB_ROS_Adapter.h
 dji_sdk/A3RTK.h
 -
 dji_sdk/A3GPS.h
@@ -3854,6 +3888,8 @@ dji_sdk/WaypointList.h
 dji_sdk/TransparentTransmissionData.h
 -
 dji_sdk/TimeStamp.h
+-
+dji_sdk/Reldist.h
 -
 dji_sdk/Activation.h
 -
@@ -3958,13 +3994,13 @@ dji_sdk/MissionEventWpAction.h
 dji_sdk/MissionEventWpReach.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/include/dji_sdk/dji_sdk_mission.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/include/dji_sdk/dji_sdk_mission.h
 ros/ros.h
 -
 dji_sdk/dji_sdk.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/include/dji_sdk/dji_sdk_node.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/include/dji_sdk/dji_sdk_node.h
 ros/ros.h
 -
 nav_msgs/Odometry.h
@@ -3979,118 +4015,98 @@ actionlib/server/simple_action_server.h
 -
 dji_sdk/dji_sdk_mission.h
 -
+dji_sdk/dji_sdk_mission.h
+-
 tf/transform_broadcaster.h
 -
-
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/dji_sdk_node.cpp
-iostream
--
-cstdio
--
-cstring
--
-cmath
--
-dji_sdk/dji_sdk_node.h
+std_msgs/Bool.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_actions.cpp
-dji_sdk/dji_sdk_node.h
--
-algorithm
--
-
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_main.cpp
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_main.cpp
 dji_sdk/dji_sdk_node.h
 -
 functional
 -
-
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_mission.cpp
-dji_sdk/dji_sdk_mission.h
+tf/transform_broadcaster.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_services.cpp
-dji_sdk/dji_sdk_node.h
--
-
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJICommonType.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJICommonType.h
 stdint.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_API.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_API.h
 DJI_Type.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Type.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Type.h
 DJI_HardDriver.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_HardDriver.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_HardDriver.h
 DJI_App.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_App.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_App.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_App.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_App.h
 stdint.h
 -
 DJI_Link.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Link.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Link.h
 DJI_Type.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Type.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Type.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Camera.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Camera.h
 DJI_API.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_API.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_API.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Config.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Config.h
 stdint.h
 -
 DJI_Version.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Version.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Version.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Flight.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Flight.h
 DJI_API.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_API.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_API.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Follow.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Follow.h
 DJI_Mission.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Mission.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Mission.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_HardDriver.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_HardDriver.h
 stdint.h
 -
 time.h
 -
 DJI_Type.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Type.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Type.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_HotPoint.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_HotPoint.h
 DJI_Mission.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Mission.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Mission.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Link.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Link.h
 DJI_Type.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Type.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Type.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Mission.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Mission.h
 DJI_Config.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Config.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Config.h
 DJI_API.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_API.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_API.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Type.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Type.h
 DJI_Config.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Config.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Config.h
 DJICommonType.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJICommonType.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJICommonType.h
 stdio.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Version.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Version.h
 stdint.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_VirtualRC.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_VirtualRC.h
 DJI_API.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_API.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_API.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_WayPoint.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_WayPoint.h
 DJI_Mission.h
-/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Mission.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib/DJI_Mission.h
 

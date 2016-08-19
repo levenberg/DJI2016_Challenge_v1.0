@@ -67,14 +67,14 @@ set(dji_sdk_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(dji_sdk_SOURCE_PREFIX /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk)
-  set(dji_sdk_DEVEL_PREFIX /root/Documents/roswork/DJI2016_Challenge/devel)
+  set(dji_sdk_SOURCE_PREFIX /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk)
+  set(dji_sdk_DEVEL_PREFIX /root/Documents/roswork/DJI2016_Challenge_v1.0/devel)
   set(dji_sdk_INSTALL_PREFIX "")
   set(dji_sdk_PREFIX ${dji_sdk_DEVEL_PREFIX})
 else()
   set(dji_sdk_SOURCE_PREFIX "")
   set(dji_sdk_DEVEL_PREFIX "")
-  set(dji_sdk_INSTALL_PREFIX /root/Documents/roswork/DJI2016_Challenge/install)
+  set(dji_sdk_INSTALL_PREFIX /root/Documents/roswork/DJI2016_Challenge_v1.0/install)
   set(dji_sdk_PREFIX ${dji_sdk_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(dji_sdk_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/root/Documents/roswork/DJI2016_Challenge/devel/include;/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/include " STREQUAL " ")
+if(NOT "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/include " STREQUAL " ")
   set(dji_sdk_INCLUDE_DIRS "")
-  set(_include_dirs "/root/Documents/roswork/DJI2016_Challenge/devel/include;/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/include")
+  set(_include_dirs "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/include;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -103,7 +103,7 @@ if(NOT "/root/Documents/roswork/DJI2016_Challenge/devel/include;/root/Documents/
         message(FATAL_ERROR "Project 'dji_sdk' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Norman Li <norman.li@dji.com>, Botao Hu <me@botao.hu>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'dji_sdk' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/${idir}'.  Ask the maintainer 'Norman Li <norman.li@dji.com>, Botao Hu <me@botao.hu>' to fix it.")
+      message(FATAL_ERROR "Project 'dji_sdk' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/${idir}'.  Ask the maintainer 'Norman Li <norman.li@dji.com>, Botao Hu <me@botao.hu>' to fix it.")
     endif()
     _list_append_unique(dji_sdk_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /root/Documents/roswork/DJI2016_Challenge/devel/lib;/opt/ros/indigo/lib)
+    foreach(path /root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/src/gtest/src/gtest_main.cc" "/root/Documents/roswork/DJI2016_Challenge/build/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+  "/usr/src/gtest/src/gtest_main.cc" "/root/Documents/roswork/DJI2016_Challenge_v1.0/build/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ SET(CMAKE_TARGET_DEFINITIONS
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/Documents/roswork/DJI2016_Challenge/build/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/root/Documents/roswork/DJI2016_Challenge_v1.0/build/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

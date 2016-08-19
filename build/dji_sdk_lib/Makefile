@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -123,14 +123,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk_lib/CMakeFiles/progress.marks
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk_lib/CMakeFiles/progress.marks
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/clean
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -139,22 +139,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/preinstall
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -163,12 +163,12 @@ _catkin_empty_exported_target: dji_sdk_lib/CMakeFiles/_catkin_empty_exported_tar
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/build.make dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/build.make dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
 dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/rule:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/rule
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f CMakeFiles/Makefile2 dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/rule
 .PHONY : dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ dji_sdk_lib: dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/rule
 
 # fast build rule for target.
 dji_sdk_lib/fast:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build
 .PHONY : dji_sdk_lib/fast
 
 src/DJI_API.o: src/DJI_API.cpp.o
@@ -185,7 +185,7 @@ src/DJI_API.o: src/DJI_API.cpp.o
 
 # target to build an object file
 src/DJI_API.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_API.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_API.cpp.o
 .PHONY : src/DJI_API.cpp.o
 
 src/DJI_API.i: src/DJI_API.cpp.i
@@ -193,7 +193,7 @@ src/DJI_API.i: src/DJI_API.cpp.i
 
 # target to preprocess a source file
 src/DJI_API.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_API.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_API.cpp.i
 .PHONY : src/DJI_API.cpp.i
 
 src/DJI_API.s: src/DJI_API.cpp.s
@@ -201,7 +201,7 @@ src/DJI_API.s: src/DJI_API.cpp.s
 
 # target to generate assembly for a file
 src/DJI_API.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_API.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_API.cpp.s
 .PHONY : src/DJI_API.cpp.s
 
 src/DJI_App.o: src/DJI_App.cpp.o
@@ -209,7 +209,7 @@ src/DJI_App.o: src/DJI_App.cpp.o
 
 # target to build an object file
 src/DJI_App.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_App.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_App.cpp.o
 .PHONY : src/DJI_App.cpp.o
 
 src/DJI_App.i: src/DJI_App.cpp.i
@@ -217,7 +217,7 @@ src/DJI_App.i: src/DJI_App.cpp.i
 
 # target to preprocess a source file
 src/DJI_App.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_App.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_App.cpp.i
 .PHONY : src/DJI_App.cpp.i
 
 src/DJI_App.s: src/DJI_App.cpp.s
@@ -225,7 +225,7 @@ src/DJI_App.s: src/DJI_App.cpp.s
 
 # target to generate assembly for a file
 src/DJI_App.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_App.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_App.cpp.s
 .PHONY : src/DJI_App.cpp.s
 
 src/DJI_Camera.o: src/DJI_Camera.cpp.o
@@ -233,7 +233,7 @@ src/DJI_Camera.o: src/DJI_Camera.cpp.o
 
 # target to build an object file
 src/DJI_Camera.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Camera.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Camera.cpp.o
 .PHONY : src/DJI_Camera.cpp.o
 
 src/DJI_Camera.i: src/DJI_Camera.cpp.i
@@ -241,7 +241,7 @@ src/DJI_Camera.i: src/DJI_Camera.cpp.i
 
 # target to preprocess a source file
 src/DJI_Camera.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Camera.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Camera.cpp.i
 .PHONY : src/DJI_Camera.cpp.i
 
 src/DJI_Camera.s: src/DJI_Camera.cpp.s
@@ -249,7 +249,7 @@ src/DJI_Camera.s: src/DJI_Camera.cpp.s
 
 # target to generate assembly for a file
 src/DJI_Camera.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Camera.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Camera.cpp.s
 .PHONY : src/DJI_Camera.cpp.s
 
 src/DJI_Codec.o: src/DJI_Codec.cpp.o
@@ -257,7 +257,7 @@ src/DJI_Codec.o: src/DJI_Codec.cpp.o
 
 # target to build an object file
 src/DJI_Codec.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Codec.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Codec.cpp.o
 .PHONY : src/DJI_Codec.cpp.o
 
 src/DJI_Codec.i: src/DJI_Codec.cpp.i
@@ -265,7 +265,7 @@ src/DJI_Codec.i: src/DJI_Codec.cpp.i
 
 # target to preprocess a source file
 src/DJI_Codec.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Codec.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Codec.cpp.i
 .PHONY : src/DJI_Codec.cpp.i
 
 src/DJI_Codec.s: src/DJI_Codec.cpp.s
@@ -273,7 +273,7 @@ src/DJI_Codec.s: src/DJI_Codec.cpp.s
 
 # target to generate assembly for a file
 src/DJI_Codec.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Codec.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Codec.cpp.s
 .PHONY : src/DJI_Codec.cpp.s
 
 src/DJI_Flight.o: src/DJI_Flight.cpp.o
@@ -281,7 +281,7 @@ src/DJI_Flight.o: src/DJI_Flight.cpp.o
 
 # target to build an object file
 src/DJI_Flight.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Flight.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Flight.cpp.o
 .PHONY : src/DJI_Flight.cpp.o
 
 src/DJI_Flight.i: src/DJI_Flight.cpp.i
@@ -289,7 +289,7 @@ src/DJI_Flight.i: src/DJI_Flight.cpp.i
 
 # target to preprocess a source file
 src/DJI_Flight.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Flight.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Flight.cpp.i
 .PHONY : src/DJI_Flight.cpp.i
 
 src/DJI_Flight.s: src/DJI_Flight.cpp.s
@@ -297,7 +297,7 @@ src/DJI_Flight.s: src/DJI_Flight.cpp.s
 
 # target to generate assembly for a file
 src/DJI_Flight.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Flight.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Flight.cpp.s
 .PHONY : src/DJI_Flight.cpp.s
 
 src/DJI_Follow.o: src/DJI_Follow.cpp.o
@@ -305,7 +305,7 @@ src/DJI_Follow.o: src/DJI_Follow.cpp.o
 
 # target to build an object file
 src/DJI_Follow.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Follow.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Follow.cpp.o
 .PHONY : src/DJI_Follow.cpp.o
 
 src/DJI_Follow.i: src/DJI_Follow.cpp.i
@@ -313,7 +313,7 @@ src/DJI_Follow.i: src/DJI_Follow.cpp.i
 
 # target to preprocess a source file
 src/DJI_Follow.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Follow.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Follow.cpp.i
 .PHONY : src/DJI_Follow.cpp.i
 
 src/DJI_Follow.s: src/DJI_Follow.cpp.s
@@ -321,7 +321,7 @@ src/DJI_Follow.s: src/DJI_Follow.cpp.s
 
 # target to generate assembly for a file
 src/DJI_Follow.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Follow.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Follow.cpp.s
 .PHONY : src/DJI_Follow.cpp.s
 
 src/DJI_HardDriver.o: src/DJI_HardDriver.cpp.o
@@ -329,7 +329,7 @@ src/DJI_HardDriver.o: src/DJI_HardDriver.cpp.o
 
 # target to build an object file
 src/DJI_HardDriver.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HardDriver.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HardDriver.cpp.o
 .PHONY : src/DJI_HardDriver.cpp.o
 
 src/DJI_HardDriver.i: src/DJI_HardDriver.cpp.i
@@ -337,7 +337,7 @@ src/DJI_HardDriver.i: src/DJI_HardDriver.cpp.i
 
 # target to preprocess a source file
 src/DJI_HardDriver.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HardDriver.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HardDriver.cpp.i
 .PHONY : src/DJI_HardDriver.cpp.i
 
 src/DJI_HardDriver.s: src/DJI_HardDriver.cpp.s
@@ -345,7 +345,7 @@ src/DJI_HardDriver.s: src/DJI_HardDriver.cpp.s
 
 # target to generate assembly for a file
 src/DJI_HardDriver.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HardDriver.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HardDriver.cpp.s
 .PHONY : src/DJI_HardDriver.cpp.s
 
 src/DJI_HotPoint.o: src/DJI_HotPoint.cpp.o
@@ -353,7 +353,7 @@ src/DJI_HotPoint.o: src/DJI_HotPoint.cpp.o
 
 # target to build an object file
 src/DJI_HotPoint.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HotPoint.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HotPoint.cpp.o
 .PHONY : src/DJI_HotPoint.cpp.o
 
 src/DJI_HotPoint.i: src/DJI_HotPoint.cpp.i
@@ -361,7 +361,7 @@ src/DJI_HotPoint.i: src/DJI_HotPoint.cpp.i
 
 # target to preprocess a source file
 src/DJI_HotPoint.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HotPoint.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HotPoint.cpp.i
 .PHONY : src/DJI_HotPoint.cpp.i
 
 src/DJI_HotPoint.s: src/DJI_HotPoint.cpp.s
@@ -369,7 +369,7 @@ src/DJI_HotPoint.s: src/DJI_HotPoint.cpp.s
 
 # target to generate assembly for a file
 src/DJI_HotPoint.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HotPoint.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_HotPoint.cpp.s
 .PHONY : src/DJI_HotPoint.cpp.s
 
 src/DJI_Link.o: src/DJI_Link.cpp.o
@@ -377,7 +377,7 @@ src/DJI_Link.o: src/DJI_Link.cpp.o
 
 # target to build an object file
 src/DJI_Link.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Link.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Link.cpp.o
 .PHONY : src/DJI_Link.cpp.o
 
 src/DJI_Link.i: src/DJI_Link.cpp.i
@@ -385,7 +385,7 @@ src/DJI_Link.i: src/DJI_Link.cpp.i
 
 # target to preprocess a source file
 src/DJI_Link.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Link.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Link.cpp.i
 .PHONY : src/DJI_Link.cpp.i
 
 src/DJI_Link.s: src/DJI_Link.cpp.s
@@ -393,7 +393,7 @@ src/DJI_Link.s: src/DJI_Link.cpp.s
 
 # target to generate assembly for a file
 src/DJI_Link.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Link.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Link.cpp.s
 .PHONY : src/DJI_Link.cpp.s
 
 src/DJI_Memory.o: src/DJI_Memory.cpp.o
@@ -401,7 +401,7 @@ src/DJI_Memory.o: src/DJI_Memory.cpp.o
 
 # target to build an object file
 src/DJI_Memory.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Memory.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Memory.cpp.o
 .PHONY : src/DJI_Memory.cpp.o
 
 src/DJI_Memory.i: src/DJI_Memory.cpp.i
@@ -409,7 +409,7 @@ src/DJI_Memory.i: src/DJI_Memory.cpp.i
 
 # target to preprocess a source file
 src/DJI_Memory.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Memory.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Memory.cpp.i
 .PHONY : src/DJI_Memory.cpp.i
 
 src/DJI_Memory.s: src/DJI_Memory.cpp.s
@@ -417,7 +417,7 @@ src/DJI_Memory.s: src/DJI_Memory.cpp.s
 
 # target to generate assembly for a file
 src/DJI_Memory.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Memory.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Memory.cpp.s
 .PHONY : src/DJI_Memory.cpp.s
 
 src/DJI_Mission.o: src/DJI_Mission.cpp.o
@@ -425,7 +425,7 @@ src/DJI_Mission.o: src/DJI_Mission.cpp.o
 
 # target to build an object file
 src/DJI_Mission.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Mission.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Mission.cpp.o
 .PHONY : src/DJI_Mission.cpp.o
 
 src/DJI_Mission.i: src/DJI_Mission.cpp.i
@@ -433,7 +433,7 @@ src/DJI_Mission.i: src/DJI_Mission.cpp.i
 
 # target to preprocess a source file
 src/DJI_Mission.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Mission.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Mission.cpp.i
 .PHONY : src/DJI_Mission.cpp.i
 
 src/DJI_Mission.s: src/DJI_Mission.cpp.s
@@ -441,7 +441,7 @@ src/DJI_Mission.s: src/DJI_Mission.cpp.s
 
 # target to generate assembly for a file
 src/DJI_Mission.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Mission.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_Mission.cpp.s
 .PHONY : src/DJI_Mission.cpp.s
 
 src/DJI_VirtualRC.o: src/DJI_VirtualRC.cpp.o
@@ -449,7 +449,7 @@ src/DJI_VirtualRC.o: src/DJI_VirtualRC.cpp.o
 
 # target to build an object file
 src/DJI_VirtualRC.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_VirtualRC.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_VirtualRC.cpp.o
 .PHONY : src/DJI_VirtualRC.cpp.o
 
 src/DJI_VirtualRC.i: src/DJI_VirtualRC.cpp.i
@@ -457,7 +457,7 @@ src/DJI_VirtualRC.i: src/DJI_VirtualRC.cpp.i
 
 # target to preprocess a source file
 src/DJI_VirtualRC.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_VirtualRC.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_VirtualRC.cpp.i
 .PHONY : src/DJI_VirtualRC.cpp.i
 
 src/DJI_VirtualRC.s: src/DJI_VirtualRC.cpp.s
@@ -465,7 +465,7 @@ src/DJI_VirtualRC.s: src/DJI_VirtualRC.cpp.s
 
 # target to generate assembly for a file
 src/DJI_VirtualRC.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_VirtualRC.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_VirtualRC.cpp.s
 .PHONY : src/DJI_VirtualRC.cpp.s
 
 src/DJI_WayPoint.o: src/DJI_WayPoint.cpp.o
@@ -473,7 +473,7 @@ src/DJI_WayPoint.o: src/DJI_WayPoint.cpp.o
 
 # target to build an object file
 src/DJI_WayPoint.cpp.o:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_WayPoint.cpp.o
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_WayPoint.cpp.o
 .PHONY : src/DJI_WayPoint.cpp.o
 
 src/DJI_WayPoint.i: src/DJI_WayPoint.cpp.i
@@ -481,7 +481,7 @@ src/DJI_WayPoint.i: src/DJI_WayPoint.cpp.i
 
 # target to preprocess a source file
 src/DJI_WayPoint.cpp.i:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_WayPoint.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_WayPoint.cpp.i
 .PHONY : src/DJI_WayPoint.cpp.i
 
 src/DJI_WayPoint.s: src/DJI_WayPoint.cpp.s
@@ -489,7 +489,7 @@ src/DJI_WayPoint.s: src/DJI_WayPoint.cpp.s
 
 # target to generate assembly for a file
 src/DJI_WayPoint.cpp.s:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_WayPoint.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(MAKE) -f dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/build.make dji_sdk_lib/CMakeFiles/dji_sdk_lib.dir/src/DJI_WayPoint.cpp.s
 .PHONY : src/DJI_WayPoint.cpp.s
 
 # Help Target
@@ -557,6 +557,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

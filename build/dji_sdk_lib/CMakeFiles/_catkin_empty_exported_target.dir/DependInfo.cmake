@@ -14,7 +14,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib/include/dji_sdk_lib"
+  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include/dji_sdk_lib"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

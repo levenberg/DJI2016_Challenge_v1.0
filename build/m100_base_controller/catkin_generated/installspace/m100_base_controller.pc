@@ -1,8 +1,8 @@
-prefix=/root/Documents/roswork/DJI2016_Challenge/install
+prefix=/root/Documents/roswork/DJI2016_Challenge_v1.0/install
 
 Name: m100_base_controller
 Description: Description of m100_base_controller
 Version: 0.0.0
 Cflags: 
-Libs: -L/root/Documents/roswork/DJI2016_Challenge/install/lib 
+Libs: -L/root/Documents/roswork/DJI2016_Challenge_v1.0/install/lib 
 Requires: 

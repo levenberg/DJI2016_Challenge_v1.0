@@ -1,0 +1,26 @@
+<launch>
+     <node pkg="stereo_image_proc" type="stereo_image_proc" name="stereo_image_proc" output="screen" ns="stereo" />
+
+
+    <node pkg="m100_tf" type="tf_broadcaster" name="tf_broadcaster" output="screen" />
+
+    <node pkg="tf" type="static_transform_publisher" name="odom_map_broadcaster" args="0 0 0 0 0 0 /map /odom 100" />
+ 
+    <include file="$(find amcl)/examples/amcl_omni.launch" />
+ 
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+      <rosparam file="$(find m100_2dnav)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+      <rosparam file="$(find m100_2dnav)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+      <rosparam file="$(find m100_2dnav)/config/global_costmap_params.yaml" command="load" />
+      <rosparam file="$(find m100_2dnav)/config/local_costmap_params.yaml" command="load" />
+      <rosparam file="$(find m100_2dnav)/config/base_local_planner_params.yaml" command="load" />
+    </node>
+
+
+   <node name="map_server" pkg="map_server" type="map_server" args="$(find m100_2dnav)/maps/blank_map.yaml"/> 
+
+
+    <node pkg="m100_navigation_goals" type="navigation_goals" name="navigation" output="screen" />
+   
+   
+</launch> 

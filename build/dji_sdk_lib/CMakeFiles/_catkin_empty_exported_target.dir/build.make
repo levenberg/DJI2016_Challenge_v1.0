@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -59,10 +59,10 @@ dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_ex
 .PHONY : dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk_lib && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk_lib && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge/src /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk_lib /root/Documents/roswork/DJI2016_Challenge/build /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk_lib /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge_v1.0/src /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib /root/Documents/roswork/DJI2016_Challenge_v1.0/build /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk_lib /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dji_sdk_lib/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

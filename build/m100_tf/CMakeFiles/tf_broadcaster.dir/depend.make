@@ -69,6 +69,7 @@ m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/
 m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/include/ros/wall_timer.h
 m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/include/ros/wall_timer_options.h
 m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/include/rosconsole/macros_generated.h
+m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/include/std_msgs/Bool.h
 m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/include/std_msgs/Header.h
 m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/include/tf/LinearMath/Matrix3x3.h
 m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/include/tf/LinearMath/MinMax.h
@@ -97,5 +98,5 @@ m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/
 m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/include/tf2_ros/buffer.h
 m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/include/tf2_ros/buffer_interface.h
 m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /opt/ros/indigo/include/tf2_ros/transform_broadcaster.h
-m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/m100_tf/src/tf_broadcaster.cpp
+m100_tf/CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_tf/src/tf_broadcaster.cpp
 

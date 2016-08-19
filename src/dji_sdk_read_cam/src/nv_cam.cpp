@@ -210,10 +210,10 @@ void* trackLoop ( void* tmp )
 
 
       count++;
-      if ( count == 10 )
+      if ( count == 20 )
         {
           count = 0;
-          ROS_INFO ( "Process FPS: %0.2f\n",10/ ( ros::Time::now().toSec()-t.toSec() ) );
+          ROS_INFO ( "Process FPS: %0.2f\n",20/ ( ros::Time::now().toSec()-t.toSec() ) );
           t=ros::Time::now();
         }
 

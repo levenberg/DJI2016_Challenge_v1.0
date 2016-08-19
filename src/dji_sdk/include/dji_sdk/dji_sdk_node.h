@@ -8,8 +8,9 @@
 #include <dji_sdk/dji_sdk.h>
 #include <actionlib/server/simple_action_server.h>
 #include <dji_sdk/dji_sdk_mission.h>
+#include <dji_sdk/dji_sdk_mission.h>
 #include <tf/transform_broadcaster.h>
-
+#include<std_msgs/Bool.h>
 #define C_EARTH (double) 6378137.0
 #define C_PI (double) 3.141592653589793
 #define DEG2RAD(DEG) ((DEG)*((C_PI)/(180.0)))
@@ -51,31 +52,39 @@ private:
     ActivateData user_act_data;
 
 //Publishers:
-	ros::Publisher activation_publisher;
-    	ros::Publisher acceleration_publisher;
-    	ros::Publisher attitude_quaternion_publisher;
-    	ros::Publisher compass_publisher;
-    	ros::Publisher flight_control_info_publisher;
-    	ros::Publisher flight_status_publisher;
-    	ros::Publisher gimbal_publisher;
-    	ros::Publisher global_position_publisher;
-    	ros::Publisher local_position_publisher;
-    	ros::Publisher power_status_publisher;
-    	ros::Publisher rc_channels_publisher;
-    	ros::Publisher velocity_publisher;
-    	ros::Publisher odometry_publisher;
-    	ros::Publisher time_stamp_publisher;
+	
+    ros::Publisher activation_publisher;
+    ros::Publisher acceleration_publisher;
+    ros::Publisher attitude_quaternion_publisher;
+    ros::Publisher compass_publisher;
+    ros::Publisher flight_control_info_publisher;
+    ros::Publisher flight_status_publisher;
+    ros::Publisher gimbal_publisher;
+    ros::Publisher global_position_publisher;
+    ros::Publisher local_position_publisher;
+    ros::Publisher power_status_publisher;
+    ros::Publisher rc_channels_publisher;
+    ros::Publisher velocity_publisher;
+    ros::Publisher odometry_publisher;
+    ros::Publisher time_stamp_publisher;
 	ros::Publisher data_received_from_remote_device_publisher;
 
-	tf::TransformBroadcaster odom_broadcaster;
 	
+	
+    tf::TransformBroadcaster odom_broadcaster;
 #ifdef SDK_VERSION_3_1_A3
 	ros::Publisher A3_GPS_info_publisher;
 	ros::Publisher A3_RTK_info_publisher;
 #endif
+	
+	ros::Subscriber start_searching_sub;
+	bool start_searching_flag;
 
     void init_publishers(ros::NodeHandle& nh)
     {
+      
+      //Lazy Way...
+         start_searching_sub = nh.subscribe("/dji_sdk_demo/start_searching",10,&DJISDKNode::start_searching_callback,this) ;
         // start ros publisher
 		activation_publisher = nh.advertise<std_msgs::UInt8>("dji_sdk/activation", 10);
         acceleration_publisher = nh.advertise<dji_sdk::Acceleration>("dji_sdk/acceleration", 10);
@@ -221,6 +230,15 @@ private:
             double gps_r_lon, double gps_r_lat);
 
     dji_sdk::LocalPosition gps_convert_ned(dji_sdk::GlobalPosition loc);
+    
+    
+    
+    
+    //Lazy Way...
+    void start_searching_callback(const std_msgs::Bool& start_)
+    {
+      start_searching_flag = start_.data;
+    }
 
 };
 

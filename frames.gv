@@ -1,0 +1,9 @@
+digraph G {
+"odom" -> "base_link"[label="Broadcaster: /dji_sdk\nAverage rate: 50.223 Hz\nMost recent transform: 1471592723.254 ( 0.017 sec old)\nBuffer length: 4.779 sec\n"];
+"map" -> "odom"[label="Broadcaster: /odom_map_broadcaster\nAverage rate: 10.181 Hz\nMost recent transform: 1471592723.330 ( -0.059 sec old)\nBuffer length: 4.715 sec\n"];
+"base_link" -> "m100_guidance"[label="Broadcaster: /tf_broadcaster\nAverage rate: 70.242 Hz\nMost recent transform: 1471592723.270 ( 0.001 sec old)\nBuffer length: 4.783 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1471592723.271"[ shape=plaintext ] ;
+ }->"map";
+}

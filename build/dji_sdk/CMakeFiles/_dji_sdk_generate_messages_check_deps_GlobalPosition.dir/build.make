@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 # Utility rule file for _dji_sdk_generate_messages_check_deps_GlobalPosition.
 
@@ -49,7 +49,7 @@ CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
 include dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/progress.make
 
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition:
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dji_sdk /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/msg/GlobalPosition.msg std_msgs/Header
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py dji_sdk /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg std_msgs/Header
 
 _dji_sdk_generate_messages_check_deps_GlobalPosition: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition
 _dji_sdk_generate_messages_check_deps_GlobalPosition: dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/build.make
@@ -60,10 +60,10 @@ dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/buil
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/build
 
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && $(CMAKE_COMMAND) -P CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/cmake_clean.cmake
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && $(CMAKE_COMMAND) -P CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/cmake_clean.cmake
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/clean
 
 dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge/src /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk /root/Documents/roswork/DJI2016_Challenge/build /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge_v1.0/src /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk /root/Documents/roswork/DJI2016_Challenge_v1.0/build /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dji_sdk/CMakeFiles/_dji_sdk_generate_messages_check_deps_GlobalPosition.dir/depend
 

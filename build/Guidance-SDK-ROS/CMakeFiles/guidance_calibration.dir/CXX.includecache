@@ -780,9 +780,9 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/include/DJI_guidance.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/include/DJI_guidance.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/include/DJI_utility.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/include/DJI_utility.h
 stdio.h
 -
 Windows.h
@@ -794,11 +794,11 @@ pthread.h
 semaphore.h
 -
 
-/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.cpp
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.cpp
 DJI_utility.h
-/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.h
 
-/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/Guidance_Calibration.cpp
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/Guidance_Calibration.cpp
 stdio.h
 -
 string.h
@@ -808,9 +808,9 @@ iostream
 fstream
 -
 DJI_guidance.h
-/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_guidance.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_guidance.h
 DJI_utility.h
-/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/DJI_utility.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/DJI_utility.h
 opencv/cv.h
 -
 opencv/highgui.h
@@ -828,5 +828,5 @@ sensor_msgs/CameraInfo.h
 sensor_msgs/LaserScan.h
 -
 yaml-cpp/yaml.h
-/root/Documents/roswork/DJI2016_Challenge/src/Guidance-SDK-ROS/src/yaml-cpp/yaml.h
+/root/Documents/roswork/DJI2016_Challenge_v1.0/src/Guidance-SDK-ROS/src/yaml-cpp/yaml.h
 

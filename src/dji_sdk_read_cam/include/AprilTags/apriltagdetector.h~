@@ -18,6 +18,8 @@
 
 
 
+#include<dji_sdk/TransparentTransmissionData.h>
+
 
 //#ifdef USING_ROS
 #include "ros/ros.h"
@@ -80,14 +82,16 @@ public:
   dji_sdk::DetectionPoints m_detectionPoints;
   ros::Publisher m_detectionPoints_pub;
 
+  ros::Subscriber m_CMD_FROM_DJI_sub;
 #ifdef GIMBAL_USED
   ros::Subscriber m_gimbal_sub;
   dji_sdk::Gimbal m_gimbal;
 #endif
 
 
-  float last_flight_height;
+  //float last_flight_height
 
+  uint8_t m_CMD_from_remote; 
   std::vector<cv::Point2f> points[2];
   vector<AprilTags::TagDetection> detections;
 
@@ -105,14 +109,14 @@ public:
 
     m_width ( 640 ),
     m_height ( 360 ),
-    m_tagSize ( 0.31 ),
+    m_tagSize ( 0.39 ),
     m_fx ( 373 ), //Specified by x3 Camera;
     m_fy ( 373 ),
     m_px ( 318 ),
     m_py ( 181 ),
     m_frames ( 0 ),
     m_isTracking ( false ),
-    last_flight_height(0.0)
+    m_CMD_from_remote('W')
   { 
 
     m_tagDetector = new AprilTags::TagDetector ( m_tagCodes );
@@ -124,6 +128,8 @@ public:
 #ifdef GIMBAL_USED
     m_gimbal_sub = node.subscribe( "dji_sdk/gimbal",10,&ApriltagDetector::gimbal_read_callback,this );
 #endif
+
+    m_CMD_FROM_DJI_sub = node.subscribe( "dji_sdk/data_received_from_remote_device",10,&ApriltagDetector::cmd_from_mobile_callback,this );
 
   }
 
@@ -157,6 +163,15 @@ public:
   }
 
 #endif
+
+
+
+
+
+void cmd_from_mobile_callback(const dji_sdk::TransparentTransmissionData & transData)
+{
+  m_CMD_from_remote = transData.data.at(0);
+}
 
 };
 

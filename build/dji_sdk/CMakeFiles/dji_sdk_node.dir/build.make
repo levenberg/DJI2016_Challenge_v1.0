@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge/src
+CMAKE_SOURCE_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge/build
+CMAKE_BINARY_DIR = /root/Documents/roswork/DJI2016_Challenge_v1.0/build
 
 # Include any dependencies generated for this target.
 include dji_sdk/CMakeFiles/dji_sdk_node.dir/depend.make
@@ -53,18 +53,18 @@ include dji_sdk/CMakeFiles/dji_sdk_node.dir/progress.make
 include dji_sdk/CMakeFiles/dji_sdk_node.dir/flags.make
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o: dji_sdk/CMakeFiles/dji_sdk_node.dir/flags.make
-dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/dji_sdk_node.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_1)
+dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/dji_sdk_node.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o -c /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/dji_sdk_node.cpp
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o -c /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/dji_sdk_node.cpp
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.i"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/dji_sdk_node.cpp > CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/dji_sdk_node.cpp > CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.i
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.s"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/dji_sdk_node.cpp -o CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/dji_sdk_node.cpp -o CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.s
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o.requires:
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o.requires
@@ -76,18 +76,18 @@ dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o.provides: dji_sdk/CMa
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o.provides.build: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o: dji_sdk/CMakeFiles/dji_sdk_node.dir/flags.make
-dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_actions.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_2)
+dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_actions.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o -c /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_actions.cpp
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o -c /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_actions.cpp
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.i"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_actions.cpp > CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_actions.cpp > CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.i
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.s"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_actions.cpp -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_actions.cpp -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.s
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o.requires:
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o.requires
@@ -99,18 +99,18 @@ dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o.provi
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o.provides.build: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o: dji_sdk/CMakeFiles/dji_sdk_node.dir/flags.make
-dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_services.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_3)
+dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_services.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o -c /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_services.cpp
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o -c /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_services.cpp
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.i"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_services.cpp > CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_services.cpp > CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.i
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.s"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_services.cpp -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_services.cpp -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.s
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o.requires:
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o.requires
@@ -122,18 +122,18 @@ dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o.prov
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o.provides.build: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o: dji_sdk/CMakeFiles/dji_sdk_node.dir/flags.make
-dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_4)
+dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o -c /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_main.cpp
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o -c /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_main.cpp
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.i"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_main.cpp > CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_main.cpp > CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.i
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.s"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_main.cpp -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_main.cpp -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.s
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o.requires:
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o.requires
@@ -145,18 +145,18 @@ dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o.provides
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o.provides.build: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o: dji_sdk/CMakeFiles/dji_sdk_node.dir/flags.make
-dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o: /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_mission.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge/build/CMakeFiles $(CMAKE_PROGRESS_5)
+dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o: /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_mission.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/Documents/roswork/DJI2016_Challenge_v1.0/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o -c /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_mission.cpp
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o -c /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_mission.cpp
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.i"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_mission.cpp > CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.i
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_mission.cpp > CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.i
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.s"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk/src/modules/dji_sdk_node_mission.cpp -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.s
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/src/modules/dji_sdk_node_mission.cpp -o CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.s
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o.requires:
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o.requires
@@ -178,41 +178,41 @@ dji_sdk_node_OBJECTS = \
 # External object files for target dji_sdk_node
 dji_sdk_node_EXTERNAL_OBJECTS =
 
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /root/Documents/roswork/DJI2016_Challenge/devel/lib/libdji_sdk_lib.a
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libtf.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libtf2_ros.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libactionlib.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libmessage_filters.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libroscpp.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libxmlrpcpp.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libtf2.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libroscpp_serialization.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/librosconsole.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/liblog4cxx.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/librostime.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libcpp_common.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_system.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libpthread.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
-/root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node"
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dji_sdk_node.dir/link.txt --verbose=$(VERBOSE)
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_actions.cpp.o
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_services.cpp.o
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_main.cpp.o
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/modules/dji_sdk_node_mission.cpp.o
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/build.make
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/libdji_sdk_lib.a
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libtf.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libtf2_ros.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libactionlib.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libmessage_filters.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libroscpp.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libxmlrpcpp.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libtf2.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libroscpp_serialization.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/librosconsole.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/liblog4cxx.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/librostime.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /opt/ros/indigo/lib/libcpp_common.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_system.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libpthread.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
+/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node: dji_sdk/CMakeFiles/dji_sdk_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node"
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dji_sdk_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-dji_sdk/CMakeFiles/dji_sdk_node.dir/build: /root/Documents/roswork/DJI2016_Challenge/devel/lib/dji_sdk/dji_sdk_node
+dji_sdk/CMakeFiles/dji_sdk_node.dir/build: /root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/dji_sdk/dji_sdk_node
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_node.dir/build
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/requires: dji_sdk/CMakeFiles/dji_sdk_node.dir/src/dji_sdk_node.cpp.o.requires
@@ -223,10 +223,10 @@ dji_sdk/CMakeFiles/dji_sdk_node.dir/requires: dji_sdk/CMakeFiles/dji_sdk_node.di
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_node.dir/requires
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/clean:
-	cd /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk && $(CMAKE_COMMAND) -P CMakeFiles/dji_sdk_node.dir/cmake_clean.cmake
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk && $(CMAKE_COMMAND) -P CMakeFiles/dji_sdk_node.dir/cmake_clean.cmake
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_node.dir/clean
 
 dji_sdk/CMakeFiles/dji_sdk_node.dir/depend:
-	cd /root/Documents/roswork/DJI2016_Challenge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge/src /root/Documents/roswork/DJI2016_Challenge/src/dji_sdk /root/Documents/roswork/DJI2016_Challenge/build /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk /root/Documents/roswork/DJI2016_Challenge/build/dji_sdk/CMakeFiles/dji_sdk_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Documents/roswork/DJI2016_Challenge_v1.0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Documents/roswork/DJI2016_Challenge_v1.0/src /root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk /root/Documents/roswork/DJI2016_Challenge_v1.0/build /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk /root/Documents/roswork/DJI2016_Challenge_v1.0/build/dji_sdk/CMakeFiles/dji_sdk_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dji_sdk/CMakeFiles/dji_sdk_node.dir/depend
 

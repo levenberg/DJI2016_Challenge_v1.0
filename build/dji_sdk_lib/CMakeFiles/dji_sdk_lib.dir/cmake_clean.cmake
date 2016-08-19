@@ -12,8 +12,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/dji_sdk_lib.dir/src/DJI_Follow.cpp.o"
   "CMakeFiles/dji_sdk_lib.dir/src/DJI_VirtualRC.cpp.o"
   "CMakeFiles/dji_sdk_lib.dir/src/DJI_Flight.cpp.o"
-  "/root/Documents/roswork/DJI2016_Challenge/devel/lib/libdji_sdk_lib.pdb"
-  "/root/Documents/roswork/DJI2016_Challenge/devel/lib/libdji_sdk_lib.a"
+  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/libdji_sdk_lib.pdb"
+  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib/libdji_sdk_lib.a"
 )
 
 # Per-language clean rules from dependency scanning.
