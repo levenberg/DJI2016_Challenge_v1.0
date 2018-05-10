@@ -1,8 +1,0 @@
-prefix=/root/Documents/roswork/DJI2016_Challenge/devel
-
-Name: point_cloud_publisher_tutorial
-Description: Description of point_cloud_publisher_tutorial
-Version: 0.2.3
-Cflags: 
-Libs: -L/root/Documents/roswork/DJI2016_Challenge/devel/lib 
-Requires: 

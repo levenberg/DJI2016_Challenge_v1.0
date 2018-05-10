@@ -1,8 +1,0 @@
-<launch>
-    <include file="$(find dji_sdk)/launch/sdk_manifold.launch" />
-
-
-   <node pkg="m100_base_controller" type="base_controller" name="base_controller" output="screen" /> 
-
-   
-</launch> 

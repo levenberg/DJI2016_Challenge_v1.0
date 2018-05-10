@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/m100_navigation_goals/src/navigation_goals.cpp
+ros/ros.h
+-
+stdlib.h
+-
+iostream
+-
+sensor_msgs/LaserScan.h
+-
+move_base_msgs/MoveBaseAction.h
+-
+actionlib/client/simple_action_client.h
+-
+std_msgs/Bool.h
+-
+
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h
 -
@@ -106,6 +122,8 @@ boost/thread/condition.hpp
 boost/thread/mutex.hpp
 -
 boost/scoped_ptr.hpp
+-
+boost/concept_check.hpp
 -
 ros/ros.h
 /opt/ros/indigo/include/actionlib/client/ros/ros.h
@@ -536,6 +554,8 @@ cstdarg
 ros/macros.h
 -
 map
+-
+vector
 -
 log4cxx/level.h
 /opt/ros/indigo/include/ros/log4cxx/level.h
@@ -1142,21 +1162,5 @@ ros/serialization.h
 ros/builtin_message_traits.h
 -
 ros/message_operations.h
--
-
-/root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_navigation_goals/src/navigation_goals.cpp
-ros/ros.h
--
-stdlib.h
--
-iostream
--
-sensor_msgs/LaserScan.h
--
-move_base_msgs/MoveBaseAction.h
--
-actionlib/client/simple_action_client.h
--
-std_msgs/Bool.h
 -
 

@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/m100_tf/src/tf_broadcaster.cpp
+ros/ros.h
+-
+tf/transform_broadcaster.h
+-
+std_msgs/Bool.h
+-
+
 /opt/ros/indigo/include/XmlRpcDecl.h
 ros/macros.h
 -
@@ -320,6 +328,8 @@ cstdarg
 ros/macros.h
 -
 map
+-
+vector
 -
 log4cxx/level.h
 /opt/ros/indigo/include/ros/log4cxx/level.h
@@ -1195,12 +1205,4 @@ ros/ros.h
 /opt/ros/indigo/include/tf2_ros/ros/ros.h
 geometry_msgs/TransformStamped.h
 /opt/ros/indigo/include/tf2_ros/geometry_msgs/TransformStamped.h
-
-/root/Documents/roswork/DJI2016_Challenge_v1.0/src/m100_tf/src/tf_broadcaster.cpp
-ros/ros.h
--
-tf/transform_broadcaster.h
--
-std_msgs/Bool.h
--
 

@@ -14,7 +14,7 @@
 
 
 //#define FILTER_USED
-#define PID_USED  //use pid control or not
+//#define PID_USED  //use pid control or not
 using namespace std;
 class DJIDrone
 {
@@ -335,12 +335,12 @@ private:
     this->detection_points = detectionPoints;
     // Add sending data(detection's position, id and location, etc.) to mobile device;
 
-    string  imformation_data= "000000000000000000000000000000000000000000";
+    string  imformation_data= "0000000000000000000000000000000000000000000000";
     // imformation_data.push_back('~');//Make it not empty.
     if ( detectionPoints.id >= 0 )
       {
         //  ROS_INFO ( "id:%d x0:%d,y0:%d,x1:%d,y1:%d",detectionPoints.id,detectionPoints.x0,detectionPoints.y0,detectionPoints.x1,detectionPoints.y1 );
-        sprintf ( &imformation_data[0],"%03d%03d%03d%03d%03d%03d%03d%03d%03d%.4f%.4f",detectionPoints.x0, detectionPoints.y0,
+        sprintf ( &imformation_data[0],"%03d%03d%03d%03d%03d%03d%03d%03d%03d%.6f%.6f",detectionPoints.x0, detectionPoints.y0,
                   detectionPoints.x1,detectionPoints.y1,detectionPoints.x2,detectionPoints.y2, detectionPoints.x3,
                   detectionPoints.y3,detectionPoints.id,global_position.longitude,global_position.latitude );
         // send_data_to_mobile_devide(imformation_data,34);

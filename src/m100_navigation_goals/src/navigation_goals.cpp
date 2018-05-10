@@ -43,8 +43,6 @@ int main ( int argc, char** argv )
   goal.target_pose.header.frame_id = "base_link";
 
 
-  sleep ( 5 );
-
   int x = 0;
   while ( start_searching==false)
     {
@@ -63,6 +61,7 @@ int main ( int argc, char** argv )
     }
 
 
+    int count = 0;
 
 
   while ( n.ok() )
@@ -77,26 +76,26 @@ int main ( int argc, char** argv )
       switch ( x )
         {
         case 0:
-          goal.target_pose.pose.position.x = 1.0;
+          goal.target_pose.pose.position.x = 4.0;
           goal.target_pose.pose.position.y = 0;
           goal.target_pose.pose.orientation.w = 1.0;
           //   x = 1;
           break;
         case 1:
           goal.target_pose.pose.position.x = 0;
-          goal.target_pose.pose.position.y = 1.0;
+          goal.target_pose.pose.position.y = 4.0;
           goal.target_pose.pose.orientation.w = 1.0;
           //   x = 2;
           break;
         case 2:
-          goal.target_pose.pose.position.x = -1.0;
+          goal.target_pose.pose.position.x = -4.0;
           goal.target_pose.pose.position.y = 0;
           goal.target_pose.pose.orientation.w = 1.0;
           //  x = 3;
           break;
         case 3:
           goal.target_pose.pose.position.x = 0;
-          goal.target_pose.pose.position.y = -1.0;
+          goal.target_pose.pose.position.y = -4.0;
           goal.target_pose.pose.orientation.w = 1.0;
           //   x = 0;
           break;
@@ -109,8 +108,7 @@ int main ( int argc, char** argv )
       ROS_INFO ( "Sending goal..." );
       //  sleep(45);
       ac.sendGoal ( goal );
-
-      if ( ac.waitForResult ( ros::Duration ( 0,0 ) ) );
+      if ( ac.waitForResult ( ros::Duration ( 20) ) );
       if ( ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED )
         ROS_INFO ( "Hooray, the base moved 1 meter forward" );
 
@@ -125,6 +123,14 @@ int main ( int argc, char** argv )
           ROS_INFO ( "PENDING" );
           // x +=3 ;
         }
+        count ++;
+      if(count%4==0)
+	x++;
+        
+      if(count%6 == 0)
+	x--;
+      
+        
 
     }
   return 0;

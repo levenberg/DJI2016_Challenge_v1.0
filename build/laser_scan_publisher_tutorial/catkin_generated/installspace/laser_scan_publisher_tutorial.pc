@@ -1,8 +1,0 @@
-prefix=/root/Documents/roswork/DJI2016_Challenge/install
-
-Name: laser_scan_publisher_tutorial
-Description: Description of laser_scan_publisher_tutorial
-Version: 0.2.3
-Cflags: 
-Libs: -L/root/Documents/roswork/DJI2016_Challenge/install/lib 
-Requires: 

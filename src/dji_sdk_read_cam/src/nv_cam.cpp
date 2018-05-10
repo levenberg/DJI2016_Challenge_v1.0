@@ -34,6 +34,7 @@ typedef unsigned char   BYTE;
 #define IMAGE_H 720
 #define FRAME_SIZE              IMAGE_W*IMAGE_H*3
 
+int mission_type=1;    //1-line follow, 2-human follow
 
 unsigned char buffer[FRAME_SIZE] = {0};
 unsigned int frame_size = 0;
@@ -195,30 +196,28 @@ void* trackLoop ( void* tmp )
  
   int count = 0;
   while ( 1 )
-    {
+  {
       //std::cout<<std::endl;
       cv::Mat gray = cv::Mat ( pImg, true );
+      if(mission_type==1)  //line follow
+      {
+        tracker->Line_detection(gray, result);
+      }
+      if(mission_type==2)  //human follow
+          tracker->processImage ( gray );
 
-      tracker->processImage ( gray );
-
-//        cvi.header.stamp = t;
-//        cvi.header.frame_id = "image_process";
-//        cvi.encoding = "mono8";
-//        cvi.image = gray;
-//        cvi.toImageMsg(im);
-//        image_text_pub.publish(im);
 
 
       count++;
       if ( count == 20 )
-        {
+      {
           count = 0;
           ROS_INFO ( "Process FPS: %0.2f\n",20/ ( ros::Time::now().toSec()-t.toSec() ) );
           t=ros::Time::now();
-        }
+      }
 
       ros::spinOnce();
-    }
+  }
 }
 
 

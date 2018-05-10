@@ -376,3 +376,53 @@ std::vector<int> ApriltagDetector::point2win ( cv::Mat image, float delta )
   m_win.push_back ( y_max );
   return m_win;
 }
+
+void ApriltagDetector::Line_detection(cv::Mat& image, dji_sdk::Reldist & result)
+{
+    medianBlur(image, image, 5);
+    if ( image.dims!=2 )
+      cv::cvtColor ( image, image_gray, CV_BGR2GRAY );
+    else
+      image_gray = image.clone();
+    vector<Vec3f> circles;
+    HoughCircles(img, circles, CV_HOUGH_GRADIENT, 1, 10,
+        100, 30, 1, 60 // change the last two parameters
+        // (min_radius & max_radius) to detect larger circles
+        );
+    //show the detected circles
+    for (size_t i = 0; i < circles.size(); i++)
+    {
+        Vec3i c = circles[i];
+        circle(cimg, Point(c[0], c[1]), c[2], Scalar(0, 0, 255), 3, CV_AA);
+        circle(cimg, Point(c[0], c[1]), 1, Scalar(0, 255, 0), 3, CV_AA);
+        char words[20];
+        sprintf_s(words, "%d", i);
+        putText(cimg, words, Point(c[0], c[1]), CV_FONT_HERSHEY_COMPLEX, 1, Scalar(255, 0, 0));
+    }
+    Vec3i a = circles[0];
+    Vec3i b = circles[1];
+    Vec3i c = circles[2];
+    line(cimg, Point(a[0], a[1]), Point(b[0], b[1]), Scalar(255, 0, 0), 1, CV_AA);
+    line(cimg, Point(a[0], a[1]), Point(c[0], c[1]), Scalar(255, 0, 0), 1, CV_AA);
+    imshow("detected circles", cimg);
+
+    //calculate the lines
+    int error_y=0, yaw=0;
+    
+    
+    //output the result
+    result.header.frame_id = "x3_reldist";
+    result.header.stamp = ros::Time::now();
+    //if camera faces down, x is the vertical distance, y is horizontal y, z is horizontal x
+    result.x = 0;
+    result.y = error_y;
+    result.z = 1;   //the forward speed
+    result.yaw = yaw;
+    
+    result.pitch = 0;
+    result.roll = 0;
+    result.norm = 0;
+    result.gimbal_pitch_inc = 0;
+    result.istracked = true;
+    m_result_pub.publish ( result );
+}

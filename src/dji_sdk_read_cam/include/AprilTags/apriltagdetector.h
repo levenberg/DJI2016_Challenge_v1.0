@@ -33,11 +33,11 @@
 #include<dji_sdk/Gimbal.h>
 #endif
 
-
+/*
 #ifndef SMALL_TAG_USED
 #define SMALL_TAG_USED
 #endif
-
+*/
 
 #ifndef PI
 const double PI = 3.14159265358979323846;
@@ -170,7 +170,7 @@ public:
   void processImage ( cv::Mat& image );
   // get window with (1+2*delta)*TagSize
   std::vector<int> point2win ( cv::Mat image, float delta = 0 );
-
+  
   void print_detections ();
 #ifdef GIMBAL_USED
   void gimbal_read_callback ( const dji_sdk::Gimbal & gimbal )
@@ -179,7 +179,7 @@ public:
   }
 
 #endif
-
+  void Line_detection(cv::Mat& image, dji_sdk::Reldist & result)
 
 
 

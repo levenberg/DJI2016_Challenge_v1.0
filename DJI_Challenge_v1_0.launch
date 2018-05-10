@@ -25,8 +25,9 @@
 		<param name="delayCount" type="int" value="20"/>
 		<param name="maxTakeoffWaitCount" type="int" value="700"/>
 		<param name="descendingSpeed"  value="0.005"/>
-		<param name="initTrackingHeight" value="6.0"/>
-	        <param name="initDescedingHeightSearch" value="10.0"/>
+		<param name="initTrackingHeight" value="7.0"/>
+	        <param name="initDescedingHeightSearch" value="18.0"/>  
+          <param name="initial_searching_height" value="1.7"/>
 	</node>
 
  
@@ -39,7 +40,7 @@
  
     <include file="$(find amcl)/examples/amcl_omni.launch" />
  
-    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base">
       <rosparam file="$(find m100_2dnav)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
       <rosparam file="$(find m100_2dnav)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
       <rosparam file="$(find m100_2dnav)/config/global_costmap_params.yaml" command="load" />
@@ -51,9 +52,9 @@
    <node name="map_server" pkg="map_server" type="map_server" args="$(find m100_2dnav)/maps/blank_map.yaml"/> 
 
 
-    <node pkg="m100_navigation_goals" type="navigation_goals" name="navigation" output="screen" />
+    <node pkg="m100_navigation_goals" type="navigation_goals" name="navigation" />
  
-
+<!--
     <node name="controller" pkg="pid" type="controller" ns="left_wheel"  >
       <param name="node_name" value="left_wheel_pid" />
       <param name="Kp" value="-1.0" />
@@ -95,7 +96,7 @@
     <node name="setpoint_node" pkg="pid" type="setpoint_node"  />
 
 
-
+-->
 
 
 </launch>

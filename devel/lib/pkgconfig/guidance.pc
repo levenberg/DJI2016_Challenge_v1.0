@@ -1,8 +1,8 @@
-prefix=/root/Documents/roswork/DJI2016_Challenge_v1.0/devel
+prefix=/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel
 
 Name: guidance
 Description: Description of guidance
 Version: 0.0.1
 Cflags: 
-Libs: -L/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib 
+Libs: -L/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/lib 
 Requires: 

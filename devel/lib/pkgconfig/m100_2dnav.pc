@@ -1,8 +1,8 @@
-prefix=/root/Documents/roswork/DJI2016_Challenge_v1.0/devel
+prefix=/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel
 
 Name: m100_2dnav
 Description: Description of m100_2dnav
 Version: 0.0.0
 Cflags: 
-Libs: -L/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib 
+Libs: -L/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/lib 
 Requires: 

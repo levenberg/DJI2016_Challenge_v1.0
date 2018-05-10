@@ -2,7 +2,7 @@
 
 message(STATUS "dji_sdk: 60 messages, 31 services")
 
-set(MSG_I_FLAGS "-Idji_sdk:/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg;-Idji_sdk:/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg;-Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Idji_sdk:/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg;-Idji_sdk:/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg;-Inav_msgs:/opt/ros/indigo/share/nav_msgs/cmake/../msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/indigo/share/actionlib_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -15,459 +15,459 @@ add_custom_target(dji_sdk_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg" "dji_sdk/GlobalPositionNavigationGoal:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv" "dji_sdk/MissionWaypointTask:dji_sdk/MissionWaypointAction:dji_sdk/MissionWaypoint"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv" "dji_sdk/MissionFollowmeTarget"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv" "dji_sdk/MissionHotpointTask"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg" "actionlib_msgs/GoalID:dji_sdk/GlobalPositionNavigationGoal:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg" "dji_sdk/GlobalPositionNavigationActionGoal:dji_sdk/GlobalPositionNavigationGoal:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:dji_sdk/GlobalPositionNavigationActionResult:dji_sdk/GlobalPositionNavigationFeedback:std_msgs/Header:dji_sdk/GlobalPositionNavigationActionFeedback:dji_sdk/GlobalPositionNavigationResult"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg" "dji_sdk/Waypoint"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:dji_sdk/DroneTaskFeedback:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg" "actionlib_msgs/GoalID:dji_sdk/DroneTaskGoal:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg" "dji_sdk/Waypoint:actionlib_msgs/GoalID:dji_sdk/WaypointList:std_msgs/Header:dji_sdk/WaypointNavigationGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv" "dji_sdk/MissionFollowmeTarget"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg" "dji_sdk/DroneTaskGoal:dji_sdk/DroneTaskResult:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:dji_sdk/DroneTaskActionFeedback:dji_sdk/DroneTaskActionGoal:std_msgs/Header:dji_sdk/DroneTaskActionResult:dji_sdk/DroneTaskFeedback"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv" "dji_sdk/MissionFollowmeTask"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv" "dji_sdk/MissionWaypointTask:dji_sdk/MissionWaypointAction:dji_sdk/MissionWaypoint"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg" "dji_sdk/GlobalPositionNavigationActionGoal:dji_sdk/GlobalPositionNavigationGoal:dji_sdk/GlobalPositionNavigationActionFeedback:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:dji_sdk/GlobalPositionNavigationResult:dji_sdk/GlobalPositionNavigationActionResult:std_msgs/Header:dji_sdk/GlobalPositionNavigationFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg" "dji_sdk/LocalPositionNavigationResult:actionlib_msgs/GoalStatus:dji_sdk/LocalPositionNavigationGoal:actionlib_msgs/GoalID:dji_sdk/LocalPositionNavigationFeedback:dji_sdk/LocalPositionNavigationActionFeedback:std_msgs/Header:dji_sdk/LocalPositionNavigationActionGoal:dji_sdk/LocalPositionNavigationActionResult"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:dji_sdk/WaypointNavigationFeedback"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg" "actionlib_msgs/GoalStatus:dji_sdk/WaypointNavigationResult:actionlib_msgs/GoalID:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg" "actionlib_msgs/GoalStatus:dji_sdk/LocalPositionNavigationResult:actionlib_msgs/GoalID:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg" "dji_sdk/WaypointNavigationActionGoal:dji_sdk/WaypointNavigationFeedback:dji_sdk/Waypoint:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:dji_sdk/WaypointNavigationActionFeedback:dji_sdk/WaypointNavigationGoal:dji_sdk/WaypointNavigationResult:dji_sdk/WaypointList:std_msgs/Header:dji_sdk/WaypointNavigationActionResult"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg" "actionlib_msgs/GoalStatus:dji_sdk/LocalPositionNavigationFeedback:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg" "dji_sdk/MissionWaypoint:dji_sdk/MissionWaypointAction"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv" "dji_sdk/MissionWaypoint:dji_sdk/MissionWaypointTask:dji_sdk/MissionWaypointAction"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:dji_sdk/LocalPositionNavigationFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg" "dji_sdk/WaypointNavigationActionFeedback:actionlib_msgs/GoalStatus:dji_sdk/WaypointNavigationActionResult:actionlib_msgs/GoalID:dji_sdk/WaypointNavigationGoal:dji_sdk/WaypointNavigationFeedback:dji_sdk/WaypointNavigationResult:dji_sdk/WaypointList:std_msgs/Header:dji_sdk/Waypoint:dji_sdk/WaypointNavigationActionGoal"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv" "dji_sdk/MissionFollowmeTask"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv" "dji_sdk/MissionWaypoint:dji_sdk/MissionWaypointTask:dji_sdk/MissionWaypointAction"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:dji_sdk/GlobalPositionNavigationFeedback:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg" "dji_sdk/MissionWaypointAction"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg" "actionlib_msgs/GoalID:dji_sdk/DroneTaskGoal:std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg" "actionlib_msgs/GoalStatus:dji_sdk/WaypointNavigationResult:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg" "dji_sdk/GlobalPositionNavigationFeedback:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg" "dji_sdk/MissionWaypointAction"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg" "dji_sdk/DroneTaskResult:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:dji_sdk/LocalPositionNavigationResult"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv" "dji_sdk/MissionHotpointTask"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg" "dji_sdk/MissionWaypointAction:dji_sdk/MissionWaypoint"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg" "dji_sdk/LocalPositionNavigationActionResult:dji_sdk/LocalPositionNavigationActionFeedback:dji_sdk/LocalPositionNavigationGoal:dji_sdk/LocalPositionNavigationFeedback:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:dji_sdk/LocalPositionNavigationResult:std_msgs/Header:dji_sdk/LocalPositionNavigationActionGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg" "dji_sdk/Waypoint:dji_sdk/WaypointList"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv" "dji_sdk/MissionHotpointTask"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg" "dji_sdk/GlobalPositionNavigationResult:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg" "dji_sdk/Waypoint"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg" "dji_sdk/LocalPositionNavigationGoal:actionlib_msgs/GoalID:std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:dji_sdk/WaypointNavigationFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:dji_sdk/GlobalPositionNavigationResult:std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg" "actionlib_msgs/GoalID:std_msgs/Header:dji_sdk/LocalPositionNavigationGoal"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv" "dji_sdk/MissionHotpointTask"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg" "dji_sdk/DroneTaskActionResult:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:dji_sdk/DroneTaskActionFeedback:dji_sdk/DroneTaskResult:dji_sdk/DroneTaskGoal:std_msgs/Header:dji_sdk/DroneTaskActionGoal:dji_sdk/DroneTaskFeedback"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg" "dji_sdk/DroneTaskResult:actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg" "actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:dji_sdk/DroneTaskFeedback:std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg" "dji_sdk/Waypoint:dji_sdk/WaypointList"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg" "dji_sdk/Waypoint:actionlib_msgs/GoalID:dji_sdk/WaypointList:std_msgs/Header:dji_sdk/WaypointNavigationGoal"
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg" ""
 )
 
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv" NAME_WE)
 add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dji_sdk" "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv" ""
 )
 
 #
@@ -477,549 +477,549 @@ add_custom_target(_dji_sdk_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg"
   "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 
 ### Generating Services
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_cpp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_cpp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dji_sdk
@@ -1037,187 +1037,187 @@ add_custom_target(dji_sdk_generate_messages_cpp
 add_dependencies(dji_sdk_generate_messages dji_sdk_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_cpp _dji_sdk_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -1230,549 +1230,549 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS dji_sdk_generate_messages_cpp)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg"
   "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 
 ### Generating Services
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_lisp(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_lisp(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk
@@ -1790,187 +1790,187 @@ add_custom_target(dji_sdk_generate_messages_lisp
 add_dependencies(dji_sdk_generate_messages dji_sdk_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_lisp _dji_sdk_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -1983,549 +1983,549 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS dji_sdk_generate_messages_lisp)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_msg_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg"
   "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_msg_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalStatus.msg;/opt/ros/indigo/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg;/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 
 ### Generating Services
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg;/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv"
-  "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg;/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv"
   "${MSG_I_FLAGS}"
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
-)
-_generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
 )
 _generate_srv_py(dji_sdk
-  "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv"
+  "${MSG_I_FLAGS}"
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
+)
+_generate_srv_py(dji_sdk
+  "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk
@@ -2543,187 +2543,187 @@ add_custom_target(dji_sdk_generate_messages_py
 add_dependencies(dji_sdk_generate_messages dji_sdk_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Gimbal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalSpeedControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpSetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Acceleration.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmSetTarget.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionPause.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/CameraActionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3GPS.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VersionCheck.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpDownload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Velocity.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/RCChannels.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionFmUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpUpload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SDKPermissionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusWaypoint.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionPushInfo.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusHotpoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpReach.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusFollowme.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTarget.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCEnableControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TimeStamp.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MessageFrequencyControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/Activation.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/AttitudeControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionWaypointTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpResetYaw.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/AttitudeQuaternion.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneTaskControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SyncFlagControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionEventWpUpload.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VelocityControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/A3RTK.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Compass.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/TransparentTransmissionData.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GlobalPositionControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpUpload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/WaypointList.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/GlobalPositionNavigationActionResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpSetRadius.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/PowerStatus.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationResult.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionHpDownload.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionHotpointTask.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/FlightControlInfo.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionWpGetSpeed.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionStatusOther.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Waypoint.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/DroneTaskActionFeedback.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/GimbalAngleControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/DroneArmControl.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/GlobalPosition.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/LocalPositionControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/DetectionPoints.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/SendDataToRemoteDevice.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/VirtualRCDataControl.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/msg/Reldist.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionStart.srv" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/WaypointNavigationActionGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/MissionFollowmeTask.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/share/dji_sdk/msg/LocalPositionNavigationGoal.msg" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk/msg/LocalPosition.msg" NAME_WE)
+get_filename_component(_filename "/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk/srv/MissionCancel.srv" NAME_WE)
 add_dependencies(dji_sdk_generate_messages_py _dji_sdk_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -2742,10 +2742,18 @@ if(gencpp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dj
     DESTINATION ${gencpp_INSTALL_DIR}
   )
 endif()
-add_dependencies(dji_sdk_generate_messages_cpp geometry_msgs_generate_messages_cpp)
-add_dependencies(dji_sdk_generate_messages_cpp nav_msgs_generate_messages_cpp)
-add_dependencies(dji_sdk_generate_messages_cpp std_msgs_generate_messages_cpp)
-add_dependencies(dji_sdk_generate_messages_cpp actionlib_msgs_generate_messages_cpp)
+if(TARGET geometry_msgs_generate_messages_cpp)
+  add_dependencies(dji_sdk_generate_messages_cpp geometry_msgs_generate_messages_cpp)
+endif()
+if(TARGET nav_msgs_generate_messages_cpp)
+  add_dependencies(dji_sdk_generate_messages_cpp nav_msgs_generate_messages_cpp)
+endif()
+if(TARGET std_msgs_generate_messages_cpp)
+  add_dependencies(dji_sdk_generate_messages_cpp std_msgs_generate_messages_cpp)
+endif()
+if(TARGET actionlib_msgs_generate_messages_cpp)
+  add_dependencies(dji_sdk_generate_messages_cpp actionlib_msgs_generate_messages_cpp)
+endif()
 
 if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dji_sdk)
   # install generated code
@@ -2754,10 +2762,18 @@ if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/
     DESTINATION ${genlisp_INSTALL_DIR}
   )
 endif()
-add_dependencies(dji_sdk_generate_messages_lisp geometry_msgs_generate_messages_lisp)
-add_dependencies(dji_sdk_generate_messages_lisp nav_msgs_generate_messages_lisp)
-add_dependencies(dji_sdk_generate_messages_lisp std_msgs_generate_messages_lisp)
-add_dependencies(dji_sdk_generate_messages_lisp actionlib_msgs_generate_messages_lisp)
+if(TARGET geometry_msgs_generate_messages_lisp)
+  add_dependencies(dji_sdk_generate_messages_lisp geometry_msgs_generate_messages_lisp)
+endif()
+if(TARGET nav_msgs_generate_messages_lisp)
+  add_dependencies(dji_sdk_generate_messages_lisp nav_msgs_generate_messages_lisp)
+endif()
+if(TARGET std_msgs_generate_messages_lisp)
+  add_dependencies(dji_sdk_generate_messages_lisp std_msgs_generate_messages_lisp)
+endif()
+if(TARGET actionlib_msgs_generate_messages_lisp)
+  add_dependencies(dji_sdk_generate_messages_lisp actionlib_msgs_generate_messages_lisp)
+endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk)
   install(CODE "execute_process(COMMAND \"/usr/bin/python\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk\")")
@@ -2777,7 +2793,15 @@ if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_
     REGEX "${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dji_sdk/.+/__init__.pyc?$"
   )
 endif()
-add_dependencies(dji_sdk_generate_messages_py geometry_msgs_generate_messages_py)
-add_dependencies(dji_sdk_generate_messages_py nav_msgs_generate_messages_py)
-add_dependencies(dji_sdk_generate_messages_py std_msgs_generate_messages_py)
-add_dependencies(dji_sdk_generate_messages_py actionlib_msgs_generate_messages_py)
+if(TARGET geometry_msgs_generate_messages_py)
+  add_dependencies(dji_sdk_generate_messages_py geometry_msgs_generate_messages_py)
+endif()
+if(TARGET nav_msgs_generate_messages_py)
+  add_dependencies(dji_sdk_generate_messages_py nav_msgs_generate_messages_py)
+endif()
+if(TARGET std_msgs_generate_messages_py)
+  add_dependencies(dji_sdk_generate_messages_py std_msgs_generate_messages_py)
+endif()
+if(TARGET actionlib_msgs_generate_messages_py)
+  add_dependencies(dji_sdk_generate_messages_py actionlib_msgs_generate_messages_py)
+endif()

@@ -1,8 +1,8 @@
-prefix=/root/Documents/roswork/DJI2016_Challenge_v1.0/devel
+prefix=/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel
 
 Name: dji_sdk_lib
 Description: Description of dji_sdk_lib
 Version: 0.1.7
-Cflags: -I/root/Documents/roswork/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include
-Libs: -L/root/Documents/roswork/DJI2016_Challenge_v1.0/devel/lib -ldji_sdk_lib
+Cflags: -I/home/yangpc/workspace/DJI2016_Challenge_v1.0/src/dji_sdk_lib/include
+Libs: -L/home/yangpc/workspace/DJI2016_Challenge_v1.0/devel/lib -ldji_sdk_lib
 Requires: 
